@@ -4,3 +4,4 @@ unity/Logs
 unity/UserSettings
 *.csproj
 *.sln
+unity/Temp

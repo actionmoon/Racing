@@ -5,6 +5,8 @@ local AI = require "RaceAI"
 local Protocol = require "RaceProtocol"
 local Collision = require "RaceCollision"
 local Items = require "RaceItems"
+local Maps = require "RaceMaps"
+local Track = require "TrackMath"
 local Session = {}
 Session.__index = Session
 local difficulty = {
@@ -15,7 +17,7 @@ local difficulty = {
 local names = {"追风少年","极速流星","弯道高手","疾风车手","城市猎手","闪电骑士"}
 function Session.new(track)
     local self=setmetatable({track=track,entries={},host="",phase="menu",epoch=0,tick=0,
-        time=0,countdown=3,firstFinish=-1,settings={laps=2,diff=1,map="city",mode="race"},
+        time=0,countdown=3,firstFinish=-1,settings={laps=2,diff=1,map=track.id or "city",mode="race"},
         controlAcks={},controls={},items=Items.new(track)},Session)
     self:resetGrid()
     return self
@@ -105,6 +107,14 @@ function Session:control(id, request)
     if id~=self.host then return false end
     if action=="laps" and self.phase=="menu" then
         for _,n in ipairs({1,2,3,5}) do if request.value==n then self.settings.laps=n; return true end end
+    elseif action=="map" and self.phase=="menu" then
+        local data=Maps.get(request.value)
+        if not data then return false end
+        self.track=Track.new(data)
+        self.settings.map=data.id
+        self.items=Items.new(self.track)
+        self.time,self.countdown,self.firstFinish=0,3,-1
+        self:transition("menu"); self:resetGrid(); return true
     elseif action=="mode" and self.phase=="menu" and (request.value==0 or request.value==1) then
         self.settings.mode=request.value==1 and "item" or "race"; self:resetGrid(); return true
     elseif action=="diff" and self.phase=="menu" and (request.value==0 or request.value==1 or request.value==2) then

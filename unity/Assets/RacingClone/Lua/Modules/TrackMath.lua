@@ -14,6 +14,7 @@ function Track.new(data)
     for k, v in pairs(data.arrays) do t[k] = v end
     t.N, t.length, t.ds, t.halfW = data.samples, data.length, data.sampleDistance, data.halfWidth
     t.boostPads = data.boostPads
+    t.id = data.id or "city"
     return t
 end
 function Track:sample(distance, out)

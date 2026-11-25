@@ -14,6 +14,7 @@ guard let app = NSRunningApplication(processIdentifier: pid),
     fatalError("target must be a running Racing debugger client")
 }
 app.activate(options: [.activateIgnoringOtherApps])
+Thread.sleep(forTimeInterval: 0.4)
 let source = CGEventSource(stateID: .hidSystemState)
 for key in keys {
     CGEvent(keyboardEventSource: source, virtualKey: key, keyDown: true)?.post(tap: .cghidEventTap)

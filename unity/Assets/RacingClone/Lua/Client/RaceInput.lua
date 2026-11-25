@@ -44,9 +44,12 @@ function Frame()
         reset = active and (Input.GetKey(Key.R) or touch.reset == true),
         camera = active and (Input.GetKey(Key.C) or touch.camera == true),
         pause = active and Input.GetKey(Key.Escape),
-        start = active and Input.GetKey(Key.Return)
+        start = active and Input.GetKey(Key.Return),
+        music = active and Input.GetKey(Key.M),
+        songNext = active and Input.GetKey(Key.PageUp),
+        songPrevious = active and Input.GetKey(Key.PageDown)
     }
-    for _, action in ipairs({"up","w","nitro","swap","reset","camera","pause","start"}) do
+    for _, action in ipairs({"up","w","nitro","swap","reset","camera","pause","start","music","songNext","songPrevious"}) do
         if held[action] and not previous[action] then edges[action .. "Pressed"] = true end
     end
     previous = held

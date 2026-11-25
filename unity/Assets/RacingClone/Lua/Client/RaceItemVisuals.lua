@@ -3,6 +3,7 @@
 local boxes,shields,magnets,bananaTemplate,missileTemplate
 local bananas,missiles={},{}
 local positions
+local mapId
 function Start()
     if DouyinApplication.isServer then root:SetActive(false); return end
     boxes=root.transform:Find("Boxes")
@@ -35,6 +36,10 @@ end
 function LateUpdate()
     if DouyinApplication.isServer or not boxes or not RaceRuntime.match then return end
     local match,state=RaceRuntime.match,RaceRuntime.items
+    if mapId~=match.settings.map then
+        mapId=match.settings.map
+        positions=require("RaceItems").new(RaceRuntime.track).boxes
+    end
     local active=match.settings.mode=="item" and match.phase~="menu"
     root:SetActive(active)
     if not state then return end

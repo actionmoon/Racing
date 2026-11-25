@@ -7,7 +7,7 @@ using UnityEngine;
 using UnityEngine.Rendering;
 
 /// <summary>Imports captured buffers with reflected Z and reversed triangle winding.</summary>
-[ScriptedImporter(3, "racingmesh")]
+[ScriptedImporter(4, "racingmesh")]
 public class RacingMeshImporter : ScriptedImporter
 {
     static float[] Floats(JToken value)
@@ -73,7 +73,7 @@ public class RacingMeshImporter : ScriptedImporter
             if (n.Length == 0) mesh.RecalculateNormals();
             mesh.RecalculateBounds();
             ctx.AddObjectToAsset(mesh.name, mesh);
-            if ((string)geo["id"] == (string)data["city"][4]["geometry"])
+            if (data["city"].Any(node => (string)node["path"] == "City/1/1" && (string)node["geometry"] == (string)geo["id"]))
             {
                 // Source guardrail planes face outward. Collisions must also face the lane.
                 var collision = UnityEngine.Object.Instantiate(mesh);

@@ -1,0 +1,94 @@
+{
+  "passed": true,
+  "checks": [
+    "only host changes map",
+    "reject invalid map -1",
+    "reject invalid map 4",
+    "reject invalid map 1.5",
+    "reject invalid map snow",
+    "select city",
+    "epoch and inventory reset city",
+    "items follow new track city",
+    "all centerline projections city",
+    "no race map change city",
+    "natural race completes city",
+    "both drivers complete city",
+    "select aegean",
+    "epoch and inventory reset aegean",
+    "items follow new track aegean",
+    "all centerline projections aegean",
+    "no race map change aegean",
+    "natural race completes aegean",
+    "both drivers complete aegean",
+    "select egypt",
+    "epoch and inventory reset egypt",
+    "items follow new track egypt",
+    "all centerline projections egypt",
+    "no race map change egypt",
+    "natural race completes egypt",
+    "both drivers complete egypt",
+    "egypt naturally airborne",
+    "select snow",
+    "epoch and inventory reset snow",
+    "items follow new track snow",
+    "all centerline projections snow",
+    "no race map change snow",
+    "natural race completes snow",
+    "both drivers complete snow",
+    "egypt nitro ramp launches and lands",
+    "egypt landing window triggers boost",
+    "snow global projection separates layers",
+    "snow continuous hint stays on layer",
+    "snow cars on separate layers do not collide",
+    "snow crossing examined"
+  ],
+  "egyptJump": {
+    "landingBoost": true,
+    "airTime": 0.8166666666666662
+  },
+  "races": [
+    {
+      "finishers": 6,
+      "id": "city",
+      "landingBoosts": 0,
+      "time": 57.85833333333069,
+      "projectionError": 2.5252370258781815e-14,
+      "airborneTicks": 0,
+      "ticks": 7304
+    },
+    {
+      "finishers": 6,
+      "id": "aegean",
+      "landingBoosts": 0,
+      "time": 60.10833333333056,
+      "projectionError": 2.8082191933112265e-14,
+      "airborneTicks": 0,
+      "ticks": 7574
+    },
+    {
+      "finishers": 6,
+      "id": "egypt",
+      "landingBoosts": 0,
+      "time": 53.89166666666425,
+      "projectionError": 3.746380240618946e-14,
+      "airborneTicks": 18,
+      "ticks": 6828
+    },
+    {
+      "finishers": 6,
+      "id": "snow",
+      "landingBoosts": 0,
+      "time": 52.65833333333099,
+      "projectionError": 4.450946353897652e-14,
+      "airborneTicks": 0,
+      "ticks": 6680
+    }
+  ],
+  "crossings": [
+    {
+      "lower": 466,
+      "height": 9.929116249084473,
+      "upper": 949
+    }
+  ]
+}

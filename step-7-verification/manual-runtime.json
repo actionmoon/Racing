@@ -1,0 +1,1570 @@
+{
+  "sessions": [
+    {
+      "session": "/var/folders/t5/cx_l90z95vx72xgc8ps0j8n80000gn/T/hamlet-simulator-y0b7maki",
+      "roles": {
+        "server": {
+          "settings": [],
+          "inputMarkers": [],
+          "touchStates": {},
+          "simultaneousKeyboardAndTouchDrift": false,
+          "events": {},
+          "playingSongs": [],
+          "output": {
+            "samples": 0,
+            "nonzero": 0,
+            "zero": 0,
+            "maxRms": 0,
+            "maxPeak": 0
+          },
+          "layouts": [],
+          "renderStates": [],
+          "systemUIHidden": false,
+          "luaErrors": [],
+          "sdkLoggerErrorsWrappedAsLua": [],
+          "sdkNullReferences": 52949
+        },
+        "client-1": {
+          "settings": [
+            {
+              "line": 920,
+              "action": "quality",
+              "quality": 2,
+              "camera": 3,
+              "music": true,
+              "song": 3,
+              "post": true
+            },
+            {
+              "line": 1613,
+              "action": "mapSong",
+              "quality": 2,
+              "camera": 3,
+              "music": true,
+              "song": 0,
+              "post": true
+            },
+            {
+              "line": 16998,
+              "action": "music",
+              "quality": 2,
+              "camera": 3,
+              "music": false,
+              "song": 0,
+              "post": true
+            },
+            {
+              "line": 20094,
+              "action": "song",
+              "quality": 2,
+              "camera": 3,
+              "music": false,
+              "song": 1,
+              "post": true
+            },
+            {
+              "line": 54935,
+              "action": "music",
+              "quality": 2,
+              "camera": 3,
+              "music": true,
+              "song": 1,
+              "post": true
+            }
+          ],
+          "inputMarkers": [],
+          "touchStates": {},
+          "simultaneousKeyboardAndTouchDrift": false,
+          "events": {
+            "click": 3
+          },
+          "playingSongs": [
+            0
+          ],
+          "output": {
+            "samples": 229,
+            "nonzero": 119,
+            "zero": 109,
+            "maxRms": 0.103585,
+            "maxPeak": 0.1923484
+          },
+          "layouts": [
+            "[RacingClone][Client] LAYOUT width=1008 height=692 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1010 height=688 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1012 height=686 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1020 height=676 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1046 height=642 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1068 height=614 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1080 height=604 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1094 height=598 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1100 height=596 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1106 height=594 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1112 height=592 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1116 height=592 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1120 height=590 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1122 height=590 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1124 height=590 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1126 height=590 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1128 height=590 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1130 height=590 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1132 height=590 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1134 height=590 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1148 height=590 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1158 height=590 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1178 height=588 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1188 height=588 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1194 height=588 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1198 height=588 portrait=false",
+            "[RacingClone][Client] LAYOUT width=720 height=1280 portrait=true",
+            "[RacingClone][Client] LAYOUT width=916 height=892 portrait=false",
+            "[RacingClone][Client] LAYOUT width=968 height=774 portrait=false",
+            "[RacingClone][Client] LAYOUT width=980 height=752 portrait=false",
+            "[RacingClone][Client] LAYOUT width=994 height=722 portrait=false"
+          ],
+          "renderStates": [],
+          "systemUIHidden": false,
+          "luaErrors": [
+            "Lua Exception stack:[string \"Assets/RacingClone/Lua/Client/RaceAudio.lua\"]:47: attempt to index a nil value (local 'music')",
+            "Lua Exception stack:[string \"Assets/RacingClone/Lua/Client/RaceAudio.lua\"]:50: attempt to index a nil value (local 'music')"
+          ],
+          "sdkLoggerErrorsWrappedAsLua": [],
+          "sdkNullReferences": 0
+        },
+        "client-2": {
+          "settings": [
+            {
+              "line": 915,
+              "action": "quality",
+              "quality": 2,
+              "camera": 3,
+              "music": true,
+              "song": 3,
+              "post": true
+            },
+            {
+              "line": 1868,
+              "action": "mapSong",
+              "quality": 2,
+              "camera": 3,
+              "music": true,
+              "song": 0,
+              "post": true
+            }
+          ],
+          "inputMarkers": [],
+          "touchStates": {},
+          "simultaneousKeyboardAndTouchDrift": false,
+          "events": {},
+          "playingSongs": [
+            0
+          ],
+          "output": {
+            "samples": 228,
+            "nonzero": 222,
+            "zero": 1,
+            "maxRms": 0.1072373,
+            "maxPeak": 0.1836409
+          },
+          "layouts": [
+            "[RacingClone][Client] LAYOUT width=1018 height=750 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1030 height=736 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1038 height=726 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1042 height=722 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1058 height=714 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1076 height=702 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1096 height=688 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1108 height=680 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1114 height=676 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1118 height=672 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1120 height=672 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1122 height=670 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1124 height=668 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1126 height=664 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1126 height=666 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1128 height=662 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1128 height=664 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1132 height=658 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1140 height=652 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1144 height=648 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1148 height=646 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1152 height=644 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1164 height=638 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1170 height=634 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1176 height=630 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1178 height=630 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1180 height=628 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1182 height=626 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1186 height=620 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1188 height=618 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1190 height=608 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1194 height=594 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1198 height=582 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1200 height=572 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1202 height=586 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1202 height=588 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1202 height=590 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1204 height=564 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1204 height=566 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1204 height=570 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1204 height=574 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1204 height=580 portrait=false",
+            "[RacingClone][Client] LAYOUT width=720 height=1280 portrait=true",
+            "[RacingClone][Client] LAYOUT width=912 height=936 portrait=true",
+            "[RacingClone][Client] LAYOUT width=986 height=800 portrait=false",
+            "[RacingClone][Client] LAYOUT width=998 height=782 portrait=false"
+          ],
+          "renderStates": [],
+          "systemUIHidden": false,
+          "luaErrors": [],
+          "sdkLoggerErrorsWrappedAsLua": [],
+          "sdkNullReferences": 0
+        }
+      }
+    },
+    {
+      "session": "/var/folders/t5/cx_l90z95vx72xgc8ps0j8n80000gn/T/hamlet-simulator-6g5wrwn8",
+      "roles": {
+        "server": {
+          "settings": [],
+          "inputMarkers": [],
+          "touchStates": {},
+          "simultaneousKeyboardAndTouchDrift": false,
+          "events": {},
+          "playingSongs": [],
+          "output": {
+            "samples": 0,
+            "nonzero": 0,
+            "zero": 0,
+            "maxRms": 0,
+            "maxPeak": 0
+          },
+          "layouts": [],
+          "renderStates": [],
+          "systemUIHidden": false,
+          "luaErrors": [],
+          "sdkLoggerErrorsWrappedAsLua": [],
+          "sdkNullReferences": 77721
+        },
+        "client-1": {
+          "settings": [
+            {
+              "line": 917,
+              "action": "quality",
+              "quality": 2,
+              "camera": 3,
+              "music": true,
+              "song": 1,
+              "post": true
+            },
+            {
+              "line": 1613,
+              "action": "mapSong",
+              "quality": 2,
+              "camera": 3,
+              "music": true,
+              "song": 0,
+              "post": true
+            },
+            {
+              "line": 8227,
+              "action": "song",
+              "quality": 2,
+              "camera": 3,
+              "music": true,
+              "song": 1,
+              "post": true
+            },
+            {
+              "line": 10973,
+              "action": "quality",
+              "quality": 0,
+              "camera": 3,
+              "music": true,
+              "song": 1,
+              "post": false
+            },
+            {
+              "line": 13289,
+              "action": "camera",
+              "quality": 0,
+              "camera": 1,
+              "music": true,
+              "song": 1,
+              "post": false
+            },
+            {
+              "line": 26184,
+              "action": "quality",
+              "quality": 2,
+              "camera": 1,
+              "music": true,
+              "song": 1,
+              "post": true
+            }
+          ],
+          "inputMarkers": [
+            {
+              "line": 39428,
+              "text": "[RacingClone][Input] TOUCH action=up held=true"
+            },
+            {
+              "line": 39435,
+              "text": "[RacingClone][Input] TOUCH action=up held=true"
+            },
+            {
+              "line": 40035,
+              "text": "[RacingClone][Input] TOUCH action=up held=false"
+            },
+            {
+              "line": 40042,
+              "text": "[RacingClone][Input] TOUCH action=up held=false"
+            },
+            {
+              "line": 45197,
+              "text": "[RacingClone][Input] TOUCH action=up held=false"
+            },
+            {
+              "line": 45204,
+              "text": "[RacingClone][Input] TOUCH action=up held=false"
+            },
+            {
+              "line": 45214,
+              "text": "[RacingClone][Input] TOUCH action=down held=false"
+            },
+            {
+              "line": 45221,
+              "text": "[RacingClone][Input] TOUCH action=down held=false"
+            },
+            {
+              "line": 47677,
+              "text": "[RacingClone][Input] TOUCH action=up held=false"
+            },
+            {
+              "line": 47687,
+              "text": "[RacingClone][Input] TOUCH action=down held=false"
+            },
+            {
+              "line": 47697,
+              "text": "[RacingClone][Input] TOUCH action=shift held=false"
+            },
+            {
+              "line": 47707,
+              "text": "[RacingClone][Input] TOUCH action=nitro held=false"
+            },
+            {
+              "line": 47717,
+              "text": "[RacingClone][Input] TOUCH action=small held=false"
+            },
+            {
+              "line": 47727,
+              "text": "[RacingClone][Input] TOUCH action=reset held=false"
+            },
+            {
+              "line": 47737,
+              "text": "[RacingClone][Input] TOUCH action=camera held=false"
+            },
+            {
+              "line": 47747,
+              "text": "[RacingClone][Input] TOUCH action=left held=false"
+            },
+            {
+              "line": 47757,
+              "text": "[RacingClone][Input] TOUCH action=right held=false"
+            }
+          ],
+          "touchStates": {
+            "up": [
+              "false",
+              "true"
+            ],
+            "down": [
+              "false"
+            ],
+            "shift": [
+              "false"
+            ],
+            "nitro": [
+              "false"
+            ],
+            "small": [
+              "false"
+            ],
+            "reset": [
+              "false"
+            ],
+            "camera": [
+              "false"
+            ],
+            "left": [
+              "false"
+            ],
+            "right": [
+              "false"
+            ]
+          },
+          "simultaneousKeyboardAndTouchDrift": false,
+          "events": {
+            "click": 8,
+            "count": 3,
+            "go": 1,
+            "lap": 1,
+            "crash": 4
+          },
+          "playingSongs": [
+            0,
+            1
+          ],
+          "output": {
+            "samples": 336,
+            "nonzero": 327,
+            "zero": 1,
+            "maxRms": 0.1130242,
+            "maxPeak": 0.1924271
+          },
+          "layouts": [
+            "[RacingClone][Client] LAYOUT width=1014 height=744 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1064 height=668 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1094 height=622 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1108 height=602 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1112 height=594 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1116 height=590 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1118 height=590 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1124 height=586 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1130 height=578 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1130 height=580 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1132 height=578 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1134 height=578 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1136 height=576 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1138 height=576 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1140 height=576 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1146 height=576 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1148 height=576 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1150 height=576 portrait=false",
+            "[RacingClone][Client] LAYOUT width=720 height=1280 portrait=true",
+            "[RacingClone][Client] LAYOUT width=720 height=786 portrait=true",
+            "[RacingClone][Client] LAYOUT width=720 height=984 portrait=true"
+          ],
+          "renderStates": [],
+          "systemUIHidden": false,
+          "luaErrors": [],
+          "sdkLoggerErrorsWrappedAsLua": [],
+          "sdkNullReferences": 0
+        },
+        "client-2": {
+          "settings": [
+            {
+              "line": 912,
+              "action": "quality",
+              "quality": 2,
+              "camera": 3,
+              "music": true,
+              "song": 0,
+              "post": true
+            },
+            {
+              "line": 1862,
+              "action": "mapSong",
+              "quality": 2,
+              "camera": 3,
+              "music": true,
+              "song": 0,
+              "post": true
+            }
+          ],
+          "inputMarkers": [
+            {
+              "line": 47865,
+              "text": "[RacingClone][Input] TOUCH action=up held=false"
+            },
+            {
+              "line": 47875,
+              "text": "[RacingClone][Input] TOUCH action=down held=false"
+            },
+            {
+              "line": 47885,
+              "text": "[RacingClone][Input] TOUCH action=shift held=false"
+            },
+            {
+              "line": 47895,
+              "text": "[RacingClone][Input] TOUCH action=nitro held=false"
+            },
+            {
+              "line": 47905,
+              "text": "[RacingClone][Input] TOUCH action=small held=false"
+            },
+            {
+              "line": 47915,
+              "text": "[RacingClone][Input] TOUCH action=reset held=false"
+            },
+            {
+              "line": 47925,
+              "text": "[RacingClone][Input] TOUCH action=camera held=false"
+            },
+            {
+              "line": 47935,
+              "text": "[RacingClone][Input] TOUCH action=left held=false"
+            },
+            {
+              "line": 47945,
+              "text": "[RacingClone][Input] TOUCH action=right held=false"
+            }
+          ],
+          "touchStates": {
+            "up": [
+              "false"
+            ],
+            "down": [
+              "false"
+            ],
+            "shift": [
+              "false"
+            ],
+            "nitro": [
+              "false"
+            ],
+            "small": [
+              "false"
+            ],
+            "reset": [
+              "false"
+            ],
+            "camera": [
+              "false"
+            ],
+            "left": [
+              "false"
+            ],
+            "right": [
+              "false"
+            ]
+          },
+          "simultaneousKeyboardAndTouchDrift": false,
+          "events": {
+            "count": 3,
+            "go": 1
+          },
+          "playingSongs": [
+            0
+          ],
+          "output": {
+            "samples": 335,
+            "nonzero": 327,
+            "zero": 1,
+            "maxRms": 0.1105776,
+            "maxPeak": 0.1957122
+          },
+          "layouts": [
+            "[RacingClone][Client] LAYOUT width=1006 height=748 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1036 height=708 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1052 height=688 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1064 height=672 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1066 height=664 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1066 height=668 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1078 height=646 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1090 height=632 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1108 height=612 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1118 height=604 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1124 height=598 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1128 height=596 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1130 height=596 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1132 height=594 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1132 height=596 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1134 height=594 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1136 height=594 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1138 height=592 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1142 height=590 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1144 height=588 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1146 height=586 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1146 height=588 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1148 height=584 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1148 height=586 portrait=false",
+            "[RacingClone][Client] LAYOUT width=720 height=1280 portrait=true",
+            "[RacingClone][Client] LAYOUT width=884 height=948 portrait=true",
+            "[RacingClone][Client] LAYOUT width=968 height=802 portrait=false"
+          ],
+          "renderStates": [],
+          "systemUIHidden": false,
+          "luaErrors": [],
+          "sdkLoggerErrorsWrappedAsLua": [],
+          "sdkNullReferences": 0
+        }
+      }
+    },
+    {
+      "session": "/var/folders/t5/cx_l90z95vx72xgc8ps0j8n80000gn/T/hamlet-simulator-2skxeyew",
+      "roles": {
+        "server": {
+          "settings": [],
+          "inputMarkers": [],
+          "touchStates": {},
+          "simultaneousKeyboardAndTouchDrift": false,
+          "events": {},
+          "playingSongs": [],
+          "output": {
+            "samples": 0,
+            "nonzero": 0,
+            "zero": 0,
+            "maxRms": 0,
+            "maxPeak": 0
+          },
+          "layouts": [],
+          "renderStates": [],
+          "systemUIHidden": false,
+          "luaErrors": [],
+          "sdkLoggerErrorsWrappedAsLua": [],
+          "sdkNullReferences": 171021
+        },
+        "client-1": {
+          "settings": [
+            {
+              "line": 912,
+              "action": "quality",
+              "quality": 2,
+              "camera": 1,
+              "music": true,
+              "song": 1,
+              "post": true
+            },
+            {
+              "line": 19142,
+              "action": "music",
+              "quality": 2,
+              "camera": 1,
+              "music": false,
+              "song": 1,
+              "post": true
+            },
+            {
+              "line": 19160,
+              "action": "song",
+              "quality": 2,
+              "camera": 1,
+              "music": false,
+              "song": 2,
+              "post": true
+            },
+            {
+              "line": 19297,
+              "action": "camera",
+              "quality": 2,
+              "camera": 2,
+              "music": false,
+              "song": 2,
+              "post": true
+            },
+            {
+              "line": 20615,
+              "action": "song",
+              "quality": 2,
+              "camera": 2,
+              "music": false,
+              "song": 1,
+              "post": true
+            },
+            {
+              "line": 25121,
+              "action": "music",
+              "quality": 2,
+              "camera": 2,
+              "music": true,
+              "song": 1,
+              "post": true
+            }
+          ],
+          "inputMarkers": [
+            {
+              "line": 1605,
+              "text": "[RacingClone][PresentationFixture] MANUAL_INPUT up=false left=false right=false shift=false"
+            },
+            {
+              "line": 19260,
+              "text": "[RacingClone][PresentationFixture] MANUAL_INPUT up=false left=true right=false shift=false"
+            },
+            {
+              "line": 19269,
+              "text": "[RacingClone][PresentationFixture] MANUAL_INPUT up=false left=false right=false shift=false"
+            },
+            {
+              "line": 44559,
+              "text": "[RacingClone][Input] TOUCH action=left held=false"
+            },
+            {
+              "line": 44566,
+              "text": "[RacingClone][Input] TOUCH action=left held=false"
+            },
+            {
+              "line": 44738,
+              "text": "[RacingClone][Input] TOUCH action=left held=true"
+            },
+            {
+              "line": 44745,
+              "text": "[RacingClone][Input] TOUCH action=left held=true"
+            },
+            {
+              "line": 44752,
+              "text": "[RacingClone][PresentationFixture] MANUAL_INPUT up=false left=true right=false shift=false"
+            },
+            {
+              "line": 44770,
+              "text": "[RacingClone][Input] TOUCH action=left held=false"
+            },
+            {
+              "line": 44777,
+              "text": "[RacingClone][Input] TOUCH action=left held=false"
+            },
+            {
+              "line": 44784,
+              "text": "[RacingClone][PresentationFixture] MANUAL_INPUT up=false left=false right=false shift=false"
+            },
+            {
+              "line": 44827,
+              "text": "[RacingClone][Input] TOUCH action=left held=false"
+            },
+            {
+              "line": 44834,
+              "text": "[RacingClone][Input] TOUCH action=left held=false"
+            },
+            {
+              "line": 44874,
+              "text": "[RacingClone][Input] TOUCH action=right held=true"
+            },
+            {
+              "line": 44881,
+              "text": "[RacingClone][Input] TOUCH action=right held=true"
+            },
+            {
+              "line": 44888,
+              "text": "[RacingClone][PresentationFixture] MANUAL_INPUT up=false left=false right=true shift=false"
+            },
+            {
+              "line": 44924,
+              "text": "[RacingClone][Input] TOUCH action=right held=false"
+            },
+            {
+              "line": 44931,
+              "text": "[RacingClone][Input] TOUCH action=right held=false"
+            },
+            {
+              "line": 44938,
+              "text": "[RacingClone][PresentationFixture] MANUAL_INPUT up=false left=false right=false shift=false"
+            },
+            {
+              "line": 45067,
+              "text": "[RacingClone][Input] TOUCH action=right held=false"
+            },
+            {
+              "line": 45074,
+              "text": "[RacingClone][Input] TOUCH action=right held=false"
+            },
+            {
+              "line": 45102,
+              "text": "[RacingClone][Input] TOUCH action=right held=true"
+            },
+            {
+              "line": 45109,
+              "text": "[RacingClone][Input] TOUCH action=right held=true"
+            },
+            {
+              "line": 45116,
+              "text": "[RacingClone][PresentationFixture] MANUAL_INPUT up=false left=false right=true shift=false"
+            },
+            {
+              "line": 45131,
+              "text": "[RacingClone][Input] TOUCH action=right held=false"
+            },
+            {
+              "line": 45138,
+              "text": "[RacingClone][Input] TOUCH action=right held=false"
+            },
+            {
+              "line": 45145,
+              "text": "[RacingClone][PresentationFixture] MANUAL_INPUT up=false left=false right=false shift=false"
+            },
+            {
+              "line": 45189,
+              "text": "[RacingClone][Input] TOUCH action=right held=false"
+            },
+            {
+              "line": 45196,
+              "text": "[RacingClone][Input] TOUCH action=right held=false"
+            },
+            {
+              "line": 45228,
+              "text": "[RacingClone][Input] TOUCH action=right held=false"
+            },
+            {
+              "line": 45235,
+              "text": "[RacingClone][Input] TOUCH action=right held=false"
+            },
+            {
+              "line": 45242,
+              "text": "[RacingClone][Input] TOUCH action=left held=false"
+            },
+            {
+              "line": 45249,
+              "text": "[RacingClone][Input] TOUCH action=left held=false"
+            },
+            {
+              "line": 49134,
+              "text": "[RacingClone][Input] TOUCH action=up held=false"
+            },
+            {
+              "line": 49144,
+              "text": "[RacingClone][Input] TOUCH action=down held=false"
+            },
+            {
+              "line": 49154,
+              "text": "[RacingClone][Input] TOUCH action=shift held=false"
+            },
+            {
+              "line": 49164,
+              "text": "[RacingClone][Input] TOUCH action=nitro held=false"
+            },
+            {
+              "line": 49174,
+              "text": "[RacingClone][Input] TOUCH action=small held=false"
+            },
+            {
+              "line": 49184,
+              "text": "[RacingClone][Input] TOUCH action=reset held=false"
+            },
+            {
+              "line": 49194,
+              "text": "[RacingClone][Input] TOUCH action=camera held=false"
+            },
+            {
+              "line": 49204,
+              "text": "[RacingClone][Input] TOUCH action=left held=false"
+            },
+            {
+              "line": 49214,
+              "text": "[RacingClone][Input] TOUCH action=right held=false"
+            },
+            {
+              "line": 68692,
+              "text": "[RacingClone][PresentationFixture] MANUAL_INPUT up=true left=false right=false shift=false"
+            },
+            {
+              "line": 68991,
+              "text": "[RacingClone][PresentationFixture] MANUAL_INPUT up=true left=true right=false shift=false"
+            },
+            {
+              "line": 69021,
+              "text": "[RacingClone][Input] TOUCH action=shift held=true"
+            },
+            {
+              "line": 69028,
+              "text": "[RacingClone][Input] TOUCH action=shift held=true"
+            },
+            {
+              "line": 69035,
+              "text": "[RacingClone][PresentationFixture] MANUAL_INPUT up=true left=true right=false shift=true"
+            },
+            {
+              "line": 69320,
+              "text": "[RacingClone][PresentationFixture] MANUAL_INPUT up=false left=false right=false shift=true"
+            },
+            {
+              "line": 69326,
+              "text": "[RacingClone][Input] TOUCH action=shift held=false"
+            },
+            {
+              "line": 69333,
+              "text": "[RacingClone][Input] TOUCH action=shift held=false"
+            },
+            {
+              "line": 69340,
+              "text": "[RacingClone][PresentationFixture] MANUAL_INPUT up=false left=false right=false shift=false"
+            },
+            {
+              "line": 73011,
+              "text": "[RacingClone][Input] TOUCH action=up held=false"
+            },
+            {
+              "line": 73021,
+              "text": "[RacingClone][Input] TOUCH action=down held=false"
+            },
+            {
+              "line": 73031,
+              "text": "[RacingClone][Input] TOUCH action=shift held=false"
+            },
+            {
+              "line": 73041,
+              "text": "[RacingClone][Input] TOUCH action=nitro held=false"
+            },
+            {
+              "line": 73051,
+              "text": "[RacingClone][Input] TOUCH action=small held=false"
+            },
+            {
+              "line": 73061,
+              "text": "[RacingClone][Input] TOUCH action=reset held=false"
+            },
+            {
+              "line": 73071,
+              "text": "[RacingClone][Input] TOUCH action=camera held=false"
+            },
+            {
+              "line": 73081,
+              "text": "[RacingClone][Input] TOUCH action=left held=false"
+            },
+            {
+              "line": 73091,
+              "text": "[RacingClone][Input] TOUCH action=right held=false"
+            }
+          ],
+          "touchStates": {
+            "left": [
+              "false",
+              "true"
+            ],
+            "right": [
+              "false",
+              "true"
+            ],
+            "up": [
+              "false"
+            ],
+            "down": [
+              "false"
+            ],
+            "shift": [
+              "false",
+              "true"
+            ],
+            "nitro": [
+              "false"
+            ],
+            "small": [
+              "false"
+            ],
+            "reset": [
+              "false"
+            ],
+            "camera": [
+              "false"
+            ]
+          },
+          "simultaneousKeyboardAndTouchDrift": true,
+          "events": {
+            "click": 5,
+            "count": 6,
+            "go": 2,
+            "lap": 2,
+            "crash": 8,
+            "driftStart": 2,
+            "driftEnd": 2
+          },
+          "playingSongs": [
+            1
+          ],
+          "output": {
+            "samples": 739,
+            "nonzero": 675,
+            "zero": 48,
+            "maxRms": 0.1094062,
+            "maxPeak": 0.2152628
+          },
+          "layouts": [
+            "[RacingClone][Client] LAYOUT width=1000 height=984 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1028 height=964 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1042 height=954 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1056 height=946 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1064 height=940 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1068 height=938 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1068 height=940 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1118 height=894 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1146 height=870 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1226 height=810 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1242 height=612 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1244 height=614 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1246 height=614 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1248 height=616 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1250 height=616 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1252 height=616 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1252 height=618 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1254 height=618 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1256 height=618 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1256 height=792 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1262 height=618 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1264 height=618 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1266 height=618 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1268 height=618 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1270 height=620 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1272 height=620 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1276 height=622 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1280 height=624 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1282 height=776 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1286 height=628 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1296 height=638 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1310 height=646 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1314 height=760 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1326 height=654 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1334 height=750 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1344 height=656 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1346 height=656 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1348 height=658 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1352 height=660 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1354 height=662 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1354 height=666 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1356 height=668 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1356 height=742 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1358 height=674 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1360 height=738 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1362 height=682 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1364 height=736 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1366 height=688 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1366 height=726 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1366 height=732 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1366 height=734 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1368 height=720 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1370 height=696 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1370 height=704 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1370 height=712 portrait=false",
+            "[RacingClone][Client] LAYOUT width=720 height=1280 portrait=true",
+            "[RacingClone][Client] LAYOUT width=808 height=1192 portrait=true",
+            "[RacingClone][Client] LAYOUT width=898 height=1086 portrait=true",
+            "[RacingClone][Client] LAYOUT width=940 height=1042 portrait=true",
+            "[RacingClone][Client] LAYOUT width=970 height=1012 portrait=true"
+          ],
+          "renderStates": [],
+          "systemUIHidden": true,
+          "luaErrors": [],
+          "sdkLoggerErrorsWrappedAsLua": [
+            "Lua Exception stack:c# exception:System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection."
+          ],
+          "sdkNullReferences": 0
+        },
+        "client-2": {
+          "settings": [
+            {
+              "line": 920,
+              "action": "quality",
+              "quality": 2,
+              "camera": 3,
+              "music": true,
+              "song": 0,
+              "post": true
+            }
+          ],
+          "inputMarkers": [
+            {
+              "line": 1870,
+              "text": "[RacingClone][PresentationFixture] MANUAL_INPUT up=false left=false right=false shift=false"
+            },
+            {
+              "line": 33374,
+              "text": "[RacingClone][Input] TOUCH action=up held=false"
+            },
+            {
+              "line": 33381,
+              "text": "[RacingClone][Input] TOUCH action=up held=false"
+            },
+            {
+              "line": 33394,
+              "text": "[RacingClone][Input] TOUCH action=nitro held=false"
+            },
+            {
+              "line": 33401,
+              "text": "[RacingClone][Input] TOUCH action=nitro held=false"
+            },
+            {
+              "line": 48549,
+              "text": "[RacingClone][Input] TOUCH action=up held=false"
+            },
+            {
+              "line": 48559,
+              "text": "[RacingClone][Input] TOUCH action=down held=false"
+            },
+            {
+              "line": 48569,
+              "text": "[RacingClone][Input] TOUCH action=shift held=false"
+            },
+            {
+              "line": 48579,
+              "text": "[RacingClone][Input] TOUCH action=nitro held=false"
+            },
+            {
+              "line": 48589,
+              "text": "[RacingClone][Input] TOUCH action=small held=false"
+            },
+            {
+              "line": 48599,
+              "text": "[RacingClone][Input] TOUCH action=reset held=false"
+            },
+            {
+              "line": 48609,
+              "text": "[RacingClone][Input] TOUCH action=camera held=false"
+            },
+            {
+              "line": 48619,
+              "text": "[RacingClone][Input] TOUCH action=left held=false"
+            },
+            {
+              "line": 48629,
+              "text": "[RacingClone][Input] TOUCH action=right held=false"
+            },
+            {
+              "line": 72541,
+              "text": "[RacingClone][Input] TOUCH action=up held=false"
+            },
+            {
+              "line": 72551,
+              "text": "[RacingClone][Input] TOUCH action=down held=false"
+            },
+            {
+              "line": 72561,
+              "text": "[RacingClone][Input] TOUCH action=shift held=false"
+            },
+            {
+              "line": 72571,
+              "text": "[RacingClone][Input] TOUCH action=nitro held=false"
+            },
+            {
+              "line": 72581,
+              "text": "[RacingClone][Input] TOUCH action=small held=false"
+            },
+            {
+              "line": 72591,
+              "text": "[RacingClone][Input] TOUCH action=reset held=false"
+            },
+            {
+              "line": 72601,
+              "text": "[RacingClone][Input] TOUCH action=camera held=false"
+            },
+            {
+              "line": 72611,
+              "text": "[RacingClone][Input] TOUCH action=left held=false"
+            },
+            {
+              "line": 72621,
+              "text": "[RacingClone][Input] TOUCH action=right held=false"
+            }
+          ],
+          "touchStates": {
+            "up": [
+              "false"
+            ],
+            "nitro": [
+              "false"
+            ],
+            "down": [
+              "false"
+            ],
+            "shift": [
+              "false"
+            ],
+            "small": [
+              "false"
+            ],
+            "reset": [
+              "false"
+            ],
+            "camera": [
+              "false"
+            ],
+            "left": [
+              "false"
+            ],
+            "right": [
+              "false"
+            ]
+          },
+          "simultaneousKeyboardAndTouchDrift": false,
+          "events": {
+            "count": 6,
+            "go": 2
+          },
+          "playingSongs": [
+            0
+          ],
+          "output": {
+            "samples": 738,
+            "nonzero": 718,
+            "zero": 1,
+            "maxRms": 0.0995962,
+            "maxPeak": 0.2141688
+          },
+          "layouts": [
+            "[RacingClone][Client] LAYOUT width=1000 height=950 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1050 height=906 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1102 height=866 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1136 height=842 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1156 height=826 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1170 height=800 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1170 height=814 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1174 height=802 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1174 height=808 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1176 height=804 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1182 height=778 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1198 height=754 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1220 height=718 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1228 height=568 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1228 height=570 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1230 height=566 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1230 height=568 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1230 height=572 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1232 height=566 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1232 height=574 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1232 height=584 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1232 height=586 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1232 height=588 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1232 height=590 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1232 height=592 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1234 height=566 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1234 height=576 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1234 height=578 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1234 height=580 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1234 height=582 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1234 height=592 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1234 height=594 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1236 height=566 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1236 height=596 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1238 height=566 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1240 height=566 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1240 height=598 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1242 height=566 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1248 height=604 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1250 height=606 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1252 height=606 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1256 height=664 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1258 height=610 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1260 height=612 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1262 height=614 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1266 height=646 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1268 height=620 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1270 height=624 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1272 height=636 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1274 height=628 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1274 height=632 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1276 height=630 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1276 height=632 portrait=false",
+            "[RacingClone][Client] LAYOUT width=720 height=1280 portrait=true",
+            "[RacingClone][Client] LAYOUT width=832 height=1120 portrait=true",
+            "[RacingClone][Client] LAYOUT width=942 height=1008 portrait=true"
+          ],
+          "renderStates": [],
+          "systemUIHidden": true,
+          "luaErrors": [],
+          "sdkLoggerErrorsWrappedAsLua": [
+            "Lua Exception stack:c# exception:System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection."
+          ],
+          "sdkNullReferences": 0
+        }
+      }
+    },
+    {
+      "session": "/var/folders/t5/cx_l90z95vx72xgc8ps0j8n80000gn/T/hamlet-simulator-dhi2n_v1",
+      "roles": {
+        "server": {
+          "settings": [],
+          "inputMarkers": [],
+          "touchStates": {},
+          "simultaneousKeyboardAndTouchDrift": false,
+          "events": {},
+          "playingSongs": [],
+          "output": {
+            "samples": 0,
+            "nonzero": 0,
+            "zero": 0,
+            "maxRms": 0,
+            "maxPeak": 0
+          },
+          "layouts": [],
+          "renderStates": [],
+          "systemUIHidden": false,
+          "luaErrors": [],
+          "sdkLoggerErrorsWrappedAsLua": [],
+          "sdkNullReferences": 48924
+        },
+        "client-1": {
+          "settings": [
+            {
+              "line": 909,
+              "action": "quality",
+              "quality": 2,
+              "camera": 2,
+              "music": true,
+              "song": 1,
+              "post": true
+            },
+            {
+              "line": 22839,
+              "action": "quality",
+              "quality": 0,
+              "camera": 2,
+              "music": true,
+              "song": 1,
+              "post": false
+            }
+          ],
+          "inputMarkers": [
+            {
+              "line": 1581,
+              "text": "[RacingClone][PresentationFixture] MANUAL_INPUT up=false left=false right=false shift=false"
+            }
+          ],
+          "touchStates": {},
+          "simultaneousKeyboardAndTouchDrift": false,
+          "events": {
+            "click": 3
+          },
+          "playingSongs": [
+            1
+          ],
+          "output": {
+            "samples": 212,
+            "nonzero": 206,
+            "zero": 1,
+            "maxRms": 0.1056573,
+            "maxPeak": 0.1754083
+          },
+          "layouts": [
+            "[RacingClone][Client] LAYOUT width=1040 height=658 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1074 height=598 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1090 height=528 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1090 height=530 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1090 height=532 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1090 height=534 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1092 height=524 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1092 height=526 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1092 height=536 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1092 height=542 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1092 height=546 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1092 height=548 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1092 height=550 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1094 height=550 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1096 height=516 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1096 height=550 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1098 height=552 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1100 height=552 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1102 height=552 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1104 height=554 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1106 height=554 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1108 height=554 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1110 height=554 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1112 height=496 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1112 height=554 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1112 height=556 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1126 height=480 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1126 height=512 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1146 height=460 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1160 height=464 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1164 height=442 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1180 height=428 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1180 height=438 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1188 height=420 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1192 height=420 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1192 height=422 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1192 height=424 portrait=false",
+            "[RacingClone][Client] LAYOUT width=720 height=1280 portrait=true",
+            "[RacingClone][Client] LAYOUT width=720 height=908 portrait=true"
+          ],
+          "renderStates": [
+            {
+              "line": 1751,
+              "text": "[RacingClone][PresentationFixture] RENDER camera=TPCameraAvatar hdr=true sun=Directional Light quality=RacingQuality2 shadows=(1.00, 1.00, 1000.00, -32400000.00): 895817888"
+            },
+            {
+              "line": 23009,
+              "text": "[RacingClone][PresentationFixture] RENDER camera=TPCameraAvatar hdr=true sun=Directional Light quality=RacingQuality0 shadows=(1.00, 0.00, 1.00, 0.00): 811597824"
+            }
+          ],
+          "systemUIHidden": true,
+          "luaErrors": [],
+          "sdkLoggerErrorsWrappedAsLua": [],
+          "sdkNullReferences": 0
+        },
+        "client-2": {
+          "settings": [
+            {
+              "line": 920,
+              "action": "quality",
+              "quality": 2,
+              "camera": 3,
+              "music": true,
+              "song": 0,
+              "post": true
+            }
+          ],
+          "inputMarkers": [
+            {
+              "line": 1870,
+              "text": "[RacingClone][PresentationFixture] MANUAL_INPUT up=false left=false right=false shift=false"
+            }
+          ],
+          "touchStates": {},
+          "simultaneousKeyboardAndTouchDrift": false,
+          "events": {},
+          "playingSongs": [
+            0
+          ],
+          "output": {
+            "samples": 211,
+            "nonzero": 204,
+            "zero": 1,
+            "maxRms": 0.0967588,
+            "maxPeak": 0.1959439
+          },
+          "layouts": [
+            "[RacingClone][Client] LAYOUT width=1008 height=852 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1034 height=818 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1050 height=794 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1058 height=736 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1058 height=756 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1058 height=778 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1060 height=756 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1062 height=708 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1062 height=758 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1062 height=768 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1064 height=762 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1066 height=682 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1070 height=666 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1074 height=654 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1078 height=644 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1082 height=636 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1086 height=628 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1090 height=622 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1096 height=616 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1104 height=604 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1108 height=600 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1110 height=598 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1112 height=598 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1114 height=596 portrait=false",
+            "[RacingClone][Client] LAYOUT width=1116 height=596 portrait=false",
+            "[RacingClone][Client] LAYOUT width=720 height=1280 portrait=true",
+            "[RacingClone][Client] LAYOUT width=860 height=1080 portrait=true",
+            "[RacingClone][Client] LAYOUT width=942 height=950 portrait=true",
+            "[RacingClone][Client] LAYOUT width=972 height=904 portrait=false"
+          ],
+          "renderStates": [
+            {
+              "line": 2027,
+              "text": "[RacingClone][PresentationFixture] RENDER camera=TPCameraAvatar hdr=true sun=Directional Light quality=RacingQuality2 shadows=(1.00, 1.00, 1000.00, -32400000.00): 895817888"
+            }
+          ],
+          "systemUIHidden": true,
+          "luaErrors": [],
+          "sdkLoggerErrorsWrappedAsLua": [],
+          "sdkNullReferences": 0
+        }
+      }
+    }
+  ],
+  "restarts": [
+    {
+      "from": "/var/folders/t5/cx_l90z95vx72xgc8ps0j8n80000gn/T/hamlet-simulator-y0b7maki",
+      "to": "/var/folders/t5/cx_l90z95vx72xgc8ps0j8n80000gn/T/hamlet-simulator-6g5wrwn8",
+      "role": "client-1",
+      "sameIdentity": true,
+      "before": {
+        "quality": 2,
+        "camera": 3,
+        "music": true,
+        "song": 1
+      },
+      "after": {
+        "quality": 2,
+        "camera": 3,
+        "music": true,
+        "song": 1
+      },
+      "settingsRestored": true
+    },
+    {
+      "from": "/var/folders/t5/cx_l90z95vx72xgc8ps0j8n80000gn/T/hamlet-simulator-y0b7maki",
+      "to": "/var/folders/t5/cx_l90z95vx72xgc8ps0j8n80000gn/T/hamlet-simulator-6g5wrwn8",
+      "role": "client-2",
+      "sameIdentity": true,
+      "before": {
+        "quality": 2,
+        "camera": 3,
+        "music": true,
+        "song": 0
+      },
+      "after": {
+        "quality": 2,
+        "camera": 3,
+        "music": true,
+        "song": 0
+      },
+      "settingsRestored": true
+    },
+    {
+      "from": "/var/folders/t5/cx_l90z95vx72xgc8ps0j8n80000gn/T/hamlet-simulator-6g5wrwn8",
+      "to": "/var/folders/t5/cx_l90z95vx72xgc8ps0j8n80000gn/T/hamlet-simulator-2skxeyew",
+      "role": "client-1",
+      "sameIdentity": true,
+      "before": {
+        "quality": 2,
+        "camera": 1,
+        "music": true,
+        "song": 1
+      },
+      "after": {
+        "quality": 2,
+        "camera": 1,
+        "music": true,
+        "song": 1
+      },
+      "settingsRestored": true
+    },
+    {
+      "from": "/var/folders/t5/cx_l90z95vx72xgc8ps0j8n80000gn/T/hamlet-simulator-6g5wrwn8",
+      "to": "/var/folders/t5/cx_l90z95vx72xgc8ps0j8n80000gn/T/hamlet-simulator-2skxeyew",
+      "role": "client-2",
+      "sameIdentity": true,
+      "before": {
+        "quality": 2,
+        "camera": 3,
+        "music": true,
+        "song": 0
+      },
+      "after": {
+        "quality": 2,
+        "camera": 3,
+        "music": true,
+        "song": 0
+      },
+      "settingsRestored": true
+    },
+    {
+      "from": "/var/folders/t5/cx_l90z95vx72xgc8ps0j8n80000gn/T/hamlet-simulator-2skxeyew",
+      "to": "/var/folders/t5/cx_l90z95vx72xgc8ps0j8n80000gn/T/hamlet-simulator-dhi2n_v1",
+      "role": "client-1",
+      "sameIdentity": true,
+      "before": {
+        "quality": 2,
+        "camera": 2,
+        "music": true,
+        "song": 1
+      },
+      "after": {
+        "quality": 2,
+        "camera": 2,
+        "music": true,
+        "song": 1
+      },
+      "settingsRestored": true
+    },
+    {
+      "from": "/var/folders/t5/cx_l90z95vx72xgc8ps0j8n80000gn/T/hamlet-simulator-2skxeyew",
+      "to": "/var/folders/t5/cx_l90z95vx72xgc8ps0j8n80000gn/T/hamlet-simulator-dhi2n_v1",
+      "role": "client-2",
+      "sameIdentity": true,
+      "before": {
+        "quality": 2,
+        "camera": 3,
+        "music": true,
+        "song": 0
+      },
+      "after": {
+        "quality": 2,
+        "camera": 3,
+        "music": true,
+        "song": 0
+      },
+      "settingsRestored": true
+    }
+  ]
+}

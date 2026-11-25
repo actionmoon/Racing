@@ -13,7 +13,7 @@ using UnityEngine.Rendering.Universal;
 public static class RacingCityBuilder
 {
     const string Root = "Assets/RacingClone";
-    const string Source = Root + "/Source/City.racingmesh";
+    static string Source = Root + "/Source/City.racingmesh";
     static JObject data;
     static Dictionary<string, Mesh> meshes;
     static Dictionary<string, Material> materials;
@@ -29,13 +29,13 @@ public static class RacingCityBuilder
         string name = (string)src["id"] + (skin == null ? "" : "_" + (string)skin["id"]);
         string path = Root + "/Materials/Imported/" + name + ".mat";
         bool unlit = (string)src["type"] == "MeshBasicMaterial" || (string)src["type"] == "SpriteMaterial";
-        string shader = (bool)src["vertexColors"] ? "RacingClone/VertexSurface"
+        string shader = (string)src["type"] == "ShaderMaterial" ? "RacingClone/Water" : (bool)src["vertexColors"] ? "RacingClone/VertexSurface"
             : unlit ? "Universal Render Pipeline/Unlit" : "Universal Render Pipeline/Lit";
         var mat = AssetDatabase.LoadAssetAtPath<Material>(path);
         if (mat == null) { mat = new Material(Shader.Find(shader)); AssetDatabase.CreateAsset(mat, path); }
         else mat.shader = Shader.Find(shader);
         Color color = RGB(src["color"]).gamma;
-        if ((string)src["type"] == "ShaderMaterial")
+        if ((string)src["type"] == "ShaderMaterial" && data["config"]["water"] is JObject)
             ColorUtility.TryParseHtmlString((string)data["config"]["water"]["color"], out color);
         if (skin != null && !string.IsNullOrEmpty(role)) color = SkinColor((int)skin[role]);
         color.a = (float)src["opacity"];
@@ -126,6 +126,7 @@ public static class RacingCityBuilder
     [MenuItem("Tools/Racing Clone/Build City Assets")]
     public static void Build()
     {
+        Source = Root + "/Source/City.racingmesh";
         Directory.CreateDirectory(Root + "/Materials/Imported");
         Directory.CreateDirectory(Root + "/Prefabs/Vehicles");
         Directory.CreateDirectory(Root + "/Prefabs/Maps");
@@ -233,6 +234,33 @@ public static class RacingCityBuilder
         EditorSceneManager.MarkSceneDirty(UnityEngine.SceneManagement.SceneManager.GetActiveScene());
         EditorSceneManager.SaveOpenScenes();
         Debug.Log("[RacingClone] Step3 city, 8 vehicle prefabs and 6 grid cars built.");
+    }
+
+    public static void BuildMapAssets(string id)
+    {
+        Source = Root + "/Source/" + char.ToUpperInvariant(id[0]) + id.Substring(1) + ".racingmesh";
+        Directory.CreateDirectory(Root + "/Materials/Imported");
+        Directory.CreateDirectory(Root + "/Prefabs/Maps");
+        AssetDatabase.ImportAsset(Source, ImportAssetOptions.ForceUpdate);
+        data = JObject.Parse(File.ReadAllText(Source));
+        meshes = AssetDatabase.LoadAllAssetsAtPath(Source).OfType<Mesh>().Where(m => !m.name.EndsWith("_Collision")).ToDictionary(m => m.name);
+        textures = data["textures"].ToDictionary(t => (string)t["id"]);
+        foreach (var t in data["textures"])
+        {
+            var importer = (TextureImporter)AssetImporter.GetAtPath((string)t["asset"]);
+            importer.wrapModeU = (int)t["wrapS"] == 1000 ? TextureWrapMode.Repeat : TextureWrapMode.Clamp;
+            importer.wrapModeV = (int)t["wrapT"] == 1000 ? TextureWrapMode.Repeat : TextureWrapMode.Clamp;
+            importer.textureCompression = TextureImporterCompression.Uncompressed;
+            importer.SaveAndReimport();
+        }
+        materials = data["materials"].ToDictionary(m => (string)m["id"], m => MakeMaterial(m));
+        var map = BuildHierarchy((JArray)data["city"], materials, true);
+        map.name = "Map_" + id;
+        PrefabUtility.SaveAsPrefabAsset(map, Root + "/Prefabs/Maps/Map_" + id + ".prefab");
+        UnityEngine.Object.DestroyImmediate(map);
+        AssetDatabase.SaveAssets();
+        Source = Root + "/Source/City.racingmesh";
+        Debug.Log("[RacingClone] Map asset built: " + id);
     }
 
     public static void Screenshot(string path, int width = 1280, int height = 576)

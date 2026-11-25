@@ -10,6 +10,8 @@ local track, localId, car, clock
 local seq, ack, accumulator, sendTime, lastTick, logTime = 0, 0, 0, 0, -1, 0
 local pending, targets, visuals = {}, {}, {}
 local actor, eventUntil
+local uiHideAt = -100
+local systemUI
 local networkReady = false
 local epoch,match,localEntry,controlSeq = -1,nil,nil,0
 local controlPending = {}
@@ -23,6 +25,7 @@ local messages = {driftStart="漂移",driftEnd="小喷窗口",gaugeFull="氮气 
 local function showEvents()
     if not car then return end
     for _, event in ipairs(car.events) do
+        if RaceRuntime.audio then RaceRuntime.audio.VehicleEvent(event) end
         local text = messages[event.type]
         if text then print("[RacingClone][Client] EVENT type=" .. event.type .. " data=" .. json.encode(event.data)) end
         if text and eventLabel then
@@ -39,6 +42,12 @@ local function applySnapshot(payload)
     lastTick = packet.tick
     local changed=epoch~=packet.epoch
     epoch,match=packet.epoch,packet.match
+    if not track or track.id~=match.settings.map then
+        track=RaceTrackMath.new(RaceMaps.data[match.settings.map])
+        RaceRuntime.track=track
+        car=nil; pending={}; targets={}
+        print("[RacingClone][Client] MAP id="..track.id.." samples="..track.N)
+    end
     RaceRuntime.match,RaceRuntime.cars,RaceRuntime.localId=match,packet.cars,localId
     RaceRuntime.items,RaceRuntime.epoch=packet.items,epoch
     RaceRuntime.snapshot=packet
@@ -99,8 +108,10 @@ function Start()
         return
     end
     track = RaceTrackMath.new(RaceTrackData)
+    RaceRuntime.track=track
     RaceRuntime.control=control
     local grid = UnityEngine.GameObject.Find("Starting Grid")
+    CS.DouyinUIService.SetUIVisible(false)
     if grid then
         for i = 0, grid.transform.childCount - 1 do
             local tr = grid.transform:GetChild(i)
@@ -118,11 +129,24 @@ function Start()
     print("[RacingClone][Client] SCENE_LOADED")
 end
 local function lockActor()
+    local now = UnityEngine.Time.unscaledTime
+    if now-uiHideAt>2 then
+        CS.DouyinUIService.SetUIVisible(false)
+        CS.DouyinUIService.SetNativeUIVisible(false)
+        if not systemUI then systemUI=UnityEngine.GameObject.Find("UISystem") end
+        if systemUI and systemUI.activeSelf then
+            systemUI:SetActive(false)
+            print("[RacingClone][Client] SYSTEM_UI_HIDDEN")
+        end
+        uiHideAt=now
+    end
     local current = DouyinActorService.GetLocalActor()
     if current and current.isLocal and current ~= actor and car then
         actor = current
         actor:Immobilize(true)
         actor:SetVisible(false)
+        CS.DouyinUIService.SetUIVisible(false)
+        CS.DouyinUIService.SetNativeUIVisible(false)
     end
 end
 function Update()
@@ -139,7 +163,12 @@ function Update()
     if car and inputScript then
         local input = inputScript.script.Frame()
         if input.cameraPressed then
-            RaceRuntime.cameraMode = ((RaceRuntime.cameraMode or 1) % 3) + 1
+            if RaceRuntime.setting then RaceRuntime.setting("camera",(RaceRuntime.cameraMode or 1)%3) end
+        end
+        if RaceRuntime.setting then
+            if input.musicPressed then RaceRuntime.setting("music",0) end
+            if input.songNextPressed then RaceRuntime.setting("song",1) end
+            if input.songPreviousPressed then RaceRuntime.setting("song",-1) end
         end
         if input.pausePressed then control(match.phase=="pause" and "resume" or "pause") end
         if input.startPressed and match.phase=="menu" then control("start") end
@@ -156,7 +185,7 @@ function Update()
             first = false
         end
         if not first then inputScript.script.ConsumeEdges() end
-        if first and (input.pausePressed or input.startPressed or input.cameraPressed) then inputScript.script.ConsumeEdges() end
+        if first and (input.pausePressed or input.startPressed or input.cameraPressed or input.musicPressed or input.songNextPressed or input.songPreviousPressed) then inputScript.script.ConsumeEdges() end
         showEvents()
         if eventLabel and eventUntil and UnityEngine.Time.unscaledTime > eventUntil then eventLabel.text = "" end
         if telemetry then
@@ -220,6 +249,11 @@ function LateUpdate()
     end
 end
 function OnDisable()
+    if not DouyinApplication.isServer then
+        CS.DouyinUIService.SetUIVisible(true)
+        CS.DouyinUIService.SetNativeUIVisible(true)
+        if systemUI then systemUI:SetActive(true) end
+    end
     if RaceRuntime.input then RaceRuntime.input.Clear() end
     if actor and DouyinNetService.isNetworkSettled and DouyinActorService.GetLocalActor() == actor then
         actor:Immobilize(false)

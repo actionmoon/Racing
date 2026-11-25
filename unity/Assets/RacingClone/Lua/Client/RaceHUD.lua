@@ -12,7 +12,7 @@
 ---@var useLabel:UnityEngine.UI.Text
 ---@var swapButton:GameObject
 ---@end
-local minX,maxX,minZ,maxZ,scale,markers
+local minX,maxX,minZ,maxZ,scale,markers,mapId
 local epoch,lastEvent,noticeUntil=-1,0,0
 local itemNames={nitro="氮气",shield="天使护盾",magnet="磁铁",banana="香蕉",missile="导弹"}
 function Start()
@@ -25,6 +25,27 @@ function Start()
     scale=145/math.max(maxX-minX,maxZ-minZ)
     markers={}
     for i=1,6 do markers[i]=minimap.transform:Find("Marker "..i) end
+end
+local function mapChanged(id)
+    mapId=id
+    local data=RaceMaps.data[id].arrays
+    minX,maxX,minZ,maxZ=math.huge,-math.huge,math.huge,-math.huge
+    for i,x in ipairs(data.px) do
+        local z=data.pz[i]
+        minX,maxX,minZ,maxZ=math.min(minX,x),math.max(maxX,x),math.min(minZ,z),math.max(maxZ,z)
+    end
+    scale=145/math.max(maxX-minX,maxZ-minZ)
+    local function point(i)
+        return UnityEngine.Vector2((data.px[i]-(minX+maxX)/2)*scale,((minZ+maxZ)/2-data.pz[i])*scale)
+    end
+    for i=0,127 do
+        local a=point(math.floor(i*#data.px/128)+1)
+        local b=point(math.floor((i+1)*#data.px/128)%#data.px+1)
+        local line=minimap.transform:Find("Road "..i)
+        line.anchoredPosition=(a+b)/2
+        line.sizeDelta=UnityEngine.Vector2((b-a).magnitude+1,2)
+        line.localRotation=UnityEngine.Quaternion.Euler(0,0,math.atan(b.y-a.y,b.x-a.x)*180/math.pi)
+    end
 end
 local function time(t)
     if not t or t<=0 then return "--:--.---" end
@@ -39,6 +60,7 @@ function Update()
     modal:SetActive(phase=="pause" or phase=="result")
     resumeButton:SetActive(phase=="pause")
     local settings=match.settings
+    if mapId~=settings.map then mapChanged(settings.map) end
     local itemMode=settings.mode=="item"
     swapButton:SetActive(itemMode and (phase=="race" or phase=="countdown"))
     useLabel.text=itemMode and "使用道具" or "氮气"
@@ -53,6 +75,7 @@ function Update()
             lastEvent=event.id
             print("[RacingClone][Client] ITEM "..RaceJson.encode(event))
             if entry and event.slot==entry.slot then
+                if RaceRuntime.audio then RaceRuntime.audio.ItemEvent(event) end
                 local label=itemNames[event.item] or ""
                 local text=event.type=="get" and "获得 "..label or event.type=="use" and "使用 "..label
                     or event.type=="swap" and "已换位" or event.type=="lock" and "导弹锁定！"
@@ -79,7 +102,7 @@ function Update()
             if car.id==match.host then hostName=car.name end
             lines[#lines+1]=car.slot..". "..car.name..(car.isAI and "  AI" or "  玩家")
         end
-        lobbyInfo.text="飞车 3D · 11城"..(itemMode and "道具" or "竞速").."\n\n圈数 "..settings.laps.."   难度 "..({"新手","熟练","车神"})[settings.diff+1]..
+        lobbyInfo.text="飞车 3D · "..RaceMaps.name(settings.map)..(itemMode and "道具" or "竞速").."\n\n圈数 "..settings.laps.."   难度 "..({"新手","熟练","车神"})[settings.diff+1]..
             "\n房主 "..hostName.." · 房主选择比赛设置\n\n"..table.concat(lines,"\n").."\n\n方向键驾驶 · Shift 漂移 · 空格"..(itemMode and "道具 · Alt 换位" or "氮气").." · ↑/W 小喷"
     end
     raceInfo.text=""
@@ -107,7 +130,7 @@ function Update()
                 car.id==RaceRuntime.localId and "（我）" or "",car.finished and time(car.finishTime) or "未完成",time(best<math.huge and best or 0))
         end
         local stats=entry and entry.stats
-        modalInfo.text="比赛结果 · 11城\n\n"..table.concat(rows,"\n")..(stats and
+        modalInfo.text="比赛结果 · "..RaceMaps.name(settings.map).."\n\n"..table.concat(rows,"\n")..(stats and
             string.format("\n\n漂移 %d · 小喷 %d · 完美 %d · 双喷 %d\n氮气 %d · 碰撞 %d · 最高时速 %d",stats.drift,stats.small,stats.perfect,stats.double,stats.nitro,stats.crash,math.floor(stats.top)) or "")
     end
 end

@@ -21,6 +21,7 @@ guard let window = windows.first(where: {
 else { fatalError("Client window is no longer visible") }
 let point = CGPoint(x: frame.minX + frame.width * fx, y: frame.minY + frame.height * fy)
 app.activate(options: [])
+Thread.sleep(forTimeInterval: 0.4)
 CGWarpMouseCursorPosition(point)
 let source = CGEventSource(stateID: .hidSystemState)
 for kind in [CGEventType.mouseMoved, .leftMouseDown, .leftMouseUp] {

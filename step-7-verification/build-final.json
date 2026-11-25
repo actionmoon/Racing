@@ -1,0 +1,21 @@
+{
+  "scene": "Assets/Scenes/RacingClone.unity",
+  "compiling": false,
+  "fixtures": 0,
+  "cacheUtc": "2026-11-25T06:58:08.6246988Z",
+  "cacheFiles": [
+    {
+      "name": "settings.json",
+      "exists": true,
+      "bytes": 3198
+    },
+    {
+      "name": "catalog.json",
+      "exists": true,
+      "bytes": 12540
+    }
+  ],
+  "shaderErrors": [],
+  "formalStartup": "blocked by filesystem sandbox; server Application Support permission denied",
+  "failedSession": "hamlet-simulator-u_wi55zx"
+}

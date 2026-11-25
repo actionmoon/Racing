@@ -13,6 +13,11 @@ args = parser.parse_args()
 root = Path(__file__).resolve().parents[1]
 target = root / "unity/Assets/RacingClone"
 data = json.loads(args.capture.read_text())
+point_geometries = {node["geometry"] for node in data["city"] if node["type"] == "Points"}
+for node in data["city"]:
+    if node["type"] == "Points":
+        node["geometry"] = ""
+data["geometries"] = [geo for geo in data["geometries"] if geo["id"] not in point_geometries]
 textures = target / "Textures"
 source = target / "Source"
 textures.mkdir(parents=True, exist_ok=True)
@@ -40,9 +45,12 @@ data["skins"] = [
     }
     for block in re.findall(r"\{([^{}]+)\}", skins)
 ]
-track = json.loads((root / "docs/reference/qqfeiche3d/tracks/city.json").read_text())
+map_id = data["map"]
+if map_id not in ("city", "aegean", "egypt", "snow"):
+    raise ValueError(f"Unknown map: {map_id}")
+track = json.loads((root / f"docs/reference/qqfeiche3d/tracks/{map_id}.json").read_text())
 data["track"] = track["track"]
 data["config"] = track["config"]
-output = source / "City.racingmesh"
+output = source / f"{map_id.capitalize()}.racingmesh"
 output.write_text(json.dumps(data, separators=(",", ":"), ensure_ascii=False))
 print(f"{output}: {len(data['geometries'])} meshes, {len(by_hash)} textures, {len(data['skins'])} skins")

@@ -2,6 +2,7 @@ RaceConfig = require "RaceConfig"
 RaceTrackMath = require "TrackMath"
 RaceVehicleSimulation = require "VehicleSimulation"
 RaceTrackData = require "TrackData"
+RaceMaps = require "RaceMaps"
 RaceRuntime = {}
 RaceProtocol = require "RaceProtocol"
 RaceJson = require "dkjson"

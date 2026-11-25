@@ -1,0 +1,723 @@
+{
+  "passed": true,
+  "checks": {
+    "server city six finishers": true,
+    "server aegean six finishers": true,
+    "server egypt six finishers": true,
+    "server snow six finishers": true,
+    "server no Lua exceptions": true,
+    "client-1 city six finishers": true,
+    "client-1 aegean six finishers": true,
+    "client-1 egypt six finishers": true,
+    "client-1 snow six finishers": true,
+    "client-1 no Lua exceptions": true,
+    "client-1 four visible maps": true,
+    "client-1 three qualities": true,
+    "client-1 actual audio output": true,
+    "client-2 city six finishers": true,
+    "client-2 aegean six finishers": true,
+    "client-2 egypt six finishers": true,
+    "client-2 snow six finishers": true,
+    "client-2 no Lua exceptions": true,
+    "client-2 four visible maps": true,
+    "client-2 three qualities": true,
+    "client-2 actual audio output": true,
+    "city result agrees across DS and clients": true,
+    "aegean result agrees across DS and clients": true,
+    "egypt result agrees across DS and clients": true,
+    "snow result agrees across DS and clients": true,
+    "nonhost map rejected": true,
+    "four map flow completed": true
+  },
+  "roles": {
+    "server": {
+      "races": {
+        "city": {
+          "epoch": 5,
+          "time": 58.566666666664,
+          "finishers": 6,
+          "players": 2,
+          "state": [
+            {
+              "slot": 1,
+              "rank": 5,
+              "finished": true,
+              "finishTime": 58.433333333331,
+              "lapsDone": 1
+            },
+            {
+              "slot": 2,
+              "rank": 6,
+              "finished": true,
+              "finishTime": 58.566666666664,
+              "lapsDone": 1
+            },
+            {
+              "slot": 3,
+              "rank": 4,
+              "finished": true,
+              "finishTime": 54.758333333331,
+              "lapsDone": 1
+            },
+            {
+              "slot": 4,
+              "rank": 2,
+              "finished": true,
+              "finishTime": 53.633333333331,
+              "lapsDone": 1
+            },
+            {
+              "slot": 5,
+              "rank": 1,
+              "finished": true,
+              "finishTime": 53.099999999998,
+              "lapsDone": 1
+            },
+            {
+              "slot": 6,
+              "rank": 3,
+              "finished": true,
+              "finishTime": 54.541666666664,
+              "lapsDone": 1
+            }
+          ]
+        },
+        "aegean": {
+          "epoch": 10,
+          "time": 61.324999999997,
+          "finishers": 6,
+          "players": 2,
+          "state": [
+            {
+              "slot": 1,
+              "rank": 6,
+              "finished": true,
+              "finishTime": 61.324999999997,
+              "lapsDone": 1
+            },
+            {
+              "slot": 2,
+              "rank": 5,
+              "finished": true,
+              "finishTime": 61.249999999997,
+              "lapsDone": 1
+            },
+            {
+              "slot": 3,
+              "rank": 3,
+              "finished": true,
+              "finishTime": 55.141666666664,
+              "lapsDone": 1
+            },
+            {
+              "slot": 4,
+              "rank": 1,
+              "finished": true,
+              "finishTime": 54.083333333331,
+              "lapsDone": 1
+            },
+            {
+              "slot": 5,
+              "rank": 2,
+              "finished": true,
+              "finishTime": 54.158333333331,
+              "lapsDone": 1
+            },
+            {
+              "slot": 6,
+              "rank": 4,
+              "finished": true,
+              "finishTime": 55.166666666664,
+              "lapsDone": 1
+            }
+          ]
+        },
+        "egypt": {
+          "epoch": 15,
+          "time": 54.091666666664,
+          "finishers": 6,
+          "players": 2,
+          "state": [
+            {
+              "slot": 1,
+              "rank": 6,
+              "finished": true,
+              "finishTime": 54.091666666664,
+              "lapsDone": 1
+            },
+            {
+              "slot": 2,
+              "rank": 5,
+              "finished": true,
+              "finishTime": 53.999999999998,
+              "lapsDone": 1
+            },
+            {
+              "slot": 3,
+              "rank": 3,
+              "finished": true,
+              "finishTime": 53.741666666664,
+              "lapsDone": 1
+            },
+            {
+              "slot": 4,
+              "rank": 2,
+              "finished": true,
+              "finishTime": 52.708333333331,
+              "lapsDone": 1
+            },
+            {
+              "slot": 5,
+              "rank": 1,
+              "finished": true,
+              "finishTime": 52.241666666664,
+              "lapsDone": 1
+            },
+            {
+              "slot": 6,
+              "rank": 4,
+              "finished": true,
+              "finishTime": 53.758333333331,
+              "lapsDone": 1
+            }
+          ]
+        },
+        "snow": {
+          "epoch": 20,
+          "time": 53.033333333331,
+          "finishers": 6,
+          "players": 2,
+          "state": [
+            {
+              "slot": 1,
+              "rank": 5,
+              "finished": true,
+              "finishTime": 52.883333333331,
+              "lapsDone": 1
+            },
+            {
+              "slot": 2,
+              "rank": 6,
+              "finished": true,
+              "finishTime": 53.033333333331,
+              "lapsDone": 1
+            },
+            {
+              "slot": 3,
+              "rank": 3,
+              "finished": true,
+              "finishTime": 46.808333333331,
+              "lapsDone": 1
+            },
+            {
+              "slot": 4,
+              "rank": 2,
+              "finished": true,
+              "finishTime": 46.216666666665,
+              "lapsDone": 1
+            },
+            {
+              "slot": 5,
+              "rank": 1,
+              "finished": true,
+              "finishTime": 45.966666666665,
+              "lapsDone": 1
+            },
+            {
+              "slot": 6,
+              "rank": 4,
+              "finished": true,
+              "finishTime": 47.224999999998,
+              "lapsDone": 1
+            }
+          ]
+        }
+      },
+      "visibleMaps": [],
+      "quality": [],
+      "output": {
+        "samples": 0,
+        "nonzero": 0,
+        "maxRms": 0,
+        "maxPeak": 0
+      },
+      "layouts": [],
+      "luaExceptions": 0,
+      "outputErrors": 0,
+      "sdkNullReferences": 36603,
+      "flowComplete": false,
+      "mapPermissionRejected": true
+    },
+    "client-1": {
+      "races": {
+        "city": {
+          "epoch": 5,
+          "time": 58.566666666664,
+          "finishers": 6,
+          "players": 2,
+          "state": [
+            {
+              "slot": 1,
+              "rank": 5,
+              "finished": true,
+              "finishTime": 58.433333333331,
+              "lapsDone": 1
+            },
+            {
+              "slot": 2,
+              "rank": 6,
+              "finished": true,
+              "finishTime": 58.566666666664,
+              "lapsDone": 1
+            },
+            {
+              "slot": 3,
+              "rank": 4,
+              "finished": true,
+              "finishTime": 54.758333333331,
+              "lapsDone": 1
+            },
+            {
+              "slot": 4,
+              "rank": 2,
+              "finished": true,
+              "finishTime": 53.633333333331,
+              "lapsDone": 1
+            },
+            {
+              "slot": 5,
+              "rank": 1,
+              "finished": true,
+              "finishTime": 53.099999999998,
+              "lapsDone": 1
+            },
+            {
+              "slot": 6,
+              "rank": 3,
+              "finished": true,
+              "finishTime": 54.541666666664,
+              "lapsDone": 1
+            }
+          ]
+        },
+        "aegean": {
+          "epoch": 10,
+          "time": 61.324999999997,
+          "finishers": 6,
+          "players": 2,
+          "state": [
+            {
+              "slot": 1,
+              "rank": 6,
+              "finished": true,
+              "finishTime": 61.324999999997,
+              "lapsDone": 1
+            },
+            {
+              "slot": 2,
+              "rank": 5,
+              "finished": true,
+              "finishTime": 61.249999999997,
+              "lapsDone": 1
+            },
+            {
+              "slot": 3,
+              "rank": 3,
+              "finished": true,
+              "finishTime": 55.141666666664,
+              "lapsDone": 1
+            },
+            {
+              "slot": 4,
+              "rank": 1,
+              "finished": true,
+              "finishTime": 54.083333333331,
+              "lapsDone": 1
+            },
+            {
+              "slot": 5,
+              "rank": 2,
+              "finished": true,
+              "finishTime": 54.158333333331,
+              "lapsDone": 1
+            },
+            {
+              "slot": 6,
+              "rank": 4,
+              "finished": true,
+              "finishTime": 55.166666666664,
+              "lapsDone": 1
+            }
+          ]
+        },
+        "egypt": {
+          "epoch": 15,
+          "time": 54.091666666664,
+          "finishers": 6,
+          "players": 2,
+          "state": [
+            {
+              "slot": 1,
+              "rank": 6,
+              "finished": true,
+              "finishTime": 54.091666666664,
+              "lapsDone": 1
+            },
+            {
+              "slot": 2,
+              "rank": 5,
+              "finished": true,
+              "finishTime": 53.999999999998,
+              "lapsDone": 1
+            },
+            {
+              "slot": 3,
+              "rank": 3,
+              "finished": true,
+              "finishTime": 53.741666666664,
+              "lapsDone": 1
+            },
+            {
+              "slot": 4,
+              "rank": 2,
+              "finished": true,
+              "finishTime": 52.708333333331,
+              "lapsDone": 1
+            },
+            {
+              "slot": 5,
+              "rank": 1,
+              "finished": true,
+              "finishTime": 52.241666666664,
+              "lapsDone": 1
+            },
+            {
+              "slot": 6,
+              "rank": 4,
+              "finished": true,
+              "finishTime": 53.758333333331,
+              "lapsDone": 1
+            }
+          ]
+        },
+        "snow": {
+          "epoch": 20,
+          "time": 53.033333333331,
+          "finishers": 6,
+          "players": 2,
+          "state": [
+            {
+              "slot": 1,
+              "rank": 5,
+              "finished": true,
+              "finishTime": 52.883333333331,
+              "lapsDone": 1
+            },
+            {
+              "slot": 2,
+              "rank": 6,
+              "finished": true,
+              "finishTime": 53.033333333331,
+              "lapsDone": 1
+            },
+            {
+              "slot": 3,
+              "rank": 3,
+              "finished": true,
+              "finishTime": 46.808333333331,
+              "lapsDone": 1
+            },
+            {
+              "slot": 4,
+              "rank": 2,
+              "finished": true,
+              "finishTime": 46.216666666665,
+              "lapsDone": 1
+            },
+            {
+              "slot": 5,
+              "rank": 1,
+              "finished": true,
+              "finishTime": 45.966666666665,
+              "lapsDone": 1
+            },
+            {
+              "slot": 6,
+              "rank": 4,
+              "finished": true,
+              "finishTime": 47.224999999998,
+              "lapsDone": 1
+            }
+          ]
+        }
+      },
+      "visibleMaps": [
+        "aegean",
+        "city",
+        "egypt",
+        "snow"
+      ],
+      "quality": [
+        0,
+        1,
+        2
+      ],
+      "output": {
+        "samples": 160,
+        "nonzero": 159,
+        "maxRms": 0.0887856,
+        "maxPeak": 0.2181939
+      },
+      "layouts": [
+        [
+          "1280",
+          "720",
+          "false"
+        ],
+        [
+          "720",
+          "1280",
+          "true"
+        ]
+      ],
+      "luaExceptions": 0,
+      "outputErrors": 0,
+      "sdkNullReferences": 0,
+      "flowComplete": true,
+      "mapPermissionRejected": false
+    },
+    "client-2": {
+      "races": {
+        "city": {
+          "epoch": 5,
+          "time": 58.566666666664,
+          "finishers": 6,
+          "players": 2,
+          "state": [
+            {
+              "slot": 1,
+              "rank": 5,
+              "finished": true,
+              "finishTime": 58.433333333331,
+              "lapsDone": 1
+            },
+            {
+              "slot": 2,
+              "rank": 6,
+              "finished": true,
+              "finishTime": 58.566666666664,
+              "lapsDone": 1
+            },
+            {
+              "slot": 3,
+              "rank": 4,
+              "finished": true,
+              "finishTime": 54.758333333331,
+              "lapsDone": 1
+            },
+            {
+              "slot": 4,
+              "rank": 2,
+              "finished": true,
+              "finishTime": 53.633333333331,
+              "lapsDone": 1
+            },
+            {
+              "slot": 5,
+              "rank": 1,
+              "finished": true,
+              "finishTime": 53.099999999998,
+              "lapsDone": 1
+            },
+            {
+              "slot": 6,
+              "rank": 3,
+              "finished": true,
+              "finishTime": 54.541666666664,
+              "lapsDone": 1
+            }
+          ]
+        },
+        "aegean": {
+          "epoch": 10,
+          "time": 61.324999999997,
+          "finishers": 6,
+          "players": 2,
+          "state": [
+            {
+              "slot": 1,
+              "rank": 6,
+              "finished": true,
+              "finishTime": 61.324999999997,
+              "lapsDone": 1
+            },
+            {
+              "slot": 2,
+              "rank": 5,
+              "finished": true,
+              "finishTime": 61.249999999997,
+              "lapsDone": 1
+            },
+            {
+              "slot": 3,
+              "rank": 3,
+              "finished": true,
+              "finishTime": 55.141666666664,
+              "lapsDone": 1
+            },
+            {
+              "slot": 4,
+              "rank": 1,
+              "finished": true,
+              "finishTime": 54.083333333331,
+              "lapsDone": 1
+            },
+            {
+              "slot": 5,
+              "rank": 2,
+              "finished": true,
+              "finishTime": 54.158333333331,
+              "lapsDone": 1
+            },
+            {
+              "slot": 6,
+              "rank": 4,
+              "finished": true,
+              "finishTime": 55.166666666664,
+              "lapsDone": 1
+            }
+          ]
+        },
+        "egypt": {
+          "epoch": 15,
+          "time": 54.091666666664,
+          "finishers": 6,
+          "players": 2,
+          "state": [
+            {
+              "slot": 1,
+              "rank": 6,
+              "finished": true,
+              "finishTime": 54.091666666664,
+              "lapsDone": 1
+            },
+            {
+              "slot": 2,
+              "rank": 5,
+              "finished": true,
+              "finishTime": 53.999999999998,
+              "lapsDone": 1
+            },
+            {
+              "slot": 3,
+              "rank": 3,
+              "finished": true,
+              "finishTime": 53.741666666664,
+              "lapsDone": 1
+            },
+            {
+              "slot": 4,
+              "rank": 2,
+              "finished": true,
+              "finishTime": 52.708333333331,
+              "lapsDone": 1
+            },
+            {
+              "slot": 5,
+              "rank": 1,
+              "finished": true,
+              "finishTime": 52.241666666664,
+              "lapsDone": 1
+            },
+            {
+              "slot": 6,
+              "rank": 4,
+              "finished": true,
+              "finishTime": 53.758333333331,
+              "lapsDone": 1
+            }
+          ]
+        },
+        "snow": {
+          "epoch": 20,
+          "time": 53.033333333331,
+          "finishers": 6,
+          "players": 2,
+          "state": [
+            {
+              "slot": 1,
+              "rank": 5,
+              "finished": true,
+              "finishTime": 52.883333333331,
+              "lapsDone": 1
+            },
+            {
+              "slot": 2,
+              "rank": 6,
+              "finished": true,
+              "finishTime": 53.033333333331,
+              "lapsDone": 1
+            },
+            {
+              "slot": 3,
+              "rank": 3,
+              "finished": true,
+              "finishTime": 46.808333333331,
+              "lapsDone": 1
+            },
+            {
+              "slot": 4,
+              "rank": 2,
+              "finished": true,
+              "finishTime": 46.216666666665,
+              "lapsDone": 1
+            },
+            {
+              "slot": 5,
+              "rank": 1,
+              "finished": true,
+              "finishTime": 45.966666666665,
+              "lapsDone": 1
+            },
+            {
+              "slot": 6,
+              "rank": 4,
+              "finished": true,
+              "finishTime": 47.224999999998,
+              "lapsDone": 1
+            }
+          ]
+        }
+      },
+      "visibleMaps": [
+        "aegean",
+        "city",
+        "egypt",
+        "snow"
+      ],
+      "quality": [
+        0,
+        1,
+        2
+      ],
+      "output": {
+        "samples": 159,
+        "nonzero": 158,
+        "maxRms": 0.0927215,
+        "maxPeak": 0.1984754
+      },
+      "layouts": [
+        [
+          "1108",
+          "542",
+          "false"
+        ]
+      ],
+      "luaExceptions": 0,
+      "outputErrors": 0,
+      "sdkNullReferences": 0,
+      "flowComplete": false,
+      "mapPermissionRejected": false
+    }
+  }
+}

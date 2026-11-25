@@ -1,0 +1,607 @@
+{
+  "scene": "Assets/Scenes/RacingClone.unity",
+  "compiling": false,
+  "fixtures": 0,
+  "scripts": [
+    {
+      "path": "Assets/RacingClone/Lua/Client/RaceMenuButton.lua",
+      "bindings": [
+        "action",
+        "value"
+      ]
+    },
+    {
+      "path": "Assets/RacingClone/Lua/Client/RaceMenuButton.lua",
+      "bindings": [
+        "action",
+        "value"
+      ]
+    },
+    {
+      "path": "Assets/RacingClone/Lua/Client/RaceMenuButton.lua",
+      "bindings": [
+        "action",
+        "value"
+      ]
+    },
+    {
+      "path": "Assets/RacingClone/Lua/Client/RaceMenuButton.lua",
+      "bindings": [
+        "action",
+        "value"
+      ]
+    },
+    {
+      "path": "Assets/RacingClone/Lua/Client/RaceMenuButton.lua",
+      "bindings": [
+        "action",
+        "value"
+      ]
+    },
+    {
+      "path": "Assets/RacingClone/Lua/Client/RaceMenuButton.lua",
+      "bindings": [
+        "action",
+        "value"
+      ]
+    },
+    {
+      "path": "Assets/RacingClone/Lua/Client/RaceTouchButton.lua",
+      "bindings": [
+        "action"
+      ]
+    },
+    {
+      "path": "Assets/RacingClone/Lua/Client/RaceTouchButton.lua",
+      "bindings": [
+        "action"
+      ]
+    },
+    {
+      "path": "Assets/RacingClone/Lua/Client/RaceMenuButton.lua",
+      "bindings": [
+        "action",
+        "value"
+      ]
+    },
+    {
+      "path": "Assets/RacingClone/Lua/Client/RaceMenuButton.lua",
+      "bindings": [
+        "action",
+        "value"
+      ]
+    },
+    {
+      "path": "Assets/RacingClone/Lua/Client/RaceMenuButton.lua",
+      "bindings": [
+        "action",
+        "value"
+      ]
+    },
+    {
+      "path": "Assets/RacingClone/Lua/Client/RaceMenuButton.lua",
+      "bindings": [
+        "action",
+        "value"
+      ]
+    },
+    {
+      "path": "Assets/RacingClone/Lua/Client/RaceTouchButton.lua",
+      "bindings": [
+        "action"
+      ]
+    },
+    {
+      "path": "Assets/RacingClone/Lua/Client/RaceTouchButton.lua",
+      "bindings": [
+        "action"
+      ]
+    },
+    {
+      "path": "Assets/RacingClone/Lua/Client/RaceMenuButton.lua",
+      "bindings": [
+        "action",
+        "value"
+      ]
+    },
+    {
+      "path": "Assets/RacingClone/Lua/Client/RaceMenuButton.lua",
+      "bindings": [
+        "action",
+        "value"
+      ]
+    },
+    {
+      "path": "Assets/RacingClone/Lua/Client/RaceMenuButton.lua",
+      "bindings": [
+        "action",
+        "value"
+      ]
+    },
+    {
+      "path": "Assets/RacingClone/Lua/Client/RaceMenuButton.lua",
+      "bindings": [
+        "action",
+        "value"
+      ]
+    },
+    {
+      "path": "Assets/RacingClone/Lua/Client/RaceMenuButton.lua",
+      "bindings": [
+        "action",
+        "value"
+      ]
+    },
+    {
+      "path": "Assets/RacingClone/Lua/Client/RaceMenuButton.lua",
+      "bindings": [
+        "action",
+        "value"
+      ]
+    },
+    {
+      "path": "Assets/RacingClone/Lua/Client/RaceMenuButton.lua",
+      "bindings": [
+        "action",
+        "value"
+      ]
+    },
+    {
+      "path": "Assets/RacingClone/Lua/Client/RaceMenuButton.lua",
+      "bindings": [
+        "action",
+        "value"
+      ]
+    },
+    {
+      "path": "Assets/RacingClone/Lua/Client/RaceTouchButton.lua",
+      "bindings": [
+        "action"
+      ]
+    },
+    {
+      "path": "Assets/RacingClone/Lua/Client/RaceMenuButton.lua",
+      "bindings": [
+        "action",
+        "value"
+      ]
+    },
+    {
+      "path": "Assets/RacingClone/Lua/Client/RaceMenuButton.lua",
+      "bindings": [
+        "action",
+        "value"
+      ]
+    },
+    {
+      "path": "Assets/RacingClone/Lua/Client/RaceMenuButton.lua",
+      "bindings": [
+        "action",
+        "value"
+      ]
+    },
+    {
+      "path": "Assets/RacingClone/Lua/Client/RaceMenuButton.lua",
+      "bindings": [
+        "action",
+        "value"
+      ]
+    },
+    {
+      "path": "Assets/RacingClone/Lua/Client/RaceMenuButton.lua",
+      "bindings": [
+        "action",
+        "value"
+      ]
+    },
+    {
+      "path": "Assets/RacingClone/Lua/Client/RaceTouchButton.lua",
+      "bindings": [
+        "action"
+      ]
+    },
+    {
+      "path": "Assets/RacingClone/Lua/Client/RaceMenuButton.lua",
+      "bindings": [
+        "action",
+        "value"
+      ]
+    },
+    {
+      "path": "Assets/RacingClone/Lua/Client/RaceMenuButton.lua",
+      "bindings": [
+        "action",
+        "value"
+      ]
+    },
+    {
+      "path": "Assets/RacingClone/Lua/Client/RaceMenuButton.lua",
+      "bindings": [
+        "action",
+        "value"
+      ]
+    },
+    {
+      "path": "Assets/RacingClone/Lua/Client/RaceMenuButton.lua",
+      "bindings": [
+        "action",
+        "value"
+      ]
+    },
+    {
+      "path": "Assets/RacingClone/Lua/Client/RaceMenuButton.lua",
+      "bindings": [
+        "action",
+        "value"
+      ]
+    },
+    {
+      "path": "Assets/RacingClone/Lua/Client/RaceMenuButton.lua",
+      "bindings": [
+        "action",
+        "value"
+      ]
+    },
+    {
+      "path": "Assets/RacingClone/Lua/Client/RaceTouchButton.lua",
+      "bindings": [
+        "action"
+      ]
+    },
+    {
+      "path": "Assets/RacingClone/Lua/Server/RaceServer.lua",
+      "bindings": []
+    },
+    {
+      "path": "Assets/RacingClone/Lua/Client/RaceMenuButton.lua",
+      "bindings": [
+        "action",
+        "value"
+      ]
+    },
+    {
+      "path": "Assets/RacingClone/Lua/Client/RaceMenuButton.lua",
+      "bindings": [
+        "action",
+        "value"
+      ]
+    },
+    {
+      "path": "Assets/RacingClone/Lua/Client/RaceMenuButton.lua",
+      "bindings": [
+        "action",
+        "value"
+      ]
+    },
+    {
+      "path": "Assets/RacingClone/Lua/Client/RaceTouchButton.lua",
+      "bindings": [
+        "action"
+      ]
+    },
+    {
+      "path": "Assets/RacingClone/Lua/Client/RaceTouchButton.lua",
+      "bindings": [
+        "action"
+      ]
+    },
+    {
+      "path": "Assets/RacingClone/Lua/Client/RaceMenuButton.lua",
+      "bindings": [
+        "action",
+        "value"
+      ]
+    },
+    {
+      "path": "Assets/RacingClone/Lua/Client/RaceMenuButton.lua",
+      "bindings": [
+        "action",
+        "value"
+      ]
+    },
+    {
+      "path": "Assets/RacingClone/Lua/Client/RaceTouchButton.lua",
+      "bindings": [
+        "action"
+      ]
+    },
+    {
+      "path": "Assets/RacingClone/Lua/Client/RaceClient.lua",
+      "bindings": [
+        "inputScript",
+        "telemetry",
+        "eventLabel",
+        "controls",
+        "raceSnapshot"
+      ]
+    },
+    {
+      "path": "Assets/RacingClone/Lua/Client/RaceCamera.lua",
+      "bindings": []
+    },
+    {
+      "path": "Assets/RacingClone/Lua/Client/RaceInput.lua",
+      "bindings": []
+    },
+    {
+      "path": "Assets/RacingClone/Lua/Client/RaceHUD.lua",
+      "bindings": [
+        "lobby",
+        "modal",
+        "raceInfo",
+        "countdownLabel",
+        "lobbyInfo",
+        "modalInfo",
+        "resumeButton",
+        "minimap",
+        "gaugeFill",
+        "itemSlots",
+        "itemNotice",
+        "useLabel",
+        "swapButton"
+      ]
+    },
+    {
+      "path": "Assets/RacingClone/Lua/Client/RaceItemVisuals.lua",
+      "bindings": [
+        "root"
+      ]
+    },
+    {
+      "path": "Assets/RacingClone/Lua/Client/RaceMapView.lua",
+      "bindings": [
+        "city",
+        "citySky",
+        "aegean",
+        "aegeanSky",
+        "egypt",
+        "egyptSky",
+        "snow",
+        "snowSky",
+        "sun"
+      ]
+    },
+    {
+      "path": "Assets/RacingClone/Lua/Client/RaceLayout.lua",
+      "bindings": [
+        "matchUI",
+        "drivingUI",
+        "settingsUI"
+      ]
+    },
+    {
+      "path": "Assets/RacingClone/Lua/Client/RaceSettings.lua",
+      "bindings": [
+        "post",
+        "panel",
+        "settingInfo",
+        "quality0",
+        "quality1",
+        "quality2"
+      ]
+    },
+    {
+      "path": "Assets/RacingClone/Lua/Client/RaceAudio.lua",
+      "bindings": [
+        "root"
+      ]
+    },
+    {
+      "path": "Assets/RacingClone/Lua/Client/RaceMenuButton.lua",
+      "bindings": [
+        "action",
+        "value"
+      ]
+    },
+    {
+      "path": "Assets/RacingClone/Lua/Client/RaceMenuButton.lua",
+      "bindings": [
+        "action",
+        "value"
+      ]
+    },
+    {
+      "path": "Assets/RacingClone/Lua/Client/RaceMenuButton.lua",
+      "bindings": [
+        "action",
+        "value"
+      ]
+    },
+    {
+      "path": "Assets/RacingClone/Lua/Client/RaceMenuButton.lua",
+      "bindings": [
+        "action",
+        "value"
+      ]
+    }
+  ],
+  "audio": [
+    {
+      "name": "lap",
+      "clip": "lap",
+      "loop": false,
+      "volume": 1.0,
+      "samples": 38400
+    },
+    {
+      "name": "music1",
+      "clip": "music1",
+      "loop": true,
+      "volume": 1.0,
+      "samples": 195254
+    },
+    {
+      "name": "wind",
+      "clip": "wind",
+      "loop": true,
+      "volume": 0.0,
+      "samples": 48000
+    },
+    {
+      "name": "land",
+      "clip": "land",
+      "loop": false,
+      "volume": 1.0,
+      "samples": 38400
+    },
+    {
+      "name": "item",
+      "clip": "item",
+      "loop": false,
+      "volume": 1.0,
+      "samples": 38400
+    },
+    {
+      "name": "boom",
+      "clip": "boom",
+      "loop": false,
+      "volume": 1.0,
+      "samples": 38400
+    },
+    {
+      "name": "music0",
+      "clip": "music0",
+      "loop": true,
+      "volume": 1.0,
+      "samples": 180000
+    },
+    {
+      "name": "go",
+      "clip": "go",
+      "loop": false,
+      "volume": 1.0,
+      "samples": 38400
+    },
+    {
+      "name": "engine",
+      "clip": "engine",
+      "loop": true,
+      "volume": 0.0,
+      "samples": 48000
+    },
+    {
+      "name": "pad",
+      "clip": "pad",
+      "loop": false,
+      "volume": 1.0,
+      "samples": 38400
+    },
+    {
+      "name": "count",
+      "clip": "count",
+      "loop": false,
+      "volume": 1.0,
+      "samples": 38400
+    },
+    {
+      "name": "shield",
+      "clip": "shield",
+      "loop": false,
+      "volume": 1.0,
+      "samples": 38400
+    },
+    {
+      "name": "music3",
+      "clip": "music3",
+      "loop": true,
+      "volume": 1.0,
+      "samples": 164572
+    },
+    {
+      "name": "music2",
+      "clip": "music2",
+      "loop": true,
+      "volume": 1.0,
+      "samples": 174546
+    },
+    {
+      "name": "small",
+      "clip": "small",
+      "loop": false,
+      "volume": 1.0,
+      "samples": 38400
+    },
+    {
+      "name": "crash",
+      "clip": "crash",
+      "loop": false,
+      "volume": 1.0,
+      "samples": 38400
+    },
+    {
+      "name": "click",
+      "clip": "click",
+      "loop": false,
+      "volume": 1.0,
+      "samples": 38400
+    },
+    {
+      "name": "finish",
+      "clip": "finish",
+      "loop": false,
+      "volume": 1.0,
+      "samples": 38400
+    },
+    {
+      "name": "wrong",
+      "clip": "wrong",
+      "loop": false,
+      "volume": 1.0,
+      "samples": 38400
+    },
+    {
+      "name": "double",
+      "clip": "double",
+      "loop": false,
+      "volume": 1.0,
+      "samples": 38400
+    },
+    {
+      "name": "skid",
+      "clip": "skid",
+      "loop": true,
+      "volume": 0.0,
+      "samples": 48000
+    },
+    {
+      "name": "missile",
+      "clip": "missile",
+      "loop": false,
+      "volume": 1.0,
+      "samples": 38400
+    },
+    {
+      "name": "banana",
+      "clip": "banana",
+      "loop": false,
+      "volume": 1.0,
+      "samples": 38400
+    },
+    {
+      "name": "gauge",
+      "clip": "gauge",
+      "loop": false,
+      "volume": 1.0,
+      "samples": 38400
+    },
+    {
+      "name": "nitro",
+      "clip": "nitro",
+      "loop": false,
+      "volume": 1.0,
+      "samples": 38400
+    },
+    {
+      "name": "scrape",
+      "clip": "scrape",
+      "loop": false,
+      "volume": 1.0,
+      "samples": 38400
+    }
+  ],
+  "settings": [
+    "近景",
+    "追逐",
+    "远景"
+  ]
+}

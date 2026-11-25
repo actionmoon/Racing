@@ -19,7 +19,7 @@ public static class RacingMatchBuilder
         go.GetComponent<Image>().color=new Color(.015f,.045f,.09f,.96f);
         return go;
     }
-    static GameObject Button(Transform parent,string label,string action,int value,Vector2 position,Vector2 size,bool enabled=true)
+    public static GameObject Button(Transform parent,string label,string action,int value,Vector2 position,Vector2 size,bool enabled=true)
     {
         var go=Panel(parent,label,position,size);
         go.GetComponent<Image>().color=enabled ? new Color(.05f,.32f,.48f,1) : new Color(.10f,.12f,.15f,1);
@@ -98,14 +98,15 @@ public static class RacingMatchBuilder
         var lobbyInfo=B.Label(lobby.transform,"Room Settings","等待房间状态",new Vector2(.5f,.5f),new Vector2(-250,0),new Vector2(490,570),24);
         lobbyInfo.alignment=TextAnchor.MiddleLeft;
         B.Label(lobby.transform,"Track Heading","地图与模式",new Vector2(.5f,.5f),new Vector2(245,245),new Vector2(450,45),26);
-        Button(lobby.transform,"11城 · 竞速","mode",0,new Vector2(150,190),new Vector2(190,45));
-        Button(lobby.transform,"11城 · 道具","mode",1,new Vector2(360,190),new Vector2(190,45));
-        Button(lobby.transform,"其他地图 · 即将开放","",0,new Vector2(255,132),new Vector2(400,45),false);
-        B.Label(lobby.transform,"Lap Heading","比赛圈数",new Vector2(.5f,.5f),new Vector2(245,80),new Vector2(450,40),22);
+        string[] maps={"11城","情迷爱琴海","法老金字塔","雪地大冒险"};
+        for(int i=0;i<4;i++) Button(lobby.transform,maps[i],"map",i,new Vector2(140+i%2*220,195-i/2*50),new Vector2(205,45));
+        Button(lobby.transform,"竞速","mode",0,new Vector2(150,90),new Vector2(190,40));
+        Button(lobby.transform,"道具","mode",1,new Vector2(360,90),new Vector2(190,40));
+        B.Label(lobby.transform,"Lap Heading","比赛圈数",new Vector2(.5f,.5f),new Vector2(245,50),new Vector2(450,30),20);
         int[] laps={1,2,3,5};
-        for(int i=0;i<4;i++) Button(lobby.transform,laps[i]+" 圈","laps",laps[i],new Vector2(90+i*110,35),new Vector2(95,45));
+        for(int i=0;i<4;i++) Button(lobby.transform,laps[i]+" 圈","laps",laps[i],new Vector2(90+i*110,10),new Vector2(95,35));
         string[] difficulties={"新手","熟练","车神"};
-        for(int i=0;i<3;i++) Button(lobby.transform,difficulties[i],"diff",i,new Vector2(110+i*145,-30),new Vector2(125,45));
+        for(int i=0;i<3;i++) Button(lobby.transform,difficulties[i],"diff",i,new Vector2(110+i*145,-35),new Vector2(125,35));
         B.Label(lobby.transform,"Skin Heading","我的赛车配色",new Vector2(.5f,.5f),new Vector2(245,-85),new Vector2(450,40),22);
         string[] colors={"红","蓝","紫","黄","白","粉","绿","黑"};
         for(int i=0;i<8;i++) Button(lobby.transform,colors[i],"skin",i,new Vector2(85+i%4*110,-130-i/4*50),new Vector2(95,40));

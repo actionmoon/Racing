@@ -1,0 +1,15 @@
+{
+  "status": "success",
+  "result": {
+    "success": true,
+    "message": "Code executed successfully.",
+    "data": {
+      "result": {
+        "scene": "Assets/Scenes/RacingItems_Verification.unity",
+        "compiling": false,
+        "cacheUtc": "2026-11-25T03:50:01.7363497Z"
+      },
+      "compiler": "codedom"
+    }
+  }
+}

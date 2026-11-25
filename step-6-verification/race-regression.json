@@ -1,0 +1,413 @@
+{
+  "passed": true,
+  "races": [
+    {
+      "time": 60.89166666666385,
+      "finishers": 6,
+      "laps": 1,
+      "difficulty": 0,
+      "order": [
+        {
+          "finished": true,
+          "name": "城市猎手",
+          "isAI": true,
+          "time": 53.291666666664284
+        },
+        {
+          "finished": true,
+          "name": "疾风车手",
+          "isAI": true,
+          "time": 53.72499999999759
+        },
+        {
+          "finished": true,
+          "name": "闪电骑士",
+          "isAI": true,
+          "time": 54.666666666664206
+        },
+        {
+          "finished": true,
+          "name": "弯道高手",
+          "isAI": true,
+          "time": 54.808333333330864
+        },
+        {
+          "finished": true,
+          "name": "玩家一",
+          "isAI": false,
+          "time": 60.6499999999972
+        },
+        {
+          "finished": true,
+          "name": "玩家二",
+          "isAI": false,
+          "time": 60.89166666666385
+        }
+      ],
+      "humans": 2,
+      "ticks": 7668
+    },
+    {
+      "time": 59.324999999997274,
+      "finishers": 4,
+      "laps": 1,
+      "difficulty": 1,
+      "order": [
+        {
+          "finished": true,
+          "name": "城市猎手",
+          "isAI": true,
+          "time": 49.31666666666451
+        },
+        {
+          "finished": true,
+          "name": "疾风车手",
+          "isAI": true,
+          "time": 49.71666666666449
+        },
+        {
+          "finished": true,
+          "name": "闪电骑士",
+          "isAI": true,
+          "time": 50.583333333331105
+        },
+        {
+          "finished": true,
+          "name": "弯道高手",
+          "isAI": true,
+          "time": 50.6333333333311
+        },
+        {
+          "finished": false,
+          "name": "玩家一",
+          "isAI": false,
+          "time": 0
+        },
+        {
+          "finished": false,
+          "name": "玩家二",
+          "isAI": false,
+          "time": 0
+        }
+      ],
+      "humans": 2,
+      "ticks": 7480
+    },
+    {
+      "time": 55.20833333333084,
+      "finishers": 4,
+      "laps": 1,
+      "difficulty": 2,
+      "order": [
+        {
+          "finished": true,
+          "name": "城市猎手",
+          "isAI": true,
+          "time": 45.19999999999808
+        },
+        {
+          "finished": true,
+          "name": "疾风车手",
+          "isAI": true,
+          "time": 45.399999999998066
+        },
+        {
+          "finished": true,
+          "name": "弯道高手",
+          "isAI": true,
+          "time": 46.07499999999803
+        },
+        {
+          "finished": true,
+          "name": "闪电骑士",
+          "isAI": true,
+          "time": 46.124999999998025
+        },
+        {
+          "finished": false,
+          "name": "玩家一",
+          "isAI": false,
+          "time": 0
+        },
+        {
+          "finished": false,
+          "name": "玩家二",
+          "isAI": false,
+          "time": 0
+        }
+      ],
+      "humans": 2,
+      "ticks": 6986
+    },
+    {
+      "time": 115.49166666670465,
+      "finishers": 4,
+      "laps": 2,
+      "difficulty": 0,
+      "order": [
+        {
+          "finished": true,
+          "name": "城市猎手",
+          "isAI": true,
+          "time": 105.49166666669669
+        },
+        {
+          "finished": true,
+          "name": "疾风车手",
+          "isAI": true,
+          "time": 106.9333333333645
+        },
+        {
+          "finished": true,
+          "name": "闪电骑士",
+          "isAI": true,
+          "time": 108.73333333336593
+        },
+        {
+          "finished": true,
+          "name": "弯道高手",
+          "isAI": true,
+          "time": 109.15833333336627
+        },
+        {
+          "finished": false,
+          "name": "玩家一",
+          "isAI": false,
+          "time": 0
+        },
+        {
+          "finished": false,
+          "name": "玩家二",
+          "isAI": false,
+          "time": 0
+        }
+      ],
+      "humans": 2,
+      "ticks": 14220
+    },
+    {
+      "time": 167.6916666666785,
+      "finishers": 4,
+      "laps": 3,
+      "difficulty": 0,
+      "order": [
+        {
+          "finished": true,
+          "name": "城市猎手",
+          "isAI": true,
+          "time": 157.68333333335426
+        },
+        {
+          "finished": true,
+          "name": "疾风车手",
+          "isAI": true,
+          "time": 160.15000000001868
+        },
+        {
+          "finished": true,
+          "name": "闪电骑士",
+          "isAI": true,
+          "time": 162.75833333334964
+        },
+        {
+          "finished": true,
+          "name": "弯道高手",
+          "isAI": true,
+          "time": 164.4250000000148
+        },
+        {
+          "finished": false,
+          "name": "玩家一",
+          "isAI": false,
+          "time": 0
+        },
+        {
+          "finished": false,
+          "name": "玩家二",
+          "isAI": false,
+          "time": 0
+        }
+      ],
+      "humans": 2,
+      "ticks": 20484
+    },
+    {
+      "time": 272.0833333332502,
+      "finishers": 3,
+      "laps": 5,
+      "difficulty": 0,
+      "order": [
+        {
+          "finished": true,
+          "name": "城市猎手",
+          "isAI": true,
+          "time": 262.074999999926
+        },
+        {
+          "finished": true,
+          "name": "疾风车手",
+          "isAI": true,
+          "time": 266.56666666658856
+        },
+        {
+          "finished": true,
+          "name": "闪电骑士",
+          "isAI": true,
+          "time": 270.7916666665847
+        },
+        {
+          "finished": false,
+          "name": "弯道高手",
+          "isAI": true,
+          "time": 0
+        },
+        {
+          "finished": false,
+          "name": "玩家一",
+          "isAI": false,
+          "time": 0
+        },
+        {
+          "finished": false,
+          "name": "玩家二",
+          "isAI": false,
+          "time": 0
+        }
+      ],
+      "humans": 2,
+      "ticks": 33011
+    },
+    {
+      "time": 60.28333333333055,
+      "finishers": 6,
+      "laps": 1,
+      "difficulty": 0,
+      "order": [
+        {
+          "finished": true,
+          "name": "极速流星",
+          "isAI": true,
+          "time": 52.333333333331005
+        },
+        {
+          "finished": true,
+          "name": "城市猎手",
+          "isAI": true,
+          "time": 53.033333333330965
+        },
+        {
+          "finished": true,
+          "name": "疾风车手",
+          "isAI": true,
+          "time": 53.6249999999976
+        },
+        {
+          "finished": true,
+          "name": "闪电骑士",
+          "isAI": true,
+          "time": 54.516666666664214
+        },
+        {
+          "finished": true,
+          "name": "弯道高手",
+          "isAI": true,
+          "time": 54.724999999997536
+        },
+        {
+          "finished": true,
+          "name": "玩家一",
+          "isAI": false,
+          "time": 60.28333333333055
+        }
+      ],
+      "humans": 1,
+      "ticks": 7595
+    }
+  ],
+  "checks": [
+    "countdown locks vehicle",
+    "last 0.28 second throttle primes start boost",
+    "early countdown throttle gets no start boost",
+    "first throttle within GO window boosts",
+    "one human + five AI",
+    "two humans + four AI",
+    "host authority",
+    "allowed lap choices",
+    "skin selection",
+    "pause countdown",
+    "control idempotence",
+    "pause freezes countdown",
+    "stale inputs rejected",
+    "three second countdown",
+    "initial crossing is not a lap",
+    "halfway then crossing counts",
+    "reverse crossing cannot farm laps",
+    "reset preserves progress and inventory",
+    "pause freezes race time",
+    "resume advances one fixed step",
+    "quit returns lobby",
+    "departing driver becomes AI",
+    "contact separates cars and transfers speed",
+    "different road heights do not collide",
+    "late join preserves AI race progress",
+    "difficulty 0 completes naturally",
+    "humans complete easy race",
+    "finisher completes specified 1 laps",
+    "finisher completes specified 1 laps",
+    "finisher completes specified 1 laps",
+    "finisher completes specified 1 laps",
+    "finisher completes specified 1 laps",
+    "finisher completes specified 1 laps",
+    "result time remains fixed 0",
+    "restart resets clock and progress 0",
+    "difficulty 1 completes naturally",
+    "finish deadline bounds difficulty 1",
+    "finisher completes specified 1 laps",
+    "finisher completes specified 1 laps",
+    "finisher completes specified 1 laps",
+    "finisher completes specified 1 laps",
+    "result time remains fixed 1",
+    "restart resets clock and progress 1",
+    "difficulty 2 completes naturally",
+    "finish deadline bounds difficulty 2",
+    "finisher completes specified 1 laps",
+    "finisher completes specified 1 laps",
+    "finisher completes specified 1 laps",
+    "finisher completes specified 1 laps",
+    "result time remains fixed 2",
+    "restart resets clock and progress 2",
+    "difficulty 0 completes naturally",
+    "finish deadline bounds difficulty 0",
+    "finisher completes specified 2 laps",
+    "finisher completes specified 2 laps",
+    "finisher completes specified 2 laps",
+    "finisher completes specified 2 laps",
+    "result time remains fixed 0",
+    "restart resets clock and progress 0",
+    "difficulty 0 completes naturally",
+    "finish deadline bounds difficulty 0",
+    "finisher completes specified 3 laps",
+    "finisher completes specified 3 laps",
+    "finisher completes specified 3 laps",
+    "finisher completes specified 3 laps",
+    "result time remains fixed 0",
+    "restart resets clock and progress 0",
+    "difficulty 0 completes naturally",
+    "finish deadline bounds difficulty 0",
+    "finisher completes specified 5 laps",
+    "finisher completes specified 5 laps",
+    "finisher completes specified 5 laps",
+    "result time remains fixed 0",
+    "restart resets clock and progress 0",
+    "difficulty 0 completes naturally",
+    "humans complete easy race",
+    "finisher completes specified 1 laps",
+    "finisher completes specified 1 laps",
+    "finisher completes specified 1 laps",
+    "finisher completes specified 1 laps",
+    "finisher completes specified 1 laps",
+    "finisher completes specified 1 laps",
+    "result time remains fixed 0",
+    "restart resets clock and progress 0"
+  ]
+}

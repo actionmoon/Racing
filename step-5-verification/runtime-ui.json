@@ -1,0 +1,706 @@
+{
+  "passed": true,
+  "scene": "Assets/Scenes/RacingClone.unity",
+  "input": "OS mouse/keyboard; no fixture",
+  "session": "/var/folders/t5/cx_l90z95vx72xgc8ps0j8n80000gn/T/hamlet-simulator-u3bi4ila",
+  "roles": [
+    "server",
+    "client-1",
+    "client-2"
+  ],
+  "commonSnapshots": 179,
+  "phaseSequences": {
+    "server": [
+      {
+        "epoch": 0,
+        "phase": "menu",
+        "time": 0.0
+      },
+      {
+        "epoch": 1,
+        "phase": "countdown",
+        "time": 0.0
+      },
+      {
+        "epoch": 2,
+        "phase": "race",
+        "time": 0.0083333333333333
+      },
+      {
+        "epoch": 3,
+        "phase": "pause",
+        "time": 32.724999999999
+      },
+      {
+        "epoch": 4,
+        "phase": "race",
+        "time": 32.741666666665
+      },
+      {
+        "epoch": 5,
+        "phase": "result",
+        "time": 65.041666666664
+      },
+      {
+        "epoch": 6,
+        "phase": "countdown",
+        "time": 0.0
+      },
+      {
+        "epoch": 7,
+        "phase": "race",
+        "time": 0.0083333333333333
+      },
+      {
+        "epoch": 8,
+        "phase": "pause",
+        "time": 42.299999999998
+      },
+      {
+        "epoch": 9,
+        "phase": "menu",
+        "time": 0.0
+      }
+    ],
+    "client-1": [
+      {
+        "epoch": 0,
+        "phase": "menu",
+        "time": 0.0
+      },
+      {
+        "epoch": 1,
+        "phase": "countdown",
+        "time": 0.0
+      },
+      {
+        "epoch": 2,
+        "phase": "race",
+        "time": 0.083333333333333
+      },
+      {
+        "epoch": 3,
+        "phase": "pause",
+        "time": 32.724999999999
+      },
+      {
+        "epoch": 4,
+        "phase": "race",
+        "time": 32.874999999999
+      },
+      {
+        "epoch": 5,
+        "phase": "result",
+        "time": 65.041666666664
+      },
+      {
+        "epoch": 6,
+        "phase": "countdown",
+        "time": 0.0
+      },
+      {
+        "epoch": 7,
+        "phase": "race",
+        "time": 0.041666666666667
+      },
+      {
+        "epoch": 8,
+        "phase": "pause",
+        "time": 42.299999999998
+      },
+      {
+        "epoch": 9,
+        "phase": "menu",
+        "time": 0.0
+      }
+    ],
+    "client-2": [
+      {
+        "epoch": 0,
+        "phase": "menu",
+        "time": 0.0
+      },
+      {
+        "epoch": 1,
+        "phase": "countdown",
+        "time": 0.0
+      },
+      {
+        "epoch": 2,
+        "phase": "race",
+        "time": 0.083333333333333
+      },
+      {
+        "epoch": 3,
+        "phase": "pause",
+        "time": 32.724999999999
+      },
+      {
+        "epoch": 4,
+        "phase": "race",
+        "time": 32.824999999999
+      },
+      {
+        "epoch": 5,
+        "phase": "result",
+        "time": 65.041666666664
+      },
+      {
+        "epoch": 6,
+        "phase": "countdown",
+        "time": 0.0
+      },
+      {
+        "epoch": 7,
+        "phase": "race",
+        "time": 0.041666666666667
+      },
+      {
+        "epoch": 8,
+        "phase": "pause",
+        "time": 42.299999999998
+      },
+      {
+        "epoch": 9,
+        "phase": "menu",
+        "time": 0.0
+      }
+    ]
+  },
+  "controls": [
+    {
+      "action": "laps",
+      "accepted": true,
+      "epoch": 0
+    },
+    {
+      "action": "diff",
+      "accepted": true,
+      "epoch": 0
+    },
+    {
+      "action": "diff",
+      "accepted": true,
+      "epoch": 0
+    },
+    {
+      "action": "skin",
+      "accepted": true,
+      "epoch": 0
+    },
+    {
+      "action": "start",
+      "accepted": true,
+      "epoch": 1
+    },
+    {
+      "action": "pause",
+      "accepted": true,
+      "epoch": 3
+    },
+    {
+      "action": "resume",
+      "accepted": true,
+      "epoch": 4
+    },
+    {
+      "action": "restart",
+      "accepted": true,
+      "epoch": 6
+    },
+    {
+      "action": "pause",
+      "accepted": true,
+      "epoch": 8
+    },
+    {
+      "action": "quit",
+      "accepted": true,
+      "epoch": 9
+    }
+  ],
+  "pausedFreeze": [
+    {
+      "epoch": 3,
+      "time": 32.724999999999,
+      "snapshots": 63
+    },
+    {
+      "epoch": 8,
+      "time": 42.299999999998,
+      "snapshots": 39
+    }
+  ],
+  "errors": {
+    "server": {
+      "luaExceptions": 0,
+      "sdkNullReferences": 88438,
+      "networkActorTransformStack": 176876
+    },
+    "client-1": {
+      "luaExceptions": 0,
+      "sdkNullReferences": 0,
+      "networkActorTransformStack": 0
+    },
+    "client-2": {
+      "luaExceptions": 0,
+      "sdkNullReferences": 0,
+      "networkActorTransformStack": 0
+    }
+  },
+  "result": {
+    "epoch": 5,
+    "tick": 62760,
+    "cars": [
+      {
+        "slot": 1,
+        "clock": {
+          "startReady": false,
+          "countdown": 0,
+          "time": 65.041666666664,
+          "phase": "result",
+          "startTried": false
+        },
+        "name": "player-1",
+        "stats": {
+          "top": 91.250963609353,
+          "land": 0,
+          "perfect": 0,
+          "double": 0,
+          "crash": 1,
+          "small": 0,
+          "drift": 0,
+          "nitro": 0
+        },
+        "isAI": false,
+        "rank": 5,
+        "finishTime": 0,
+        "lapTimes": [],
+        "finished": false,
+        "ack": 0,
+        "lapsDone": 0,
+        "state": {
+          "throttle": 0,
+          "vyGround": 0,
+          "x": -236.78987389899,
+          "y": 0.11247950596841,
+          "z": -134.36084138994,
+          "nitroTime": 0,
+          "slowTime": 0,
+          "s": 0.0,
+          "gauge": 0,
+          "driftTime": 0,
+          "spin": 0,
+          "releaseTime": 0,
+          "steer": 0.0,
+          "drifting": false,
+          "impact": 0,
+          "padTime": 0,
+          "smallBoost": 0,
+          "smallWindow": 0,
+          "hint": 42,
+          "airTime": 0,
+          "windowKind": "",
+          "vy": 0,
+          "rollVis": 0,
+          "shield": 0,
+          "smallBoostPower": 0,
+          "driftAngle": 0.0,
+          "airborne": false,
+          "magnet": 0,
+          "h": 1.6169512538419,
+          "m": 1.6169512538419,
+          "nitroCount": 0,
+          "wrongWay": 0,
+          "pitchVis": 0,
+          "startBoost": 0,
+          "lat": 11.899968865901,
+          "driftDir": 0,
+          "vmaxNow": 55,
+          "d": 62.979276855899
+        },
+        "id": "player-1",
+        "progress": 62.979276855899,
+        "skin": 1.0
+      },
+      {
+        "slot": 2,
+        "clock": {
+          "startReady": false,
+          "countdown": 0,
+          "time": 65.041666666664,
+          "phase": "result",
+          "startTried": false
+        },
+        "name": "player-2",
+        "stats": {
+          "top": 0,
+          "land": 0,
+          "perfect": 0,
+          "double": 0,
+          "crash": 0,
+          "small": 0,
+          "drift": 0,
+          "nitro": 0
+        },
+        "isAI": false,
+        "rank": 6,
+        "finishTime": 0,
+        "lapTimes": [],
+        "finished": false,
+        "ack": 0,
+        "lapsDone": -1,
+        "state": {
+          "throttle": 0,
+          "vyGround": 0,
+          "x": -315.54370901944,
+          "y": 0.33949571905327,
+          "z": -150.28164469252,
+          "nitroTime": 0,
+          "slowTime": 0,
+          "s": 0.0,
+          "gauge": 0,
+          "driftTime": 0,
+          "spin": 0,
+          "releaseTime": 0,
+          "steer": 0.0,
+          "drifting": false,
+          "impact": 0,
+          "padTime": 0,
+          "smallBoost": 0,
+          "smallWindow": 0,
+          "hint": 1561,
+          "airTime": 0,
+          "windowKind": "",
+          "vy": 0,
+          "rollVis": 0,
+          "shield": 0,
+          "smallBoostPower": 0,
+          "driftAngle": 0.0,
+          "airborne": false,
+          "magnet": 0,
+          "h": 1.0873967409722,
+          "m": 1.0873967409722,
+          "nitroCount": 0,
+          "wrongWay": 0,
+          "pitchVis": 0,
+          "startBoost": 0,
+          "lat": 5.499930378228,
+          "driftDir": 0,
+          "vmaxNow": 55,
+          "d": 2341.0734911251
+        },
+        "id": "player-2",
+        "progress": -13.981102205582,
+        "skin": 1
+      },
+      {
+        "slot": 3,
+        "clock": {
+          "startReady": false,
+          "countdown": 0,
+          "time": 65.041666666664,
+          "phase": "result",
+          "startTried": false
+        },
+        "name": "弯道高手",
+        "stats": {
+          "top": 220.65642399206,
+          "land": 0,
+          "perfect": 0,
+          "double": 0,
+          "crash": 0,
+          "small": 0,
+          "drift": 0,
+          "nitro": 0
+        },
+        "isAI": true,
+        "rank": 3,
+        "finishTime": 57.016666666664,
+        "lapTimes": [
+          57.016666666664
+        ],
+        "finished": true,
+        "ack": 0,
+        "lapsDone": 1,
+        "state": {
+          "throttle": 0,
+          "vyGround": 0,
+          "x": -299.0626588507,
+          "y": -0.20996977705497,
+          "z": -153.29969583728,
+          "nitroTime": -0.0083333333333265,
+          "slowTime": 0,
+          "s": 44.2376,
+          "gauge": 0,
+          "driftTime": 0,
+          "spin": 0,
+          "releaseTime": 0,
+          "steer": 0,
+          "drifting": true,
+          "impact": 0,
+          "padTime": 0,
+          "smallBoost": 0,
+          "smallWindow": 0,
+          "hint": 1,
+          "airTime": 0,
+          "windowKind": "",
+          "vy": 0,
+          "rollVis": 0,
+          "smallBoostPower": 0,
+          "shield": 0,
+          "driftAngle": 0,
+          "magnet": 0,
+          "airborne": false,
+          "m": 0.97524753335958,
+          "nitroCount": 0,
+          "h": 1.4734032962418,
+          "wrongWay": 0,
+          "startBoost": 0,
+          "pitchVis": 0,
+          "driftDir": 1,
+          "d": 0.071046846270292,
+          "lat": -3.4287683294348
+        },
+        "id": "ai:3",
+        "progress": 2355.125640177,
+        "skin": 2
+      },
+      {
+        "slot": 4,
+        "clock": {
+          "startReady": false,
+          "countdown": 0,
+          "time": 65.041666666664,
+          "phase": "result",
+          "startTried": false
+        },
+        "name": "疾风车手",
+        "stats": {
+          "top": 223.10209912072,
+          "land": 0,
+          "perfect": 0,
+          "double": 0,
+          "crash": 0,
+          "small": 0,
+          "drift": 0,
+          "nitro": 0
+        },
+        "isAI": true,
+        "rank": 2,
+        "finishTime": 55.524999999997,
+        "lapTimes": [
+          55.524999999997
+        ],
+        "finished": true,
+        "ack": 0,
+        "lapsDone": 1,
+        "state": {
+          "throttle": 0,
+          "vyGround": 0,
+          "x": -299.14666684662,
+          "y": -0.16280153334275,
+          "z": -152.53101314478,
+          "nitroTime": -0.0083333333333265,
+          "slowTime": 0,
+          "s": 44.95392,
+          "gauge": 0,
+          "driftTime": 0,
+          "spin": 0,
+          "releaseTime": 0,
+          "steer": 0,
+          "drifting": true,
+          "impact": 0,
+          "padTime": 0,
+          "smallBoost": 0,
+          "smallWindow": 0,
+          "hint": 1,
+          "airTime": 0,
+          "windowKind": "",
+          "vy": 0,
+          "rollVis": 0,
+          "smallBoostPower": 0,
+          "shield": 0,
+          "driftAngle": 0,
+          "magnet": 0,
+          "airborne": false,
+          "m": 0.97524753335958,
+          "nitroCount": 0,
+          "h": 1.463259581368,
+          "wrongWay": 0,
+          "startBoost": 0,
+          "pitchVis": 0,
+          "driftDir": 1,
+          "d": 0.18840176060667,
+          "lat": -2.6626462757568
+        },
+        "id": "ai:4",
+        "progress": 2355.2429950913,
+        "skin": 3
+      },
+      {
+        "slot": 5,
+        "clock": {
+          "startReady": false,
+          "countdown": 0,
+          "time": 65.041666666664,
+          "phase": "result",
+          "startTried": false
+        },
+        "name": "城市猎手",
+        "stats": {
+          "top": 225.85554547116,
+          "land": 0,
+          "perfect": 0,
+          "double": 0,
+          "crash": 0,
+          "small": 0,
+          "drift": 0,
+          "nitro": 0
+        },
+        "isAI": true,
+        "rank": 1,
+        "finishTime": 55.041666666664,
+        "lapTimes": [
+          55.041666666664
+        ],
+        "finished": true,
+        "ack": 0,
+        "lapsDone": 1,
+        "state": {
+          "throttle": 0,
+          "vyGround": 0,
+          "x": -299.18160566396,
+          "y": -0.13329225736728,
+          "z": -152.04496444658,
+          "nitroTime": -0.0083333333333265,
+          "slowTime": 0,
+          "s": 45.67024,
+          "gauge": 0,
+          "driftTime": 0,
+          "spin": 0,
+          "releaseTime": 0,
+          "steer": 0,
+          "drifting": true,
+          "impact": 0,
+          "padTime": 0,
+          "smallBoost": 0,
+          "smallWindow": 0,
+          "hint": 1,
+          "airTime": 0,
+          "windowKind": "",
+          "vy": 0,
+          "rollVis": 0,
+          "smallBoostPower": 0,
+          "shield": 0,
+          "driftAngle": 0,
+          "magnet": 0,
+          "airborne": false,
+          "m": 0.91178484632411,
+          "nitroCount": 0,
+          "h": 1.4633331566848,
+          "wrongWay": 0,
+          "startBoost": 0,
+          "pitchVis": 0,
+          "driftDir": 1,
+          "d": 0.27950263829689,
+          "lat": -2.1826472885252
+        },
+        "id": "ai:5",
+        "progress": 2355.334095969,
+        "skin": 4
+      },
+      {
+        "slot": 6,
+        "clock": {
+          "startReady": false,
+          "countdown": 0,
+          "time": 65.041666666664,
+          "phase": "result",
+          "startTried": false
+        },
+        "name": "闪电骑士",
+        "stats": {
+          "top": 221.31728188726,
+          "land": 0,
+          "perfect": 0,
+          "double": 0,
+          "crash": 0,
+          "small": 0,
+          "drift": 0,
+          "nitro": 0
+        },
+        "isAI": true,
+        "rank": 4,
+        "finishTime": 57.099999999997,
+        "lapTimes": [
+          57.099999999997
+        ],
+        "finished": true,
+        "ack": 0,
+        "lapsDone": 1,
+        "state": {
+          "throttle": 0,
+          "vyGround": 0,
+          "x": -299.31449019183,
+          "y": -0.12051550419544,
+          "z": -151.86029866007,
+          "nitroTime": -0.0083333333333265,
+          "slowTime": 0,
+          "s": 44.4312,
+          "gauge": 0,
+          "driftTime": 0,
+          "spin": 0,
+          "releaseTime": 0,
+          "steer": 0,
+          "drifting": true,
+          "impact": 0,
+          "padTime": 0,
+          "smallBoost": 0,
+          "smallWindow": 0,
+          "hint": 1,
+          "airTime": 0,
+          "windowKind": "",
+          "vy": 0,
+          "rollVis": 0,
+          "smallBoostPower": 0,
+          "shield": 0,
+          "driftAngle": 0,
+          "magnet": 0,
+          "airborne": false,
+          "m": 0.91178484632411,
+          "nitroCount": 0,
+          "h": 1.4587529165029,
+          "wrongWay": 0,
+          "startBoost": 0,
+          "pitchVis": 0,
+          "driftDir": 1,
+          "d": 0.19507140915357,
+          "lat": -1.9712251099846
+        },
+        "id": "ai:6",
+        "progress": 2355.2496647399,
+        "skin": 5
+      }
+    ],
+    "version": 2,
+    "match": {
+      "countdown": 0,
+      "time": 65.041666666664,
+      "phase": "result",
+      "host": "player-1",
+      "firstFinish": 55.041666666664,
+      "controlAcks": {
+        "player-1": 7
+      },
+      "settings": {
+        "map": "city",
+        "mode": "race",
+        "diff": 0.0,
+        "laps": 1
+      }
+    }
+  },
+  "resultTime": 65.041666666664,
+  "humanFinished": 0
+}

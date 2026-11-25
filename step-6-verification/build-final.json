@@ -1,0 +1,21 @@
+{
+  "status": "success",
+  "result": {
+    "success": true,
+    "message": "Code executed successfully.",
+    "data": {
+      "result": {
+        "scene": "Assets/Scenes/RacingClone.unity",
+        "compiling": false,
+        "fixtures": 0,
+        "productionInput": [
+          true
+        ],
+        "itemBoxes": 20,
+        "itemColliders": 0,
+        "cacheUtc": "2026-11-25T04:19:20.5849502Z"
+      },
+      "compiler": "codedom"
+    }
+  }
+}

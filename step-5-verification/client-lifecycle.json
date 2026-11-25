@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "compiledLuaFiles": 17,
+  "clientLifecycleCases": 6,
+  "cases": [
+    "disconnect skips position write",
+    "missing current actor skips position write",
+    "valid current actor updates position",
+    "disconnect skips actor restore",
+    "destroyed actor skips restore",
+    "valid actor restores movement and visibility"
+  ]
+}

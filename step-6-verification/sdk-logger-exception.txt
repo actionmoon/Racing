@@ -1,0 +1,26 @@
+[][E][UnityFrame:12956]unity RecordUnityException: name:LuaException reason:Lua Exception stack:c# exception:System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: chunkLength
+  at System.Text.StringBuilder.ToString () [0x00000] in <00000000000000000000000000000000>:0 
+  at Hamlet.GameLaunch.Log.LogToEditorConsole (System.String log, System.String trace, UnityEngine.LogType level) [0x00000] in <00000000000000000000000000000000>:0 
+  at Telepathy.MsgPool.Take (System.Int32 messageSize) [0x00000] in <00000000000000000000000000000000>:0 
+  at Telepathy.MagnificentSendPipe.Enqueue (System.ArraySegment`1[T] message) [0x00000] in <00000000000000000000000000000000>:0 
+  at Telepathy.Client.Send (System.ArraySegment`1[T] message) [0x00000] in <00000000000000000000000000000000>:0 
+  at NetModule.NetConnector.SendMessage (NetModule.INetPacket pak, System.UInt64 tagKey, System.UInt64 tagVal) [0x00000] in <00000000000000000000000000000000>:0 
+  at NetModule.NetPacket`1[TPacketData].SendPacketInternal () [0x00000] in <00000000000000000000000000000000>:0 
+  at NetModule.NetPacket`1[TPacketData].SendPacketToDedicatedServer () [0x00000] in <00000000000000000000000000000000>:0 
+  at XLua.CSObjectWrap.DouyinRemoteEventWrap._m_FireServer (System.IntPtr L) [0x00000] in <00000000000000000000000000000000>:0 
+  at AOTInterface.XLuaLuaAOT.lua_pcall (System.IntPtr L, System.Int32 nArgs, System.Int32 nResults, System.Int32 errfunc) [0x00000] in <00000000000000000000000000000000>:0 
+  at XLua.DelegateBridge.PCall (System.IntPtr L, System.Int32 nArgs, System.Int32 nResults, System.Int32 errFunc) [0x00000] in <00000000000000000000000000000000>:0 
+  at XLua.DelegateBridge_18.__Gen_Delegate_Imp () [0x00000] in <00000000000000000000000000000000>:0 
+  at DouyinScript.OnUpdate (System.Single deltaTime) [0x00000] in <00000000000000000000000000000000>:0 
+  at com.douyin.common.EventListenerBucket`1[T].FireUpdate (System.Single deltaTime) [0x00000] in <00000000000000000000000000000000>:0 
+  at com.douyin.common.PhaseEventListenerManager`1[T].Tick (System.Single deltaTime) [0x00000] in <00000000000000000000000000000000>:0 
+  at NetworkRoom.Update (System.Single deltaTime) [0x00000] in <00000000000000000000000000000000>:0 
+  at AppFrame.RoomState.Update (System.Single deltaTime, System.Boolean bUpdateCollision) [0x00000] in <00000000000000000000000000000000>:0 
+  at AppFrame.GameStart.UpdateBase (System.Single deltaTime) [0x00000] in <00000000000000000000000000000000>:0 
+  at AppFrame.GameStart.Update () [0x00000] in <00000000000000000000000000000000>:0 
+stack traceback:
+	[C]: in method 'FireServer'
+	[string "DouyinRemoteEvent"]:119: in method 'FireServer'
+	[string "Assets/RacingClone/Lua/Client/RaceClient.lua"]:175: in function <[string "Assets/RacingClone/Lua/Client/RaceClient.lua"]:128>
+ 

@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "session": "/var/folders/t5/cx_l90z95vx72xgc8ps0j8n80000gn/T/hamlet-simulator-fh6tk693",
+  "holdSeconds": 3,
+  "pauseOnce": true,
+  "resumeOnce": true,
+  "controls": [
+    "action=diff accepted=true epoch=0",
+    "action=start accepted=true epoch=1",
+    "action=pause accepted=true epoch=3",
+    "action=resume accepted=true epoch=4"
+  ]
+}

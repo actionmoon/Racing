@@ -1,0 +1,431 @@
+{
+  "source": "https://lf3-static.bytednsdoc.com/obj/eden-cn/nulojnulwlo/qqfeiche3d/index.html",
+  "map": "city",
+  "captureVersion": 1,
+  "geometryCount": 755,
+  "vertexCount": 548972,
+  "cityNodes": 790,
+  "vehicleNodes": 58,
+  "materials": 139,
+  "skins": [
+    {
+      "id": "red",
+      "body": 14689835,
+      "accent": 16763194,
+      "glow": 16734751,
+      "rim": 14277081
+    },
+    {
+      "id": "blue",
+      "body": 2060274,
+      "accent": 7336959,
+      "glow": 2607103,
+      "rim": 15135487
+    },
+    {
+      "id": "purple",
+      "body": 8076784,
+      "accent": 16740312,
+      "glow": 12741631,
+      "rim": 15786239
+    },
+    {
+      "id": "yellow",
+      "body": 16761370,
+      "accent": 1776411,
+      "glow": 16769126,
+      "rim": 2829099
+    },
+    {
+      "id": "white",
+      "body": 15988216,
+      "accent": 2784255,
+      "glow": 5943551,
+      "rim": 10135480
+    },
+    {
+      "id": "pink",
+      "body": 16744118,
+      "accent": 16777215,
+      "glow": 16752336,
+      "rim": 16777215
+    },
+    {
+      "id": "green",
+      "body": 1685610,
+      "accent": 15269722,
+      "glow": 7208862,
+      "rim": 15269864
+    },
+    {
+      "id": "black",
+      "body": 1776930,
+      "accent": 16723285,
+      "glow": 16723285,
+      "rim": 7370626
+    }
+  ],
+  "sourceSHA256": "459bc76ded5bbd46f97dcd273bbcfa0b5cab84cc13046b1849d1cbb564282756",
+  "originalTextureFiles": 70,
+  "extraCapturedTextureFiles": 1,
+  "uniqueTextureHashes": 69,
+  "textures": [
+    {
+      "id": "0ded23ba-791d-4b7b-b3ee-513a59b47a7d",
+      "asset": "Assets/RacingClone/Textures/texture-001.png",
+      "sha256": "9383b4137854dfbfd0bebc4b64f6b7567f738926a0f90e5ca377849e7ef6eb49",
+      "repeat": [
+        145.45454545454547,
+        145.45454545454547
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "rotation": 0,
+      "wrapS": 1000,
+      "wrapT": 1000,
+      "flipY": true
+    },
+    {
+      "id": "e2335f8b-e3e8-48e6-88ff-642ada5c6496",
+      "asset": "Assets/RacingClone/Textures/texture-002.png",
+      "sha256": "adb3b72ff2d6e2a51217bbcbfa60635e0e20823071adc1577f6ee8d1ddca3e43",
+      "repeat": [
+        1,
+        1
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "rotation": 0,
+      "wrapS": 1000,
+      "wrapT": 1000,
+      "flipY": true
+    },
+    {
+      "id": "903bd34e-d6e8-433c-90ae-bc9450a5fae3",
+      "asset": "Assets/RacingClone/Textures/texture-003.png",
+      "sha256": "ec39355647236771e6efd1f085fe4db2cbb045cc5775d444c56c9d714dfe4499",
+      "repeat": [
+        1,
+        1
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "rotation": 0,
+      "wrapS": 1000,
+      "wrapT": 1000,
+      "flipY": true
+    },
+    {
+      "id": "bb2fd01b-2abe-404e-8d61-5510e25f9fec",
+      "asset": "Assets/RacingClone/Textures/texture-004.png",
+      "sha256": "482a001ba4ca5ccd30e6fa907817fb2d893bf337c451f65f9dc6979d43ed24bc",
+      "repeat": [
+        1,
+        1
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "rotation": 0,
+      "wrapS": 1000,
+      "wrapT": 1000,
+      "flipY": true
+    },
+    {
+      "id": "07f69fad-8d3c-4e7e-9f33-88cd0cf437f4",
+      "asset": "Assets/RacingClone/Textures/texture-058.png",
+      "sha256": "39a4ec04c37dad9a944401749ffa47145b61f4ceb307605695c15465aeff601f",
+      "repeat": [
+        1,
+        1
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "rotation": 0,
+      "wrapS": 1000,
+      "wrapT": 1000,
+      "flipY": true
+    },
+    {
+      "id": "d0c1257e-f0d2-49f7-849f-cd605a435d02",
+      "asset": "Assets/RacingClone/Textures/texture-006.png",
+      "sha256": "b91ef02d0cecf33069d6d37ee69fa046750bb90d5a1b0e1158d4ecc9a025fad7",
+      "repeat": [
+        1,
+        1
+      ],
+      "offset": [
+        0,
+        -159.67091999988182
+      ],
+      "rotation": 0,
+      "wrapS": 1001,
+      "wrapT": 1001,
+      "flipY": true
+    },
+    {
+      "id": "1a19e947-7945-4e1b-8b22-691172b1653b",
+      "asset": "Assets/RacingClone/Textures/texture-007.png",
+      "sha256": "24110bd21cb19d22c641e557969245c3ab34df3e1e2d502e0bd9f8a9e7e7b650",
+      "repeat": [
+        1,
+        1
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "rotation": 0,
+      "wrapS": 1000,
+      "wrapT": 1000,
+      "flipY": true
+    },
+    {
+      "id": "da9fd6dd-f597-4440-9bc6-1cf5f9f24ab1",
+      "asset": "Assets/RacingClone/Textures/texture-008.png",
+      "sha256": "f0579bd15409c35dd1b5f583a4ea47330d5064810ef82bedb56d082aad3c6c3d",
+      "repeat": [
+        1,
+        1
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "rotation": 0,
+      "wrapS": 1001,
+      "wrapT": 1001,
+      "flipY": true
+    },
+    {
+      "id": "770e40dc-ff98-48a8-a38e-c54085160e18",
+      "asset": "Assets/RacingClone/Textures/texture-009.png",
+      "sha256": "32a6b770ea4662a554457fe48efcca51ce52e3f100f794efc724ea3b3f018964",
+      "repeat": [
+        1,
+        1
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "rotation": 0,
+      "wrapS": 1001,
+      "wrapT": 1001,
+      "flipY": true
+    },
+    {
+      "id": "a57cbe80-a727-4fdc-b23f-a869d41ed901",
+      "asset": "Assets/RacingClone/Textures/texture-010.png",
+      "sha256": "d25221154b884816f1a937ae524321c995e87b6fbe15c4e70022edbf9e8a9021",
+      "repeat": [
+        1,
+        1
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "rotation": 0,
+      "wrapS": 1001,
+      "wrapT": 1001,
+      "flipY": true
+    },
+    {
+      "id": "f4e81ea5-fb56-41fa-9b08-4bd237768c59",
+      "asset": "Assets/RacingClone/Textures/texture-011.png",
+      "sha256": "27a8db372688e4032249de4f6d8cd1e1a81e0415d9616c36704dd5d4b6c92d79",
+      "repeat": [
+        1,
+        1
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "rotation": 0,
+      "wrapS": 1001,
+      "wrapT": 1001,
+      "flipY": true
+    },
+    {
+      "id": "76d372c0-43f9-4a19-b44a-88952b1e65e6",
+      "asset": "Assets/RacingClone/Textures/texture-012.png",
+      "sha256": "3e1beb650ec83f50d48b274810617de36c87062ca5c49705709b4987115aff3f",
+      "repeat": [
+        1,
+        1
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "rotation": 0,
+      "wrapS": 1001,
+      "wrapT": 1001,
+      "flipY": true
+    },
+    {
+      "id": "4441c367-2cd7-4492-836e-8e62c6142e74",
+      "asset": "Assets/RacingClone/Textures/captured-1f9769102f22.png",
+      "sha256": "1f9769102f228b4fde6182b01b7c8c49444686db78c9473d8187f1280f1e495c",
+      "repeat": [
+        1.6666666666666667,
+        1
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "rotation": 0,
+      "wrapS": 1000,
+      "wrapT": 1001,
+      "flipY": true
+    },
+    {
+      "id": "aa388c76-ba3a-4ce4-b9de-8ae3cd625360",
+      "asset": "Assets/RacingClone/Textures/texture-014.png",
+      "sha256": "28fc442c1c3353fe03341fd0a2523a64f8e69464d586db0f2c7d19a149a42c03",
+      "repeat": [
+        1,
+        1
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "rotation": 0,
+      "wrapS": 1001,
+      "wrapT": 1001,
+      "flipY": true
+    },
+    {
+      "id": "8df07ae4-6d26-489c-8b1f-267b57eed295",
+      "asset": "Assets/RacingClone/Textures/texture-015.png",
+      "sha256": "e2cfc682398108b256fac28d1740ed687ac93d91e110369485d95d2d5bc33cee",
+      "repeat": [
+        1,
+        1
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "rotation": 0,
+      "wrapS": 1001,
+      "wrapT": 1001,
+      "flipY": true
+    },
+    {
+      "id": "a4d87318-8949-4d7b-8144-c3f8a78da4a9",
+      "asset": "Assets/RacingClone/Textures/texture-016.png",
+      "sha256": "251374c02163ef3f6a66549cd87ea041258db30d176e71a808d10bee053c242f",
+      "repeat": [
+        1,
+        1
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "rotation": 0,
+      "wrapS": 1001,
+      "wrapT": 1001,
+      "flipY": true
+    },
+    {
+      "id": "90853055-d806-4664-ac49-30563aa48919",
+      "asset": "Assets/RacingClone/Textures/texture-017.png",
+      "sha256": "116ac2e8935815ae473b3780b7bd37ebb6908480b5a000ee4c3ac14a2b6095a4",
+      "repeat": [
+        1,
+        1
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "rotation": 0,
+      "wrapS": 1001,
+      "wrapT": 1001,
+      "flipY": true
+    },
+    {
+      "id": "bcee6a18-f401-4ef1-90d6-80bfbcc4c5d7",
+      "asset": "Assets/RacingClone/Textures/texture-018.png",
+      "sha256": "69f6620f9cb8d68c286f780e314d7b5e26bcdccfb7c3382b4e5a9ab4bf42de6c",
+      "repeat": [
+        1,
+        1
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "rotation": 0,
+      "wrapS": 1000,
+      "wrapT": 1000,
+      "flipY": true
+    },
+    {
+      "id": "53344384-a912-4a43-b191-ba27c8f2894f",
+      "asset": "Assets/RacingClone/Textures/texture-019.png",
+      "sha256": "e55e4ee5c831ac7f46bfeaad1092c49f2f329efc7410694022af525488bbcf20",
+      "repeat": [
+        1,
+        1
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "rotation": 0,
+      "wrapS": 1000,
+      "wrapT": 1000,
+      "flipY": true
+    },
+    {
+      "id": "cea50fdd-4105-48b9-9bd0-f003048e98a1",
+      "asset": "Assets/RacingClone/Textures/texture-020.png",
+      "sha256": "ab0c8bef209073d7fe5fc317f807f4e5c37b3c4968528ad35b344b17e14b8394",
+      "repeat": [
+        1,
+        1
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "rotation": 0,
+      "wrapS": 1000,
+      "wrapT": 1000,
+      "flipY": true
+    },
+    {
+      "id": "de22e727-ada4-483d-a0b2-c7a6e8a7abbd",
+      "asset": "Assets/RacingClone/Textures/texture-021.png",
+      "sha256": "0bb18f5b55f093f7506db71b74ae7f882269883fc092df6ed7eb049e1f0bc4b0",
+      "repeat": [
+        1,
+        1
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "rotation": 0,
+      "wrapS": 1001,
+      "wrapT": 1001,
+      "flipY": true
+    }
+  ]
+}

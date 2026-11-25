@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "checks": [
+    "Escape: hold across phase stays one edge; release and press retriggers",
+    "LeftAlt: hold across phase stays one edge; release and press retriggers",
+    "LeftControl: hold across phase stays one edge; release and press retriggers",
+    "Return: hold across phase stays one edge; release and press retriggers"
+  ]
+}

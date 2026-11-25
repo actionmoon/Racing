@@ -1,0 +1,786 @@
+{
+  "passed": true,
+  "session": "/var/folders/t5/cx_l90z95vx72xgc8ps0j8n80000gn/T/hamlet-simulator-1_sbrbdj",
+  "commonTicks": 39,
+  "tickRange": [
+    2280,
+    27600
+  ],
+  "sharedResultTime": 63.199999999997,
+  "pausedTime": 5.225,
+  "phaseSequences": {
+    "server": [
+      {
+        "epoch": 0,
+        "phase": "menu",
+        "time": 0.0
+      },
+      {
+        "epoch": 1,
+        "phase": "countdown",
+        "time": 0.0
+      },
+      {
+        "epoch": 2,
+        "phase": "race",
+        "time": 0.0083333333333333
+      },
+      {
+        "epoch": 3,
+        "phase": "pause",
+        "time": 5.225
+      },
+      {
+        "epoch": 4,
+        "phase": "race",
+        "time": 5.2416666666667
+      },
+      {
+        "epoch": 5,
+        "phase": "result",
+        "time": 63.199999999997
+      },
+      {
+        "epoch": 6,
+        "phase": "countdown",
+        "time": 0.0
+      },
+      {
+        "epoch": 7,
+        "phase": "pause",
+        "time": 0.0
+      },
+      {
+        "epoch": 8,
+        "phase": "menu",
+        "time": 0.0
+      }
+    ],
+    "client-1": [
+      {
+        "epoch": 0,
+        "phase": "menu",
+        "time": 0.0
+      },
+      {
+        "epoch": 1,
+        "phase": "countdown",
+        "time": 0.0
+      },
+      {
+        "epoch": 2,
+        "phase": "race",
+        "time": 0.075
+      },
+      {
+        "epoch": 3,
+        "phase": "pause",
+        "time": 5.225
+      },
+      {
+        "epoch": 4,
+        "phase": "race",
+        "time": 5.3250000000001
+      },
+      {
+        "epoch": 5,
+        "phase": "result",
+        "time": 63.199999999997
+      },
+      {
+        "epoch": 6,
+        "phase": "countdown",
+        "time": 0.0
+      },
+      {
+        "epoch": 7,
+        "phase": "pause",
+        "time": 0.0
+      },
+      {
+        "epoch": 8,
+        "phase": "menu",
+        "time": 0.0
+      }
+    ],
+    "client-2": [
+      {
+        "epoch": 0,
+        "phase": "menu",
+        "time": 0.0
+      },
+      {
+        "epoch": 1,
+        "phase": "countdown",
+        "time": 0.0
+      },
+      {
+        "epoch": 2,
+        "phase": "race",
+        "time": 0.075
+      },
+      {
+        "epoch": 3,
+        "phase": "pause",
+        "time": 5.225
+      },
+      {
+        "epoch": 4,
+        "phase": "race",
+        "time": 5.3250000000001
+      },
+      {
+        "epoch": 5,
+        "phase": "result",
+        "time": 63.199999999997
+      },
+      {
+        "epoch": 6,
+        "phase": "countdown",
+        "time": 0.0
+      },
+      {
+        "epoch": 7,
+        "phase": "pause",
+        "time": 0.0
+      },
+      {
+        "epoch": 8,
+        "phase": "menu",
+        "time": 0.0
+      }
+    ]
+  },
+  "errors": {
+    "server": {
+      "luaExceptions": 0,
+      "sdkNullReferences": 25767,
+      "networkActorTransformStack": 51534
+    },
+    "client-1": {
+      "luaExceptions": 0,
+      "sdkNullReferences": 0,
+      "networkActorTransformStack": 0
+    },
+    "client-2": {
+      "luaExceptions": 0,
+      "sdkNullReferences": 0,
+      "networkActorTransformStack": 0
+    }
+  },
+  "result": {
+    "match": {
+      "firstFinish": 53.749999999998,
+      "phase": "result",
+      "controlAcks": {
+        "player-1": 5
+      },
+      "countdown": 0,
+      "time": 63.199999999997,
+      "settings": {
+        "mode": "race",
+        "laps": 1,
+        "map": "city",
+        "diff": 0
+      },
+      "host": "player-1"
+    },
+    "tick": 9601,
+    "epoch": 5,
+    "version": 2,
+    "cars": [
+      {
+        "lapTimes": [
+          63.099999999997
+        ],
+        "id": "player-1",
+        "ack": 0,
+        "clock": {
+          "startTried": false,
+          "phase": "result",
+          "countdown": 0,
+          "time": 63.199999999997,
+          "startReady": false
+        },
+        "name": "赛车验证1",
+        "rank": 5,
+        "finishTime": 63.099999999997,
+        "finished": true,
+        "state": {
+          "y": -0.044155383410454,
+          "x": -299.6230335093,
+          "magnet": 0,
+          "airborne": false,
+          "slowTime": 0,
+          "vmaxNow": 55,
+          "shield": 0,
+          "gauge": 0,
+          "pitchVis": 0,
+          "throttle": 1,
+          "hint": 1,
+          "driftDir": 0,
+          "driftAngle": 0.0,
+          "padTime": -0.0083333333333318,
+          "lat": -0.72235169073658,
+          "drifting": false,
+          "windowKind": "",
+          "nitroCount": 0,
+          "wrongWay": 0,
+          "vy": 0,
+          "smallBoostPower": 0,
+          "s": 38.248500418765,
+          "startBoost": 0,
+          "h": -4.9707049825036,
+          "airTime": 0,
+          "nitroTime": 0,
+          "m": 1.2840622798754,
+          "smallWindow": 0,
+          "vyGround": 0,
+          "z": -150.65023788063,
+          "spin": 0,
+          "releaseTime": 0,
+          "driftTime": 0,
+          "steer": 0.31676954786732,
+          "impact": 0,
+          "smallBoost": 0,
+          "rollVis": 0,
+          "d": 0.20755632059127
+        },
+        "isAI": false,
+        "stats": {
+          "nitro": 0,
+          "top": 159.18354672833,
+          "land": 0,
+          "crash": 0,
+          "double": 0,
+          "small": 0,
+          "perfect": 0,
+          "drift": 0
+        },
+        "progress": 2355.2621496513,
+        "slot": 1,
+        "skin": 0,
+        "lapsDone": 1
+      },
+      {
+        "lapTimes": [
+          63.199999999997
+        ],
+        "id": "player-2",
+        "ack": 0,
+        "clock": {
+          "startTried": false,
+          "phase": "result",
+          "countdown": 0,
+          "time": 63.199999999997,
+          "startReady": false
+        },
+        "name": "赛车验证2",
+        "rank": 6,
+        "finishTime": 63.199999999997,
+        "finished": true,
+        "state": {
+          "y": -0.046958460884925,
+          "x": -299.55423765276,
+          "magnet": 0,
+          "airborne": false,
+          "slowTime": 0,
+          "vmaxNow": 55,
+          "shield": 0,
+          "gauge": 0,
+          "pitchVis": 0,
+          "throttle": 1,
+          "hint": 1,
+          "driftDir": 0,
+          "driftAngle": 0.0,
+          "padTime": -0.0083333333333318,
+          "lat": -0.76881108808623,
+          "drifting": false,
+          "windowKind": "",
+          "nitroCount": 0,
+          "wrongWay": 0,
+          "vy": 0,
+          "smallBoostPower": 0,
+          "s": 38.18611619708,
+          "startBoost": 0,
+          "h": -4.9632194536827,
+          "airTime": 0,
+          "nitroTime": 0,
+          "m": 1.2922529123675,
+          "smallWindow": 0,
+          "vyGround": 0,
+          "z": -150.68088735325,
+          "spin": 0,
+          "releaseTime": 0,
+          "driftTime": 0,
+          "steer": 0.14101460000319,
+          "impact": 0,
+          "smallBoost": 0,
+          "rollVis": 0,
+          "d": 0.2668348640459
+        },
+        "isAI": false,
+        "stats": {
+          "nitro": 0,
+          "top": 158.9079980429,
+          "land": 0,
+          "crash": 0,
+          "double": 0,
+          "small": 0,
+          "perfect": 0,
+          "drift": 0
+        },
+        "progress": 2355.3214281948,
+        "slot": 2,
+        "skin": 1,
+        "lapsDone": 1
+      },
+      {
+        "lapTimes": [
+          55.524999999997
+        ],
+        "id": "ai:3",
+        "ack": 0,
+        "clock": {
+          "startTried": false,
+          "phase": "result",
+          "countdown": 0,
+          "time": 63.199999999997,
+          "startReady": false
+        },
+        "name": "弯道高手",
+        "rank": 4,
+        "finishTime": 55.524999999997,
+        "finished": true,
+        "state": {
+          "y": -0.19396942132628,
+          "x": -298.89132119566,
+          "magnet": 0,
+          "airborne": false,
+          "slowTime": 0,
+          "smallBoost": 0,
+          "shield": 0,
+          "gauge": 0,
+          "pitchVis": 0,
+          "throttle": 0,
+          "hint": 1,
+          "driftDir": 1,
+          "driftAngle": 0,
+          "padTime": 0,
+          "lat": -3.1780688007329,
+          "drifting": true,
+          "windowKind": "",
+          "nitroCount": 0,
+          "wrongWay": 0,
+          "vy": 0,
+          "smallBoostPower": 0,
+          "startBoost": 0,
+          "h": 1.4686355892006,
+          "s": 44.2376,
+          "nitroTime": -0.0083333333333265,
+          "m": 0.97524753335958,
+          "airTime": 0,
+          "smallWindow": 0,
+          "z": -152.99840054571,
+          "spin": 0,
+          "releaseTime": 0,
+          "driftTime": 0,
+          "steer": 0,
+          "vyGround": 0,
+          "impact": 0,
+          "d": 0.32319785189702,
+          "rollVis": 0
+        },
+        "isAI": true,
+        "stats": {
+          "nitro": 0,
+          "top": 220.65642399206,
+          "land": 0,
+          "crash": 0,
+          "double": 0,
+          "small": 0,
+          "perfect": 0,
+          "drift": 0
+        },
+        "progress": 2355.3777911826,
+        "slot": 3,
+        "skin": 2,
+        "lapsDone": 1
+      },
+      {
+        "lapTimes": [
+          54.349999999998
+        ],
+        "id": "ai:4",
+        "ack": 0,
+        "clock": {
+          "startTried": false,
+          "phase": "result",
+          "countdown": 0,
+          "time": 63.199999999997,
+          "startReady": false
+        },
+        "name": "疾风车手",
+        "rank": 2,
+        "finishTime": 54.349999999998,
+        "finished": true,
+        "state": {
+          "y": -0.1626223239201,
+          "x": -299.24307320225,
+          "magnet": 0,
+          "airborne": false,
+          "slowTime": 0,
+          "smallBoost": 0,
+          "shield": 0,
+          "gauge": 0,
+          "pitchVis": 0,
+          "throttle": 0,
+          "hint": 1,
+          "driftDir": 1,
+          "driftAngle": 0,
+          "padTime": 0,
+          "lat": -2.6561641950559,
+          "drifting": true,
+          "windowKind": "",
+          "nitroCount": 0,
+          "wrongWay": 0,
+          "vy": 0,
+          "smallBoostPower": 0,
+          "startBoost": 0,
+          "h": 1.4618564848322,
+          "s": 44.95392,
+          "nitroTime": -0.0083333333333265,
+          "m": 0.97524753335958,
+          "airTime": 0,
+          "smallWindow": 0,
+          "z": -152.54846206157,
+          "spin": 0,
+          "releaseTime": 0,
+          "driftTime": 0,
+          "steer": 0,
+          "vyGround": 0,
+          "impact": 0,
+          "d": 0.087329241165662,
+          "rollVis": 0
+        },
+        "isAI": true,
+        "stats": {
+          "nitro": 0,
+          "top": 223.10209912072,
+          "land": 0,
+          "crash": 0,
+          "double": 0,
+          "small": 0,
+          "perfect": 0,
+          "drift": 0
+        },
+        "progress": 2355.1419225719,
+        "slot": 4,
+        "skin": 3,
+        "lapsDone": 1
+      },
+      {
+        "lapTimes": [
+          53.749999999998
+        ],
+        "id": "ai:5",
+        "ack": 0,
+        "clock": {
+          "startTried": false,
+          "phase": "result",
+          "countdown": 0,
+          "time": 63.199999999997,
+          "startReady": false
+        },
+        "name": "城市猎手",
+        "rank": 1,
+        "finishTime": 53.749999999998,
+        "finished": true,
+        "state": {
+          "y": -0.13533323571091,
+          "x": -299.08402616356,
+          "magnet": 0,
+          "airborne": false,
+          "slowTime": 0,
+          "smallBoost": 0,
+          "shield": 0,
+          "gauge": 0,
+          "pitchVis": 0,
+          "throttle": 0,
+          "hint": 1,
+          "driftDir": 1,
+          "driftAngle": 0,
+          "padTime": 0,
+          "lat": -2.2188261413231,
+          "drifting": true,
+          "windowKind": "",
+          "nitroCount": 0,
+          "wrongWay": 0,
+          "vy": 0,
+          "smallBoostPower": 0,
+          "startBoost": 0,
+          "h": 1.4652557892274,
+          "s": 45.67024,
+          "nitroTime": -0.0083333333333265,
+          "m": 0.91178484632411,
+          "airTime": 0,
+          "smallWindow": 0,
+          "z": -152.05782213209,
+          "spin": 0,
+          "releaseTime": 0,
+          "driftTime": 0,
+          "steer": 0,
+          "vyGround": 0,
+          "impact": 0,
+          "d": 0.37336181266028,
+          "rollVis": 0
+        },
+        "isAI": true,
+        "stats": {
+          "nitro": 0,
+          "top": 225.85554547116,
+          "land": 0,
+          "crash": 0,
+          "double": 0,
+          "small": 0,
+          "perfect": 0,
+          "drift": 0
+        },
+        "progress": 2355.4279551434,
+        "slot": 5,
+        "skin": 4,
+        "lapsDone": 1
+      },
+      {
+        "lapTimes": [
+          55.299999999998
+        ],
+        "id": "ai:6",
+        "ack": 0,
+        "clock": {
+          "startTried": false,
+          "phase": "result",
+          "countdown": 0,
+          "time": 63.199999999997,
+          "startReady": false
+        },
+        "name": "闪电骑士",
+        "rank": 3,
+        "finishTime": 55.299999999998,
+        "finished": true,
+        "state": {
+          "y": -0.12992790425137,
+          "x": -299.41708883215,
+          "magnet": 0,
+          "airborne": false,
+          "slowTime": 0,
+          "smallBoost": 0,
+          "shield": 0,
+          "gauge": 0,
+          "pitchVis": 0,
+          "throttle": 0,
+          "hint": 1,
+          "driftDir": 1,
+          "driftAngle": 0,
+          "padTime": 0,
+          "lat": -2.121010620505,
+          "drifting": true,
+          "windowKind": "",
+          "nitroCount": 0,
+          "wrongWay": 0,
+          "vy": 0,
+          "smallBoostPower": 0,
+          "startBoost": 0,
+          "h": 1.4627817298034,
+          "s": 44.4312,
+          "nitroTime": -0.0083333333333265,
+          "m": 0.91178484632411,
+          "airTime": 0,
+          "smallWindow": 0,
+          "z": -152.04038841206,
+          "spin": 0,
+          "releaseTime": 0,
+          "driftTime": 0,
+          "steer": 0,
+          "vyGround": 0,
+          "impact": 0,
+          "d": 0.046469240864553,
+          "rollVis": 0
+        },
+        "isAI": true,
+        "stats": {
+          "nitro": 0,
+          "top": 221.31728188726,
+          "land": 0,
+          "crash": 0,
+          "double": 0,
+          "small": 0,
+          "perfect": 0,
+          "drift": 0
+        },
+        "progress": 2355.1010625716,
+        "slot": 6,
+        "skin": 5,
+        "lapsDone": 1
+      }
+    ]
+  },
+  "snapshotDigests": [
+    {
+      "tick": 2280,
+      "sha256": "e6e5264b08ef58459b4e5086fce9a6915fa0400c664ce7967429fe2e372b33c3"
+    },
+    {
+      "tick": 2520,
+      "sha256": "dc5375a25c41071669f02d6a56bcdf7dacc5d250ef75cdabfa655349288905db"
+    },
+    {
+      "tick": 3001,
+      "sha256": "8242577b3b749e2628a9bafcdded5e64f3a0d2d0e5c71af644728850fe9d63f6"
+    },
+    {
+      "tick": 3600,
+      "sha256": "b0309fd4cfa2c8b2b5d1888d30460d546724ee91008a37ac2e1db443ff4f2e9c"
+    },
+    {
+      "tick": 4201,
+      "sha256": "cd4339c41f38ccc194bc7155811586ba0b6f9ca4ffe04c754c3915895b7a6a64"
+    },
+    {
+      "tick": 4800,
+      "sha256": "c75b7c86802a646f2cf491a37c69bdfae778e2809979a96fb1cb9b34aeb0fec0"
+    },
+    {
+      "tick": 6000,
+      "sha256": "1ed93e2730024c72fd73f2d1397cce3dcce3014ee0076f079439ef01fae95c35"
+    },
+    {
+      "tick": 7201,
+      "sha256": "783c5742cd285b7d3fbfa3227f169ad07cc608149c11d9c7e01579d5aafcfaf8"
+    },
+    {
+      "tick": 7800,
+      "sha256": "e022a38faf3585ea6c353a0b2279f7dca707ac63887a3523ff7b910ece9f9af7"
+    },
+    {
+      "tick": 8400,
+      "sha256": "c708e7a64f6d53a9f32d975954c41d60824da4cf9422335e7f679e59f730910b"
+    },
+    {
+      "tick": 9000,
+      "sha256": "b91ac5b05bbc2dc0f285f482029a68f6ec220405b9eb9bab7af8c46137986133"
+    },
+    {
+      "tick": 9601,
+      "sha256": "e2e6fe801941a098e9b684c1221ee929973ba8a7913ae2807e8e1b41d52e592c"
+    },
+    {
+      "tick": 9720,
+      "sha256": "31c5706ccb2fd183d7dc58dddd6883cd9d4ee8133c898e89b98c074cb3f61f78"
+    },
+    {
+      "tick": 9841,
+      "sha256": "92f3b0e55b9c2c3a85c9e889efcebefb80252af3175466e301576b972a49f66a"
+    },
+    {
+      "tick": 9961,
+      "sha256": "0ed324d115329afe05e6d946da690972a4c5e7f15d8083062e541f820a62f6d1"
+    },
+    {
+      "tick": 10201,
+      "sha256": "d19372a22b09c0c31b4b51e18371354b5b71c6f50173fc3744f1c894c691a078"
+    },
+    {
+      "tick": 10801,
+      "sha256": "ef10d7264b0b948fba0f50ed0272dcd5e7dfa0111fb510cb5d327cfd1cc28f71"
+    },
+    {
+      "tick": 11400,
+      "sha256": "3bc5a2c588f8084386284bf9d7703a572feccdad9efbd08bbac3cd4bd20d1a06"
+    },
+    {
+      "tick": 12001,
+      "sha256": "e70195affad022ee6cf1ca0c0c5ea2a90a95409295ab4619d268ac6bb8f1d5c5"
+    },
+    {
+      "tick": 12601,
+      "sha256": "910a9f94a7386175dd20711447a53d81baa9ba903a58c53aa5eb03489837f816"
+    },
+    {
+      "tick": 13800,
+      "sha256": "8520d43af9ad827a061714b056f50f7c2bc744a9bc7424e90f42f25086b3eeff"
+    },
+    {
+      "tick": 14400,
+      "sha256": "7da69ee35287657de53fae82af284aaea01d478ab44b090cd9d1aa49696b3a73"
+    },
+    {
+      "tick": 15000,
+      "sha256": "c6b6a8fd495eba41a474a306efe421a241f7dd73abb9fb9027438035717a8252"
+    },
+    {
+      "tick": 16200,
+      "sha256": "7767dd84df479a3342fcc64e6e01465273604e4c668c24e70f06b213c2a3dec3"
+    },
+    {
+      "tick": 16800,
+      "sha256": "07e09386e2bda4995d9daf2b0189cf0589d07631562b0be2069f91531f969a12"
+    },
+    {
+      "tick": 17401,
+      "sha256": "50036eb0e8f9b46f46d45e2aae68a56bbd89255ef43131bf9797216fef949e33"
+    },
+    {
+      "tick": 18001,
+      "sha256": "50537e389d67bcf8b8761f61fb0ca34af49e9085be1dabc497b81982aa08c441"
+    },
+    {
+      "tick": 18601,
+      "sha256": "ad1053fc043044f160049f4ab07212988a156c6203f43e8a0d81c86f92888643"
+    },
+    {
+      "tick": 19201,
+      "sha256": "902ff39d1c1a0de833f818b98e2e475c219acc0ab39e9ea0e8d2d0665fa00fb3"
+    },
+    {
+      "tick": 21000,
+      "sha256": "bd8e8ea59966bd5874b2d20f6c724bc8e25eae10bf6a5f33e43b467053db1b24"
+    },
+    {
+      "tick": 22801,
+      "sha256": "d63c7f13d54e21657333a3c35149e5c6b2de3cefcc7e0299bafb88bf6362e160"
+    },
+    {
+      "tick": 23401,
+      "sha256": "f52801c41e7b767fd8d900b3e2a8ef3962774b8ce15b7c5eb4a98c262c86003f"
+    },
+    {
+      "tick": 24001,
+      "sha256": "182275f6e11ddf081fdaf8dfca0105cc1e8d053e9bfb940a12683c8f60fb68b5"
+    },
+    {
+      "tick": 24601,
+      "sha256": "972cd0b077b59aa9d47d228779cfc69454cc0b0537ab575a039c05873fb05715"
+    },
+    {
+      "tick": 25200,
+      "sha256": "c8daaf1f2dc5e95f5d685c061c4e2b702aed5b7901d143e2e39f52da89f226e5"
+    },
+    {
+      "tick": 25800,
+      "sha256": "d17fce2695f1966b9701eb2f1a94a97863f5a0ddbfbbc25b8ce56cedd1711329"
+    },
+    {
+      "tick": 26400,
+      "sha256": "750f7ad026c200693dc40c56609d15fa16975d1c30d1a7252abcf3327d9c03d0"
+    },
+    {
+      "tick": 27000,
+      "sha256": "e6dbc92671a83d870cce93165ecc609286d9c160172a22fb8c7ede89af6d2aca"
+    },
+    {
+      "tick": 27600,
+      "sha256": "3aacd203705c06656c471735a7f7cf0b130aaa8a04db81441b0e4d7f417ae1af"
+    }
+  ]
+}

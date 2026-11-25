@@ -1,0 +1,141 @@
+{
+  "session_directory": "/var/folders/t5/cx_l90z95vx72xgc8ps0j8n80000gn/T/hamlet-simulator-vmz8h2yn",
+  "scene": "Assets/Scenes/RacingClone.unity",
+  "mode": "ds",
+  "network": "new",
+  "players": [
+    "赛车验证1",
+    "赛车验证2"
+  ],
+  "data_store": false,
+  "pawn_actor_type": "avatar",
+  "server_windowless": true,
+  "session": [
+    {
+      "role": "server",
+      "pid": 60793,
+      "startedAt": 1795510373.252595,
+      "logFile": "/var/folders/t5/cx_l90z95vx72xgc8ps0j8n80000gn/T/hamlet-simulator-vmz8h2yn/server.log",
+      "consoleLog": "/var/folders/t5/cx_l90z95vx72xgc8ps0j8n80000gn/T/hamlet-simulator-vmz8h2yn/server-console.log",
+      "identityTag": "6307d4ef869a",
+      "roomTag": "5b48a7ce3483",
+      "state": "started; gameplay unverified"
+    },
+    {
+      "role": "client-1",
+      "pid": 60865,
+      "startedAt": 1795510384.261559,
+      "logFile": "/var/folders/t5/cx_l90z95vx72xgc8ps0j8n80000gn/T/hamlet-simulator-vmz8h2yn/client-1.log",
+      "consoleLog": "/var/folders/t5/cx_l90z95vx72xgc8ps0j8n80000gn/T/hamlet-simulator-vmz8h2yn/client-1-console.log",
+      "identityTag": "222dc1b39dee",
+      "roomTag": "5b48a7ce3483",
+      "state": "started; gameplay unverified"
+    },
+    {
+      "role": "client-2",
+      "pid": 60881,
+      "startedAt": 1795510386.433815,
+      "logFile": "/var/folders/t5/cx_l90z95vx72xgc8ps0j8n80000gn/T/hamlet-simulator-vmz8h2yn/client-2.log",
+      "consoleLog": "/var/folders/t5/cx_l90z95vx72xgc8ps0j8n80000gn/T/hamlet-simulator-vmz8h2yn/client-2-console.log",
+      "identityTag": "f882e8bcc601",
+      "roomTag": "5b48a7ce3483",
+      "state": "started; gameplay unverified"
+    }
+  ],
+  "instances": {
+    "server": {
+      "markers": [
+        {
+          "line": 878,
+          "text": "[][D][UnityFrame:2649]LUA: [RacingClone][Server] SCENE_LOADED"
+        },
+        {
+          "line": 1147,
+          "text": "[][D][UnityFrame:2655]LUA: [RacingClone][Server] SERVER_READY"
+        },
+        {
+          "line": 1152,
+          "text": "[][D][UnityFrame:2655]LUA: [RacingClone][Server] ROOM_PLAYERS count=0 roster="
+        },
+        {
+          "line": 1440,
+          "text": "[][D][UnityFrame:3310]LUA: [RacingClone][Server] ROOM_PLAYERS count=1 roster=2:赛车验证1"
+        },
+        {
+          "line": 1810,
+          "text": "[][D][UnityFrame:3397]LUA: [RacingClone][Server] ROOM_PLAYERS count=2 roster=2:赛车验证1,3:赛车验证2"
+        },
+        {
+          "line": 5275,
+          "text": "[][D][UnityFrame:4871]LUA: [RacingClone][Server] ROOM_PLAYERS count=3 roster=2:赛车验证1,3:赛车验证2,800:0.02299233"
+        }
+      ],
+      "null_reference_count": 17482,
+      "lua_exception_count": 0,
+      "persistent_directory_denied_count": 12
+    },
+    "client-1": {
+      "markers": [
+        {
+          "line": 894,
+          "text": "[][D][UnityFrame:2110]LUA: [RacingClone][Client] SCENE_LOADED"
+        },
+        {
+          "line": 1516,
+          "text": "[][D][UnityFrame:2120]LUA: [RacingClone][Client] CLIENT_READY name=赛车验证1"
+        },
+        {
+          "line": 1521,
+          "text": "[][D][UnityFrame:2120]LUA: [RacingClone][Client] ROOM_PLAYERS count=1 roster=2:赛车验证1"
+        },
+        {
+          "line": 1784,
+          "text": "[][D][UnityFrame:2199]LUA: [RacingClone][Client] ROOM_PLAYERS count=2 roster=2:赛车验证1,3:赛车验证2"
+        },
+        {
+          "line": 2270,
+          "text": "[][D][UnityFrame:3645]LUA: [RacingClone][Client] ROOM_PLAYERS count=3 roster=2:赛车验证1,3:赛车验证2,800:0.02299233"
+        }
+      ],
+      "null_reference_count": 0,
+      "lua_exception_count": 0,
+      "persistent_directory_denied_count": 12
+    },
+    "client-2": {
+      "markers": [
+        {
+          "line": 894,
+          "text": "[][D][UnityFrame:1809]LUA: [RacingClone][Client] SCENE_LOADED"
+        },
+        {
+          "line": 1776,
+          "text": "[][D][UnityFrame:1818]LUA: [RacingClone][Client] CLIENT_READY name=赛车验证2"
+        },
+        {
+          "line": 1781,
+          "text": "[][D][UnityFrame:1818]LUA: [RacingClone][Client] ROOM_PLAYERS count=2 roster=2:赛车验证1,3:赛车验证2"
+        },
+        {
+          "line": 2244,
+          "text": "[][D][UnityFrame:3241]LUA: [RacingClone][Client] ROOM_PLAYERS count=3 roster=2:赛车验证1,3:赛车验证2,800:0.02299233"
+        }
+      ],
+      "null_reference_count": 0,
+      "lua_exception_count": 0,
+      "persistent_directory_denied_count": 12
+    }
+  },
+  "build_artifacts": {
+    "settings.json": {
+      "path": "unity/AddressableAssetsData/StandaloneOSX/RacingClone/OSX/addrsettingcache/settings.json",
+      "bytes": 3198,
+      "modified_at": "2026-11-24T16:46:43.018445"
+    },
+    "catalog.json": {
+      "path": "unity/AddressableAssetsData/StandaloneOSX/RacingClone/OSX/addrsettingcache/catalog.json",
+      "bytes": 13051,
+      "modified_at": "2026-11-24T16:46:43.005266"
+    }
+  },
+  "remaining_issue": "服务端持续空引用异常，Player/HDB 日志无调用堆栈；尚未定位来源。"
+}

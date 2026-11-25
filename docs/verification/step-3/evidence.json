@@ -1,0 +1,128 @@
+{
+  "date": "2026-11-24T17:45:54.041806",
+  "scene": "Assets/Scenes/RacingClone.unity",
+  "mode": "ds",
+  "network": "new",
+  "dataStore": false,
+  "pawnActorType": "avatar",
+  "players": [
+    "赛车验证1",
+    "赛车验证2"
+  ],
+  "serverReadyPattern": "SERVER_READY",
+  "sessionDirectory": "/var/folders/t5/cx_l90z95vx72xgc8ps0j8n80000gn/T/hamlet-simulator-52u5ey7f",
+  "instances": [
+    {
+      "role": "server",
+      "pid": 76389,
+      "roomTag": "10515d3e5ddd"
+    },
+    {
+      "role": "client-1",
+      "pid": 76433,
+      "roomTag": "10515d3e5ddd"
+    },
+    {
+      "role": "client-2",
+      "pid": 76477,
+      "roomTag": "10515d3e5ddd"
+    }
+  ],
+  "consoleErrors": 0,
+  "debuggerScreenshots": [
+    "client-1.png",
+    "client-2.png"
+  ],
+  "runtimeStopped": true,
+  "logs": {
+    "server": {
+      "path": "/var/folders/t5/cx_l90z95vx72xgc8ps0j8n80000gn/T/hamlet-simulator-52u5ey7f/server.log",
+      "lineCount": 13637,
+      "counts": {
+        "NullReferenceException": 11627,
+        "LuaException": 0,
+        "Shader error": 0
+      },
+      "business": [
+        {
+          "line": 1190,
+          "text": "[RacingClone][Server] SERVER_READY"
+        },
+        {
+          "line": 1195,
+          "text": "[RacingClone][Server] ROOM_PLAYERS count=0 roster="
+        },
+        {
+          "line": 1477,
+          "text": "[RacingClone][Server] ROOM_PLAYERS count=1 roster=2:赛车验证1"
+        },
+        {
+          "line": 1851,
+          "text": "[RacingClone][Server] ROOM_PLAYERS count=2 roster=2:赛车验证1,3:赛车验证2"
+        }
+      ]
+    },
+    "client-1": {
+      "path": "/var/folders/t5/cx_l90z95vx72xgc8ps0j8n80000gn/T/hamlet-simulator-52u5ey7f/client-1.log",
+      "lineCount": 2104,
+      "counts": {
+        "NullReferenceException": 0,
+        "LuaException": 0,
+        "Shader error": 0
+      },
+      "business": [
+        {
+          "line": 1572,
+          "text": "[RacingClone][Client] CLIENT_READY name=赛车验证1"
+        },
+        {
+          "line": 1577,
+          "text": "[RacingClone][Client] ROOM_PLAYERS count=1 roster=2:赛车验证1"
+        },
+        {
+          "line": 1840,
+          "text": "[RacingClone][Client] ROOM_PLAYERS count=2 roster=2:赛车验证1,3:赛车验证2"
+        }
+      ]
+    },
+    "client-2": {
+      "path": "/var/folders/t5/cx_l90z95vx72xgc8ps0j8n80000gn/T/hamlet-simulator-52u5ey7f/client-2.log",
+      "lineCount": 2070,
+      "counts": {
+        "NullReferenceException": 0,
+        "LuaException": 0,
+        "Shader error": 0
+      },
+      "business": [
+        {
+          "line": 1824,
+          "text": "[RacingClone][Client] CLIENT_READY name=赛车验证2"
+        },
+        {
+          "line": 1829,
+          "text": "[RacingClone][Client] ROOM_PLAYERS count=2 roster=2:赛车验证1,3:赛车验证2"
+        }
+      ]
+    }
+  },
+  "build": {
+    "settings.json": {
+      "mtime": "2026-11-24T17:42:34.537942",
+      "bytes": 3198,
+      "sha256": "527826777aced91c3462edf40ae357ff2c51f5276850a18a05324f3e010ee513"
+    },
+    "catalog.json": {
+      "mtime": "2026-11-24T17:42:34.532514",
+      "bytes": 12318,
+      "sha256": "9d6293a20ec8577f61205d03f1eea4d99561b4d7a83c36d90aa461f8bda8eaa5"
+    },
+    "editorLog": "/tmp/racing-step3-editor-build.log",
+    "preflightLog": "/tmp/racing-step3-ds-preflight.log"
+  },
+  "limitations": [
+    "DS 仍持续出现步骤 2 已观察到的空引用，日志没有可定位的调用堆栈。",
+    "静态起点相机与六辆展示赛车；驾驶和同步属于步骤 4。",
+    "原生 URP 材质、天空和静态水面存在光照与后处理差异。",
+    "平台 HUD 和调试水印仍显示。"
+  ]
+}

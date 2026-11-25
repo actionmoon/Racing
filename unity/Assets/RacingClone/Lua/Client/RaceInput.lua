@@ -7,7 +7,8 @@ local Input, Key = UnityEngine.Input, UnityEngine.KeyCode
 
 function Clear()
     moveVec = CS.UnityEngine.Vector2.zero
-    touch, previous, edges = {}, {}, {}
+    -- Preserve sampled keys across phase changes: a held key is not a new press.
+    touch, edges = {}, {}
 end
 function SetTouch(action, held)
     touch[action] = held

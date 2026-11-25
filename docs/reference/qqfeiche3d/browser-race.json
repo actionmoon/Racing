@@ -1,0 +1,33 @@
+{
+  "text": "1\n小飞侠\n2\n小橘子\n3\n秋名山车神\n4\n夜の车神\n5\n闪电旋风\n6\n我\n1/2\n圈数 LAP\n00:03.40\n最佳单圈 --:--.--\n6/6\n0\nKM/H\n集气\nN₂O\nN₂O\n↑油门 ↓刹车/倒车 ←→转向\nShift+方向 漂移（按住越久角度越大）\n出弯车身回正瞬间点按 ↑ 或 W = 小喷\nCtrl 氮气 / 道具（空格同效）Alt 道具换位\n小喷 + 氮气 = 双喷 · 落地瞬间点 ↑ = 落地喷\nR复位 C视角 M音乐 PgUp/PgDn切歌 Esc暂停\nH 隐藏/显示此面板",
+  "canvases": [
+    {
+      "width": 1280,
+      "height": 577
+    },
+    {
+      "width": 1280,
+      "height": 577
+    },
+    {
+      "width": 420,
+      "height": 420
+    },
+    {
+      "width": 460,
+      "height": 460
+    }
+  ],
+  "resources": [
+    {
+      "url": "https://lf3-static.bytednsdoc.com/favicon.ico",
+      "type": "other",
+      "size": 437
+    },
+    {
+      "url": "https://lf3-static.bytednsdoc.com/favicon.ico",
+      "type": "other",
+      "size": 437
+    }
+  ]
+}

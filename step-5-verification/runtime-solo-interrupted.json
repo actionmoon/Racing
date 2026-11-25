@@ -1,0 +1,25 @@
+{
+  "passed": false,
+  "session": "/var/folders/t5/cx_l90z95vx72xgc8ps0j8n80000gn/T/hamlet-simulator-qgt22i9q",
+  "scene": "Assets/Scenes/RacingClone.unity",
+  "players": 1,
+  "reason": "SDK disconnect -103; local actor setter ran after room teardown",
+  "roles": {
+    "server": {
+      "luaExceptions": 0,
+      "networkDisconnects": 1,
+      "phaseSequence": [
+        "menu"
+      ],
+      "matchSnapshots": 1
+    },
+    "client-1": {
+      "luaExceptions": 6,
+      "networkDisconnects": 1,
+      "phaseSequence": [
+        "menu"
+      ],
+      "matchSnapshots": 0
+    }
+  }
+}

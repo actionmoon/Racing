@@ -1,0 +1,7 @@
+{
+  "type": "execute_code",
+  "params": {
+    "action": "execute",
+    "code": "var camera=GameObject.Find(\"Bootstrap Camera\").GetComponent<Camera>();var cp=camera.transform.position;var cr=camera.transform.rotation;var fov=camera.fieldOfView;var city=GameObject.Find(\"City11\");var grid=GameObject.Find(\"Starting Grid\");city.SetActive(false);grid.SetActive(false);var floor=GameObject.CreatePrimitive(PrimitiveType.Plane);floor.transform.localScale=new Vector3(4,1,4);floor.GetComponent<Renderer>().sharedMaterial=AssetDatabase.LoadAssetAtPath<Material>(\"Assets/RacingClone/Materials/BootstrapGround.mat\");camera.transform.position=new Vector3(6,4,-8);camera.transform.LookAt(new Vector3(0,0.8f,0));camera.fieldOfView=38;try {foreach(var id in new[]{\"red\",\"blue\",\"purple\",\"yellow\",\"white\",\"pink\",\"green\",\"black\"}){var prefab=AssetDatabase.LoadAssetAtPath<GameObject>(\"Assets/RacingClone/Prefabs/Vehicles/RacingVehicle_\"+id+\".prefab\");var car=(GameObject)PrefabUtility.InstantiatePrefab(prefab);try {RacingCityBuilder.Screenshot(\"../docs/verification/step-3/vehicle-\"+id+\".png\",480,300);}finally{UnityEngine.Object.DestroyImmediate(car);}}}finally{UnityEngine.Object.DestroyImmediate(floor);city.SetActive(true);grid.SetActive(true);camera.transform.SetPositionAndRotation(cp,cr);camera.fieldOfView=fov;UnityEditor.SceneManagement.EditorSceneManager.SaveOpenScenes();}return \"Captured eight skins and restored scene\";"
+  }
+}

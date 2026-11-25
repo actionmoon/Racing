@@ -1,0 +1,1679 @@
+{
+  "passed": true,
+  "session": "/var/folders/t5/cx_l90z95vx72xgc8ps0j8n80000gn/T/hamlet-simulator-dwy97svj",
+  "commonTicks": 69,
+  "tickRange": [
+    1801,
+    30240
+  ],
+  "errors": {
+    "server": {
+      "luaExceptions": 0,
+      "sdkNullReferences": 27822,
+      "networkActorTransformStack": 55644
+    },
+    "client-1": {
+      "luaExceptions": 0,
+      "sdkNullReferences": 0,
+      "networkActorTransformStack": 0
+    },
+    "client-2": {
+      "luaExceptions": 0,
+      "sdkNullReferences": 0,
+      "networkActorTransformStack": 0
+    }
+  },
+  "controls": {
+    "server": [
+      "action=mode accepted=true epoch=0",
+      "action=laps accepted=true epoch=0",
+      "action=diff accepted=true epoch=0",
+      "action=start accepted=true epoch=1"
+    ],
+    "client-1": [],
+    "client-2": []
+  },
+  "sharedEvents": [
+    {
+      "epoch": 2,
+      "event": {
+        "type": "get",
+        "item": "banana",
+        "slot": 4,
+        "id": 1,
+        "object": 0
+      }
+    },
+    {
+      "epoch": 2,
+      "event": {
+        "type": "pickup",
+        "item": "box",
+        "slot": 4,
+        "id": 2,
+        "object": 3
+      }
+    },
+    {
+      "epoch": 2,
+      "event": {
+        "type": "get",
+        "item": "magnet",
+        "slot": 1,
+        "id": 3,
+        "object": 0
+      }
+    },
+    {
+      "epoch": 2,
+      "event": {
+        "type": "pickup",
+        "item": "box",
+        "slot": 1,
+        "id": 4,
+        "object": 4
+      }
+    },
+    {
+      "epoch": 2,
+      "event": {
+        "type": "get",
+        "item": "shield",
+        "slot": 5,
+        "id": 5,
+        "object": 0
+      }
+    },
+    {
+      "epoch": 2,
+      "event": {
+        "type": "pickup",
+        "item": "box",
+        "slot": 5,
+        "id": 6,
+        "object": 2
+      }
+    },
+    {
+      "epoch": 2,
+      "event": {
+        "type": "use",
+        "item": "banana",
+        "slot": 4,
+        "id": 7,
+        "object": 0
+      }
+    },
+    {
+      "epoch": 2,
+      "event": {
+        "type": "hit",
+        "item": "banana",
+        "slot": 5,
+        "id": 8,
+        "object": 1
+      }
+    },
+    {
+      "epoch": 2,
+      "event": {
+        "type": "use",
+        "item": "shield",
+        "slot": 5,
+        "id": 9,
+        "object": 0
+      }
+    },
+    {
+      "epoch": 2,
+      "event": {
+        "type": "get",
+        "item": "banana",
+        "slot": 4,
+        "id": 10,
+        "object": 0
+      }
+    },
+    {
+      "epoch": 2,
+      "event": {
+        "type": "pickup",
+        "item": "box",
+        "slot": 4,
+        "id": 11,
+        "object": 6
+      }
+    },
+    {
+      "epoch": 2,
+      "event": {
+        "type": "get",
+        "item": "nitro",
+        "slot": 4,
+        "id": 12,
+        "object": 0
+      }
+    },
+    {
+      "epoch": 2,
+      "event": {
+        "type": "pickup",
+        "item": "box",
+        "slot": 4,
+        "id": 13,
+        "object": 7
+      }
+    },
+    {
+      "epoch": 2,
+      "event": {
+        "type": "use",
+        "item": "banana",
+        "slot": 4,
+        "id": 14,
+        "object": 0
+      }
+    },
+    {
+      "epoch": 2,
+      "event": {
+        "type": "hit",
+        "item": "banana",
+        "slot": 3,
+        "id": 15,
+        "object": 2
+      }
+    },
+    {
+      "epoch": 2,
+      "event": {
+        "type": "use",
+        "item": "nitro",
+        "slot": 4,
+        "id": 16,
+        "object": 0
+      }
+    },
+    {
+      "epoch": 2,
+      "event": {
+        "type": "get",
+        "item": "shield",
+        "slot": 4,
+        "id": 17,
+        "object": 0
+      }
+    },
+    {
+      "epoch": 2,
+      "event": {
+        "type": "pickup",
+        "item": "box",
+        "slot": 4,
+        "id": 18,
+        "object": 13
+      }
+    },
+    {
+      "epoch": 2,
+      "event": {
+        "type": "get",
+        "item": "banana",
+        "slot": 4,
+        "id": 19,
+        "object": 0
+      }
+    },
+    {
+      "epoch": 2,
+      "event": {
+        "type": "pickup",
+        "item": "box",
+        "slot": 4,
+        "id": 20,
+        "object": 14
+      }
+    },
+    {
+      "epoch": 2,
+      "event": {
+        "type": "use",
+        "item": "magnet",
+        "slot": 1,
+        "id": 21,
+        "object": 0
+      }
+    },
+    {
+      "epoch": 2,
+      "event": {
+        "type": "use",
+        "item": "shield",
+        "slot": 4,
+        "id": 22,
+        "object": 0
+      }
+    },
+    {
+      "epoch": 2,
+      "event": {
+        "type": "use",
+        "item": "banana",
+        "slot": 4,
+        "id": 23,
+        "object": 0
+      }
+    },
+    {
+      "epoch": 2,
+      "event": {
+        "type": "hit",
+        "item": "banana",
+        "slot": 5,
+        "id": 24,
+        "object": 3
+      }
+    },
+    {
+      "epoch": 2,
+      "event": {
+        "type": "get",
+        "item": "banana",
+        "slot": 4,
+        "id": 25,
+        "object": 0
+      }
+    },
+    {
+      "epoch": 2,
+      "event": {
+        "type": "pickup",
+        "item": "box",
+        "slot": 4,
+        "id": 26,
+        "object": 16
+      }
+    },
+    {
+      "epoch": 2,
+      "event": {
+        "type": "get",
+        "item": "banana",
+        "slot": 3,
+        "id": 27,
+        "object": 0
+      }
+    },
+    {
+      "epoch": 2,
+      "event": {
+        "type": "pickup",
+        "item": "box",
+        "slot": 3,
+        "id": 28,
+        "object": 16
+      }
+    },
+    {
+      "epoch": 2,
+      "event": {
+        "type": "use",
+        "item": "banana",
+        "slot": 4,
+        "id": 29,
+        "object": 0
+      }
+    },
+    {
+      "epoch": 2,
+      "event": {
+        "type": "use",
+        "item": "banana",
+        "slot": 3,
+        "id": 30,
+        "object": 0
+      }
+    },
+    {
+      "epoch": 2,
+      "event": {
+        "type": "hit",
+        "item": "banana",
+        "slot": 6,
+        "id": 31,
+        "object": 4
+      }
+    },
+    {
+      "epoch": 2,
+      "event": {
+        "type": "hit",
+        "item": "banana",
+        "slot": 5,
+        "id": 32,
+        "object": 5
+      }
+    },
+    {
+      "epoch": 3,
+      "event": {
+        "type": "get",
+        "item": "banana",
+        "slot": 4,
+        "id": 1,
+        "object": 0
+      }
+    },
+    {
+      "epoch": 3,
+      "event": {
+        "type": "pickup",
+        "item": "box",
+        "slot": 4,
+        "id": 2,
+        "object": 3
+      }
+    },
+    {
+      "epoch": 3,
+      "event": {
+        "type": "get",
+        "item": "magnet",
+        "slot": 1,
+        "id": 3,
+        "object": 0
+      }
+    },
+    {
+      "epoch": 3,
+      "event": {
+        "type": "pickup",
+        "item": "box",
+        "slot": 1,
+        "id": 4,
+        "object": 4
+      }
+    },
+    {
+      "epoch": 3,
+      "event": {
+        "type": "get",
+        "item": "shield",
+        "slot": 5,
+        "id": 5,
+        "object": 0
+      }
+    },
+    {
+      "epoch": 3,
+      "event": {
+        "type": "pickup",
+        "item": "box",
+        "slot": 5,
+        "id": 6,
+        "object": 2
+      }
+    },
+    {
+      "epoch": 3,
+      "event": {
+        "type": "use",
+        "item": "banana",
+        "slot": 4,
+        "id": 7,
+        "object": 0
+      }
+    },
+    {
+      "epoch": 3,
+      "event": {
+        "type": "hit",
+        "item": "banana",
+        "slot": 5,
+        "id": 8,
+        "object": 1
+      }
+    },
+    {
+      "epoch": 3,
+      "event": {
+        "type": "use",
+        "item": "shield",
+        "slot": 5,
+        "id": 9,
+        "object": 0
+      }
+    },
+    {
+      "epoch": 3,
+      "event": {
+        "type": "get",
+        "item": "banana",
+        "slot": 4,
+        "id": 10,
+        "object": 0
+      }
+    },
+    {
+      "epoch": 3,
+      "event": {
+        "type": "pickup",
+        "item": "box",
+        "slot": 4,
+        "id": 11,
+        "object": 6
+      }
+    },
+    {
+      "epoch": 3,
+      "event": {
+        "type": "get",
+        "item": "nitro",
+        "slot": 4,
+        "id": 12,
+        "object": 0
+      }
+    },
+    {
+      "epoch": 3,
+      "event": {
+        "type": "pickup",
+        "item": "box",
+        "slot": 4,
+        "id": 13,
+        "object": 7
+      }
+    },
+    {
+      "epoch": 3,
+      "event": {
+        "type": "use",
+        "item": "banana",
+        "slot": 4,
+        "id": 14,
+        "object": 0
+      }
+    },
+    {
+      "epoch": 3,
+      "event": {
+        "type": "hit",
+        "item": "banana",
+        "slot": 3,
+        "id": 15,
+        "object": 2
+      }
+    },
+    {
+      "epoch": 3,
+      "event": {
+        "type": "use",
+        "item": "nitro",
+        "slot": 4,
+        "id": 16,
+        "object": 0
+      }
+    },
+    {
+      "epoch": 3,
+      "event": {
+        "type": "get",
+        "item": "shield",
+        "slot": 4,
+        "id": 17,
+        "object": 0
+      }
+    },
+    {
+      "epoch": 3,
+      "event": {
+        "type": "pickup",
+        "item": "box",
+        "slot": 4,
+        "id": 18,
+        "object": 13
+      }
+    },
+    {
+      "epoch": 3,
+      "event": {
+        "type": "get",
+        "item": "banana",
+        "slot": 4,
+        "id": 19,
+        "object": 0
+      }
+    },
+    {
+      "epoch": 3,
+      "event": {
+        "type": "pickup",
+        "item": "box",
+        "slot": 4,
+        "id": 20,
+        "object": 14
+      }
+    },
+    {
+      "epoch": 3,
+      "event": {
+        "type": "use",
+        "item": "magnet",
+        "slot": 1,
+        "id": 21,
+        "object": 0
+      }
+    },
+    {
+      "epoch": 3,
+      "event": {
+        "type": "use",
+        "item": "shield",
+        "slot": 4,
+        "id": 22,
+        "object": 0
+      }
+    },
+    {
+      "epoch": 3,
+      "event": {
+        "type": "use",
+        "item": "banana",
+        "slot": 4,
+        "id": 23,
+        "object": 0
+      }
+    },
+    {
+      "epoch": 3,
+      "event": {
+        "type": "hit",
+        "item": "banana",
+        "slot": 5,
+        "id": 24,
+        "object": 3
+      }
+    },
+    {
+      "epoch": 3,
+      "event": {
+        "type": "get",
+        "item": "banana",
+        "slot": 4,
+        "id": 25,
+        "object": 0
+      }
+    },
+    {
+      "epoch": 3,
+      "event": {
+        "type": "pickup",
+        "item": "box",
+        "slot": 4,
+        "id": 26,
+        "object": 16
+      }
+    },
+    {
+      "epoch": 3,
+      "event": {
+        "type": "get",
+        "item": "banana",
+        "slot": 3,
+        "id": 27,
+        "object": 0
+      }
+    },
+    {
+      "epoch": 3,
+      "event": {
+        "type": "pickup",
+        "item": "box",
+        "slot": 3,
+        "id": 28,
+        "object": 16
+      }
+    },
+    {
+      "epoch": 3,
+      "event": {
+        "type": "use",
+        "item": "banana",
+        "slot": 4,
+        "id": 29,
+        "object": 0
+      }
+    },
+    {
+      "epoch": 3,
+      "event": {
+        "type": "use",
+        "item": "banana",
+        "slot": 3,
+        "id": 30,
+        "object": 0
+      }
+    },
+    {
+      "epoch": 3,
+      "event": {
+        "type": "hit",
+        "item": "banana",
+        "slot": 6,
+        "id": 31,
+        "object": 4
+      }
+    },
+    {
+      "epoch": 3,
+      "event": {
+        "type": "hit",
+        "item": "banana",
+        "slot": 5,
+        "id": 32,
+        "object": 5
+      }
+    }
+  ],
+  "snapshotDigests": [
+    {
+      "tick": 1801,
+      "sha256": "21f8bead15dd43710ddf0a0bbc77bfa9da385a7a610e5e763ad1dfac99115a79"
+    },
+    {
+      "tick": 3000,
+      "sha256": "c4a53fd7de926021c7a2369481c06b7640c2abde66a406068ec80d57bb326658"
+    },
+    {
+      "tick": 3600,
+      "sha256": "886d6e898f985891776a31774bb03c46d77c196f7f1492e88421063680248e7d"
+    },
+    {
+      "tick": 4201,
+      "sha256": "2eb96710983130c088d99c5c6670cbdd2c4afcbba9e54154f85211222dd49eec"
+    },
+    {
+      "tick": 4801,
+      "sha256": "d2af9e1fbfe520058a2697c3d3f3e88f25a34272cbf64dfcf54241f2a98590f4"
+    },
+    {
+      "tick": 5400,
+      "sha256": "80a7815b4bc8d2c87a9bd34b8dfbd73f8467333778c44c290f8ccfde765250d1"
+    },
+    {
+      "tick": 6000,
+      "sha256": "f8845a17aebedefc6eea968c7135ca6655a7f9aee3c1870342194737ab0fba25"
+    },
+    {
+      "tick": 6600,
+      "sha256": "593077f4b5afa0608bc3c951b52090a459462048c27fa3b10a2a44262399e67a"
+    },
+    {
+      "tick": 7200,
+      "sha256": "2ae062159c72d16de3cd2f9ed105903fec9d55742d28fc5b96b06e42843caa95"
+    },
+    {
+      "tick": 10800,
+      "sha256": "1d45e0c4d3a717bdce3fe3213133444c039ba4de863426f5790755ba43cdb591"
+    },
+    {
+      "tick": 11400,
+      "sha256": "f29e759cb02662a5382b448a5960dfea7ababa48c299ec6586f8a3e2e87f6aa3"
+    },
+    {
+      "tick": 12000,
+      "sha256": "a39d1101949520386273d15322c97559d9261bd533f4f01eb441369e13456cf9"
+    },
+    {
+      "tick": 12601,
+      "sha256": "44a046805a76ffe3718b94e9455ef4c7f8d4eec3acf62b7842978fc599494a4e"
+    },
+    {
+      "tick": 13200,
+      "sha256": "68d8b96118d03df9a3b1972662abc95bb43fe84bab4e6f97f4ddd4cc030e9c20"
+    },
+    {
+      "tick": 13801,
+      "sha256": "677f5713a99aecd18d6d13621e312cc9182cd38e6c1471046c2cf91ddd7acd6c"
+    },
+    {
+      "tick": 14400,
+      "sha256": "f379a609cdb0a2db83fa4930efc3588ee4a53e042230cc869ce641205d9d7936"
+    },
+    {
+      "tick": 15000,
+      "sha256": "1531eb654aedca2e27f21bcd123c8d119218d983f402493fa37c34a9f8c68f91"
+    },
+    {
+      "tick": 15600,
+      "sha256": "5c66e47da19fb5fe7960035b839b2d774a0c70312baee715629c0a6f0ea0a5ac"
+    },
+    {
+      "tick": 16201,
+      "sha256": "22d082a8c21eee5b6f7a27a7e38bd45be3cf6562a6c82089065566cfe0e092ef"
+    },
+    {
+      "tick": 16801,
+      "sha256": "ae95f7ab8cab9380bcb8079c04bc1c0045706063f24ef51068cd1b586036c976"
+    },
+    {
+      "tick": 17401,
+      "sha256": "16e5fcdedb50cd538292d753252f52fa3cd5af7bf9f9683aeb8d947bd766d64d"
+    },
+    {
+      "tick": 18001,
+      "sha256": "71d0af55173a70ea156009165f5d386b966632f712d8233bf0e1181d7a8dbce2"
+    },
+    {
+      "tick": 18601,
+      "sha256": "0a249dab0ace39e852ac9e3635c5c87e383bb8fc45950eee888572b5540272fd"
+    },
+    {
+      "tick": 19201,
+      "sha256": "d70997035afa30e3542e36c258574fe8539cab69e80b77026fc954c3be258d26"
+    },
+    {
+      "tick": 19800,
+      "sha256": "afaeae97f9ac6452557effa27db2370cd5fd1b7f8e00134075ba520c2e551ea7"
+    },
+    {
+      "tick": 21601,
+      "sha256": "1b7235c9142420ea9d1302e9a04a866990d054896a5f57dc50bcd3b2dc12b053"
+    },
+    {
+      "tick": 22201,
+      "sha256": "746a08b6b3d1a59a81616acdf1c015aeb78683d8fc3ffd14b57591e38673418c"
+    },
+    {
+      "tick": 22801,
+      "sha256": "30982da7d2d5dff25a20db4ea6c5af6563994b22eaa5d8d3ab583abe83497588"
+    },
+    {
+      "tick": 22920,
+      "sha256": "6409265975eccbe6f0d78d420f933452dfa7acd1b49e9ab2a4d977fc82b72061"
+    },
+    {
+      "tick": 23041,
+      "sha256": "108db2056dc82a78b119f4f8abe69d5d6a12846eedbda395b135e76ff6981d29"
+    },
+    {
+      "tick": 23161,
+      "sha256": "2affec65cfe410abb128ac6ac73eb5980435b83ef838ca6361f4ef01eb49a2a5"
+    },
+    {
+      "tick": 23401,
+      "sha256": "70b1e1f00c6d41ec5cea2468c9c05df7da7cbd8733c6e478f9afeeeb4a3efb14"
+    },
+    {
+      "tick": 23640,
+      "sha256": "28654ddab61b376caff64016818a1a9ce74dcbf9512ae257dd928b147f1d13f4"
+    },
+    {
+      "tick": 23760,
+      "sha256": "d5d7faec82c8f600a6ed5062dca67f234c2a8c2607ea051d8fb8a46f1792260c"
+    },
+    {
+      "tick": 23881,
+      "sha256": "f7e85099ad44ae61f625703f63b4b0723b6be51a69bf055cdc21241e34f22b8e"
+    },
+    {
+      "tick": 24002,
+      "sha256": "5dcf0b0c1a833de658c5d635b0d465316b21b47743f23b94a812d1c93ddca8af"
+    },
+    {
+      "tick": 24240,
+      "sha256": "d1e5ec2ecae6f2c63376bd62e78247787f0d44098297f8a73a42d7bb79f737e3"
+    },
+    {
+      "tick": 24361,
+      "sha256": "55fb30d696162bff3c8f5f3543f3043d22937233c98a46c55959794fcab946d3"
+    },
+    {
+      "tick": 24600,
+      "sha256": "44cf2a8d3245ef83b4d63a90f0b59729a3cac98894bdd9546218701dbc85283a"
+    },
+    {
+      "tick": 24840,
+      "sha256": "dbda14e391a0dca63624a1ad50af29726a277bd2e53c6d976e964d08266e4868"
+    },
+    {
+      "tick": 24961,
+      "sha256": "a84382bf71f7f69501e3efca70debed08922d9d8311faf19686d11e35148b74d"
+    },
+    {
+      "tick": 25200,
+      "sha256": "d3125c2e644ffb4bed036f21ecbc8b37bfef819f1924fb84f57fc39c036e6ef8"
+    },
+    {
+      "tick": 25320,
+      "sha256": "8f64d9180f3d34c5aba6ecb3a4eef2e0ce8523c7b484afa83029a48e4df53a0e"
+    },
+    {
+      "tick": 25441,
+      "sha256": "4576a5fab6236c8e2db89080adce34cefdf2092a0776b1135c7f1e2da4895d86"
+    },
+    {
+      "tick": 25560,
+      "sha256": "57833378f731ea99d6184b5958387bbea61dc4e287e2be11bdcd27a05ef0514c"
+    },
+    {
+      "tick": 25800,
+      "sha256": "5e5cf0abfd9b38e3fe6adc8dbecd65bc17bb9346edce43f71371fd924bbf8d88"
+    },
+    {
+      "tick": 25921,
+      "sha256": "7fa2f1bc6bca724efd1d64da5c20686fe1329c35b3b898eab3889b3eb4dafaa8"
+    },
+    {
+      "tick": 26400,
+      "sha256": "b0d874ddc7a44cfbacc03dee8ab0bebf78c52fae160d52e72f031efca573dbea"
+    },
+    {
+      "tick": 26521,
+      "sha256": "43be30e32a40a22f1eade609b682edb42a7a46a29aaf4952fc117075d100474c"
+    },
+    {
+      "tick": 26761,
+      "sha256": "5161dc30b6eddddaf03e9e1016f684a491853863e3e62001f25f7c562928816c"
+    },
+    {
+      "tick": 27001,
+      "sha256": "11c112a9bfd13236da6de71fe3d25b06fe3d4dcd418c9e0f8af8a48173f34c38"
+    },
+    {
+      "tick": 27360,
+      "sha256": "cc3d0fcdcc83f1ff12523d50403eabaee603862c61887aa8e917dd297a1e52c4"
+    },
+    {
+      "tick": 27480,
+      "sha256": "38f2d6ca9b0cf0daa97966b1ad632e8339181c7c6a2d26cbd752633cedfa0390"
+    },
+    {
+      "tick": 27721,
+      "sha256": "d3d1848d0df3ea3b012f4cfbdf769b0116f4b7f1c1bd1da3016d65c99f62508d"
+    },
+    {
+      "tick": 27840,
+      "sha256": "93fa52f021213c9c7a97bfd8f69addb64e28757348d6648785f9820199e9efaf"
+    },
+    {
+      "tick": 27961,
+      "sha256": "1aafccacd1abd7fd215a7f3117371e8266067834e6c44950562097976cd00f66"
+    },
+    {
+      "tick": 28080,
+      "sha256": "1f73231c5de93cb0cd8c83b131ec9a9d7367760a4568e7e5202ef92f9366fce1"
+    },
+    {
+      "tick": 28322,
+      "sha256": "37a1bbde3243cddeeb0694afea53e53c7a7bf301f122d194301cff9888dcf6a6"
+    },
+    {
+      "tick": 28440,
+      "sha256": "b6b6da559150b8cca209973f8daf755ad2712d18e6c588010afa8d854e6adb59"
+    },
+    {
+      "tick": 28680,
+      "sha256": "2dddc0d463371bc2e785212efa78df3876526ee50653e5d00a5f309934aa59de"
+    },
+    {
+      "tick": 28920,
+      "sha256": "e4c749e0d78793b175c6827d06df13768a6e44b99593cd2f13e3e0661610da22"
+    },
+    {
+      "tick": 29041,
+      "sha256": "dac7ae8399763ab87b421306e61fb07c6804f7cc8b438c8ef03dff5881984bdc"
+    },
+    {
+      "tick": 29280,
+      "sha256": "b05497fa2179e917a73d4ddea261eabe302015a7b07f26b1ac2db54e8bd2b242"
+    },
+    {
+      "tick": 29521,
+      "sha256": "d7fb00c2ccc84b992466d81b3f1dd92b65d1092a99849e60f59f1ebb8a1c5b51"
+    },
+    {
+      "tick": 29642,
+      "sha256": "94c9ee81a1bd676248da4ad8a4b89e86dbecf2edd2e6ef59df09c5ea03e35a43"
+    },
+    {
+      "tick": 29881,
+      "sha256": "a1d1ed595d26ab7c7786cd29fc542f2d55ec06ad297827d265820fc129eeb826"
+    },
+    {
+      "tick": 30000,
+      "sha256": "9564ccd59afe53619e5285d0b669837ab198ac1ec9fe5f3f5ae52926758c8d0f"
+    },
+    {
+      "tick": 30121,
+      "sha256": "45e9222551774e8cf68c26e005c111919cff63720b16b05155fa921ffa7b5fc9"
+    },
+    {
+      "tick": 30240,
+      "sha256": "e2db63568cd675166a7682c3c05c2cf876f3c87335999344aeb9fb94c506f735"
+    }
+  ],
+  "latest": {
+    "version": 3,
+    "cars": [
+      {
+        "rank": 5,
+        "finishTime": 0,
+        "items": [],
+        "clock": {
+          "countdown": 0,
+          "time": 63.941666666664,
+          "startTried": true,
+          "startReady": false,
+          "mode": "item",
+          "phase": "result"
+        },
+        "progress": 482.66412036492,
+        "id": "player-1",
+        "magnetTarget": 0,
+        "lapsDone": 0,
+        "slot": 1,
+        "isAI": false,
+        "name": "赛车验证1",
+        "lapTimes": [],
+        "stats": {
+          "top": 198.03145727411,
+          "drift": 0,
+          "small": 0,
+          "land": 0,
+          "crash": 2,
+          "perfect": 0,
+          "nitro": 0,
+          "double": 0
+        },
+        "finished": false,
+        "state": {
+          "padTime": 0,
+          "driftAngle": 0.0,
+          "windowKind": "",
+          "y": 1.0058553649028,
+          "z": -117.47428475398,
+          "x": 180.21250340677,
+          "magnet": -0.0083333333333252,
+          "nitroCount": 0,
+          "driftTime": 0,
+          "steer": 0.0,
+          "startBoost": 0,
+          "gauge": 0,
+          "vy": 0,
+          "smallBoostPower": 0,
+          "smallBoost": 0,
+          "hint": 322,
+          "airTime": 0,
+          "airborne": false,
+          "nitroTime": 0,
+          "driftDir": 0,
+          "drifting": false,
+          "wrongWay": 0,
+          "lat": -11.899882067989,
+          "s": -0.0009183257379877,
+          "spin": 0,
+          "d": 482.66412036492,
+          "impact": 0,
+          "rollVis": 0,
+          "slowTime": 0,
+          "pitchVis": 0,
+          "m": 0.83873296587729,
+          "vyGround": 0,
+          "vmaxNow": 55,
+          "shield": 0,
+          "releaseTime": 0,
+          "throttle": 0,
+          "smallWindow": 0,
+          "h": 0.83873296587729
+        },
+        "skin": 0,
+        "ack": 0
+      },
+      {
+        "rank": 6,
+        "finishTime": 0,
+        "items": [],
+        "clock": {
+          "countdown": 0,
+          "time": 63.941666666664,
+          "startTried": false,
+          "startReady": false,
+          "mode": "item",
+          "phase": "result"
+        },
+        "progress": -13.981102205582,
+        "id": "player-2",
+        "magnetTarget": 0,
+        "lapsDone": -1,
+        "slot": 2,
+        "isAI": false,
+        "name": "赛车验证2",
+        "lapTimes": [],
+        "stats": {
+          "top": 0,
+          "drift": 0,
+          "small": 0,
+          "land": 0,
+          "crash": 0,
+          "perfect": 0,
+          "nitro": 0,
+          "double": 0
+        },
+        "finished": false,
+        "state": {
+          "padTime": 0,
+          "driftAngle": 0.0,
+          "windowKind": "",
+          "y": 0.33949571905327,
+          "z": -150.28164469252,
+          "x": -315.54370901944,
+          "magnet": 0,
+          "nitroCount": 0,
+          "driftTime": 0,
+          "steer": 0.0,
+          "startBoost": 0,
+          "gauge": 0,
+          "vy": 0,
+          "smallBoostPower": 0,
+          "smallBoost": 0,
+          "hint": 1561,
+          "airTime": 0,
+          "airborne": false,
+          "nitroTime": 0,
+          "driftDir": 0,
+          "drifting": false,
+          "wrongWay": 0,
+          "lat": 5.499930378228,
+          "s": 0.0,
+          "spin": 0,
+          "d": 2341.0734911251,
+          "impact": 0,
+          "rollVis": 0,
+          "slowTime": 0,
+          "pitchVis": 0,
+          "m": 1.0873967409722,
+          "vyGround": 0,
+          "vmaxNow": 55,
+          "shield": 0,
+          "releaseTime": 0,
+          "throttle": 0,
+          "smallWindow": 0,
+          "h": 1.0873967409722
+        },
+        "skin": 1,
+        "ack": 0
+      },
+      {
+        "rank": 2,
+        "finishTime": 56.774999999997,
+        "items": [],
+        "clock": {
+          "countdown": 0,
+          "time": 63.941666666664,
+          "startTried": false,
+          "startReady": false,
+          "mode": "item",
+          "phase": "result"
+        },
+        "progress": 2355.1600815816,
+        "id": "ai:3",
+        "magnetTarget": 0,
+        "lapsDone": 1,
+        "slot": 3,
+        "isAI": true,
+        "name": "弯道高手",
+        "lapTimes": [
+          56.774999999997
+        ],
+        "stats": {
+          "top": 220.65642399206,
+          "drift": 0,
+          "small": 0,
+          "land": 0,
+          "crash": 0,
+          "perfect": 0,
+          "nitro": 0,
+          "double": 0
+        },
+        "finished": true,
+        "state": {
+          "padTime": 0,
+          "driftAngle": 0,
+          "windowKind": "",
+          "y": -0.1938848765272,
+          "z": -153.03896378861,
+          "x": -299.0967393854,
+          "magnet": 0,
+          "nitroCount": 0,
+          "driftTime": 0,
+          "steer": 0,
+          "startBoost": 0,
+          "gauge": 0,
+          "vy": 0,
+          "smallBoostPower": 0,
+          "smallBoost": 0,
+          "hint": 1,
+          "airTime": 0,
+          "airborne": false,
+          "nitroTime": -0.0083333333333265,
+          "driftDir": 1,
+          "releaseTime": 0,
+          "lat": -3.1675456176866,
+          "wrongWay": 0,
+          "spin": -0.0083333333333323,
+          "d": 0.10548825088017,
+          "s": 44.2376,
+          "impact": 0,
+          "drifting": true,
+          "slowTime": 0,
+          "m": 0.97524753335958,
+          "pitchVis": 0,
+          "rollVis": 0,
+          "vyGround": 0,
+          "shield": 0,
+          "throttle": 0,
+          "smallWindow": 0,
+          "h": 1.4649567663307
+        },
+        "skin": 2,
+        "ack": 0
+      },
+      {
+        "rank": 1,
+        "finishTime": 53.933333333331,
+        "items": [],
+        "clock": {
+          "countdown": 0,
+          "time": 63.941666666664,
+          "startTried": false,
+          "startReady": false,
+          "mode": "item",
+          "phase": "result"
+        },
+        "progress": 2355.303519035,
+        "id": "ai:4",
+        "magnetTarget": 0,
+        "lapsDone": 1,
+        "slot": 4,
+        "isAI": true,
+        "name": "疾风车手",
+        "lapTimes": [
+          53.933333333331
+        ],
+        "stats": {
+          "top": 223.26396154417,
+          "drift": 0,
+          "small": 0,
+          "land": 0,
+          "crash": 0,
+          "perfect": 0,
+          "nitro": 0,
+          "double": 0
+        },
+        "finished": true,
+        "state": {
+          "padTime": 0,
+          "driftAngle": 0,
+          "windowKind": "",
+          "y": -0.16483765955174,
+          "z": -152.55113220533,
+          "x": -299.08101523987,
+          "magnet": 0,
+          "nitroCount": 0,
+          "driftTime": 0,
+          "steer": 0,
+          "startBoost": 0,
+          "gauge": 0,
+          "vy": 0,
+          "smallBoostPower": 0,
+          "smallBoost": 0,
+          "hint": 1,
+          "airTime": 0,
+          "airborne": false,
+          "nitroTime": -0.0083333333333265,
+          "driftDir": 1,
+          "releaseTime": 0,
+          "lat": -2.6981074948021,
+          "wrongWay": 0,
+          "spin": 0,
+          "d": 0.24892570429711,
+          "s": 44.95392,
+          "impact": 0,
+          "drifting": true,
+          "slowTime": 0,
+          "m": 0.97524753335958,
+          "pitchVis": 0,
+          "rollVis": 0,
+          "vyGround": 0,
+          "shield": -1.3708825741254e-13,
+          "throttle": 0,
+          "smallWindow": 0,
+          "h": 1.4647107824776
+        },
+        "skin": 3,
+        "ack": 0
+      },
+      {
+        "rank": 4,
+        "finishTime": 58.449999999997,
+        "items": [],
+        "clock": {
+          "countdown": 0,
+          "time": 63.941666666664,
+          "startTried": false,
+          "startReady": false,
+          "mode": "item",
+          "phase": "result"
+        },
+        "progress": 2355.074594052,
+        "id": "ai:5",
+        "magnetTarget": 0,
+        "lapsDone": 1,
+        "slot": 5,
+        "isAI": true,
+        "name": "城市猎手",
+        "lapTimes": [
+          58.449999999997
+        ],
+        "stats": {
+          "top": 225.85554547116,
+          "drift": 0,
+          "small": 0,
+          "land": 0,
+          "crash": 0,
+          "perfect": 0,
+          "nitro": 0,
+          "double": 0
+        },
+        "finished": true,
+        "state": {
+          "padTime": 0,
+          "driftAngle": 0,
+          "windowKind": "",
+          "y": -0.13296958918349,
+          "z": -152.09393825987,
+          "x": -299.42966601235,
+          "magnet": 0,
+          "nitroCount": 0,
+          "driftTime": 0,
+          "steer": 0,
+          "startBoost": 0,
+          "gauge": 0,
+          "vy": 0,
+          "smallBoostPower": 0,
+          "smallBoost": 0,
+          "hint": 1,
+          "airTime": 0,
+          "airborne": false,
+          "nitroTime": -0.0083333333333265,
+          "driftDir": 1,
+          "releaseTime": 0,
+          "lat": -2.1699063915069,
+          "wrongWay": 0,
+          "spin": -0.0083333333333323,
+          "d": 0.020000721292945,
+          "s": 45.67024,
+          "impact": 0,
+          "drifting": true,
+          "slowTime": 0,
+          "m": 0.91178484632411,
+          "pitchVis": 0,
+          "rollVis": 0,
+          "vyGround": 0,
+          "shield": -1.3708825741254e-13,
+          "throttle": 0,
+          "smallWindow": 0,
+          "h": 1.4592300079674
+        },
+        "skin": 4,
+        "ack": 0
+      },
+      {
+        "rank": 3,
+        "finishTime": 58.008333333331,
+        "items": [],
+        "clock": {
+          "countdown": 0,
+          "time": 63.941666666664,
+          "startTried": false,
+          "startReady": false,
+          "mode": "item",
+          "phase": "result"
+        },
+        "progress": 2355.1067233115,
+        "id": "ai:6",
+        "magnetTarget": 0,
+        "lapsDone": 1,
+        "slot": 6,
+        "isAI": true,
+        "name": "闪电骑士",
+        "lapTimes": [
+          58.008333333331
+        ],
+        "stats": {
+          "top": 221.31728188726,
+          "drift": 0,
+          "small": 0,
+          "land": 0,
+          "crash": 0,
+          "perfect": 0,
+          "nitro": 0,
+          "double": 0
+        },
+        "finished": true,
+        "state": {
+          "padTime": 0,
+          "driftAngle": 0,
+          "windowKind": "",
+          "y": -0.12980543437863,
+          "z": -152.03726961131,
+          "x": -299.41221062297,
+          "magnet": 0,
+          "nitroCount": 0,
+          "driftTime": 0,
+          "steer": 0,
+          "startBoost": 0,
+          "gauge": 0,
+          "vy": 0,
+          "smallBoostPower": 0,
+          "smallBoost": 0,
+          "hint": 1,
+          "airTime": 0,
+          "airborne": false,
+          "nitroTime": -0.0083333333333265,
+          "driftDir": 1,
+          "releaseTime": 0,
+          "lat": -2.1191697367147,
+          "wrongWay": 0,
+          "spin": -0.0083333333333323,
+          "d": 0.05212998081106,
+          "s": 44.4312,
+          "impact": 0,
+          "drifting": true,
+          "slowTime": 0,
+          "m": 0.91178484632411,
+          "pitchVis": 0,
+          "rollVis": 0,
+          "vyGround": 0,
+          "shield": 0,
+          "throttle": 0,
+          "smallWindow": 0,
+          "h": 1.4628841259757
+        },
+        "skin": 5,
+        "ack": 0
+      }
+    ],
+    "tick": 30240,
+    "match": {
+      "countdown": 0,
+      "time": 63.941666666664,
+      "firstFinish": 53.933333333331,
+      "controlAcks": {
+        "player-1": 4
+      },
+      "host": "player-1",
+      "settings": {
+        "mode": "item",
+        "map": "city",
+        "laps": 1,
+        "diff": 0.0
+      },
+      "phase": "result"
+    },
+    "items": {
+      "missiles": [],
+      "events": [
+        {
+          "type": "get",
+          "item": "banana",
+          "slot": 4,
+          "id": 1,
+          "object": 0
+        },
+        {
+          "type": "pickup",
+          "item": "box",
+          "slot": 4,
+          "id": 2,
+          "object": 3
+        },
+        {
+          "type": "get",
+          "item": "magnet",
+          "slot": 1,
+          "id": 3,
+          "object": 0
+        },
+        {
+          "type": "pickup",
+          "item": "box",
+          "slot": 1,
+          "id": 4,
+          "object": 4
+        },
+        {
+          "type": "get",
+          "item": "shield",
+          "slot": 5,
+          "id": 5,
+          "object": 0
+        },
+        {
+          "type": "pickup",
+          "item": "box",
+          "slot": 5,
+          "id": 6,
+          "object": 2
+        },
+        {
+          "type": "use",
+          "item": "banana",
+          "slot": 4,
+          "id": 7,
+          "object": 0
+        },
+        {
+          "type": "hit",
+          "item": "banana",
+          "slot": 5,
+          "id": 8,
+          "object": 1
+        },
+        {
+          "type": "use",
+          "item": "shield",
+          "slot": 5,
+          "id": 9,
+          "object": 0
+        },
+        {
+          "type": "get",
+          "item": "banana",
+          "slot": 4,
+          "id": 10,
+          "object": 0
+        },
+        {
+          "type": "pickup",
+          "item": "box",
+          "slot": 4,
+          "id": 11,
+          "object": 6
+        },
+        {
+          "type": "get",
+          "item": "nitro",
+          "slot": 4,
+          "id": 12,
+          "object": 0
+        },
+        {
+          "type": "pickup",
+          "item": "box",
+          "slot": 4,
+          "id": 13,
+          "object": 7
+        },
+        {
+          "type": "use",
+          "item": "banana",
+          "slot": 4,
+          "id": 14,
+          "object": 0
+        },
+        {
+          "type": "hit",
+          "item": "banana",
+          "slot": 3,
+          "id": 15,
+          "object": 2
+        },
+        {
+          "type": "use",
+          "item": "nitro",
+          "slot": 4,
+          "id": 16,
+          "object": 0
+        },
+        {
+          "type": "get",
+          "item": "shield",
+          "slot": 4,
+          "id": 17,
+          "object": 0
+        },
+        {
+          "type": "pickup",
+          "item": "box",
+          "slot": 4,
+          "id": 18,
+          "object": 13
+        },
+        {
+          "type": "get",
+          "item": "banana",
+          "slot": 4,
+          "id": 19,
+          "object": 0
+        },
+        {
+          "type": "pickup",
+          "item": "box",
+          "slot": 4,
+          "id": 20,
+          "object": 14
+        },
+        {
+          "type": "use",
+          "item": "magnet",
+          "slot": 1,
+          "id": 21,
+          "object": 0
+        },
+        {
+          "type": "use",
+          "item": "shield",
+          "slot": 4,
+          "id": 22,
+          "object": 0
+        },
+        {
+          "type": "use",
+          "item": "banana",
+          "slot": 4,
+          "id": 23,
+          "object": 0
+        },
+        {
+          "type": "hit",
+          "item": "banana",
+          "slot": 5,
+          "id": 24,
+          "object": 3
+        },
+        {
+          "type": "get",
+          "item": "banana",
+          "slot": 4,
+          "id": 25,
+          "object": 0
+        },
+        {
+          "type": "pickup",
+          "item": "box",
+          "slot": 4,
+          "id": 26,
+          "object": 16
+        },
+        {
+          "type": "get",
+          "item": "banana",
+          "slot": 3,
+          "id": 27,
+          "object": 0
+        },
+        {
+          "type": "pickup",
+          "item": "box",
+          "slot": 3,
+          "id": 28,
+          "object": 16
+        },
+        {
+          "type": "use",
+          "item": "banana",
+          "slot": 4,
+          "id": 29,
+          "object": 0
+        },
+        {
+          "type": "use",
+          "item": "banana",
+          "slot": 3,
+          "id": 30,
+          "object": 0
+        },
+        {
+          "type": "hit",
+          "item": "banana",
+          "slot": 6,
+          "id": 31,
+          "object": 4
+        },
+        {
+          "type": "hit",
+          "item": "banana",
+          "slot": 5,
+          "id": 32,
+          "object": 5
+        }
+      ],
+      "bananas": [],
+      "boxes": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "epoch": 3
+  }
+}

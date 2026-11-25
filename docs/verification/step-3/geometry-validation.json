@@ -1,0 +1,20 @@
+{
+  "samples": 1570,
+  "length": 2355.054593330713,
+  "seamError": 0.0,
+  "centerMaxError": 1.52588182E-05,
+  "widthMaxError": 4.196167E-05,
+  "centerMinHeight": -0.162539184,
+  "centerMaxHeight": 6.042768,
+  "rayHeightMaxError": 3.33786E-06,
+  "roadRaycasts": 4710,
+  "roadMisses": 0,
+  "wallRaycasts": 3140,
+  "wallMisses": 0,
+  "bridgeSamples": 219,
+  "bridgeMisses": 0,
+  "colliders": 578,
+  "vehiclePrefabs": 8,
+  "textureFiles": 71,
+  "passed": true
+}

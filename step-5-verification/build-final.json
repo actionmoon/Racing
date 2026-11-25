@@ -1,0 +1,21 @@
+{
+  "scene": "Assets/Scenes/RacingClone.unity",
+  "cacheTime": "2026-11-24T21:58:16.562085",
+  "cacheSHA256": "8bd24b6938edbb0c027bd624967cbdd6e646ddba2a0d11b344205cb43f62fd93",
+  "fixtureCount": 0,
+  "compiling": false,
+  "startButtonPersistentListeners": 1,
+  "menu": "Tools/ScenePackage",
+  "diagnosticRemoved": [
+    "POINTER",
+    "START_BUTTON listeners"
+  ],
+  "scriptSHA256": {
+    "Assets/RacingClone/Lua/Client/RaceInput.lua": "d206b2a6af29d86998194ef7fd103065901cd7457810477d2268e6f73a76aac0",
+    "Assets/RacingClone/Lua/Client/RaceMenuButton.lua": "67f1a761f00f891e40b9e948b4aa1a8d2985ed93d0ace7868aade20fa53a1aed",
+    "Assets/RacingClone/Lua/Client/RaceClient.lua": "5ab5d2ebd55c8b8c6a604dd3353e291a993af1bd6a7060e50a97fd28c6aa19bd"
+  },
+  "clientDisconnectGuard": true,
+  "buildMenuResponse": "MCP response timed out; new cache and restored scene confirmed after build",
+  "runtimeAfterFinalBuild": "single-client session blocked by macOS locked screen; no completed race"
+}

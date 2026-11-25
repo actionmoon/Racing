@@ -1,0 +1,35 @@
+{
+  "editor": {
+    "isCompiling": false,
+    "isUpdating": false,
+    "consoleCounts": [
+      0,
+      0,
+      0
+    ],
+    "method": "GetCountsByType",
+    "scene": "Assets/Scenes/RacingClone.unity"
+  },
+  "sceneInspection": {
+    "scene": "Assets/Scenes/RacingClone.unity",
+    "fixtureCount": 0,
+    "inputEnabled": [
+      true
+    ],
+    "flameGroups": 12
+  },
+  "builds": {
+    "RacingClone": {
+      "settingsModifiedAt": "2026-11-24T18:42:26.637182",
+      "catalogValid": true
+    },
+    "RacingDriving_boost": {
+      "settingsModifiedAt": "2026-11-24T18:40:20.294572",
+      "catalogValid": true
+    },
+    "RacingDriving_landing": {
+      "settingsModifiedAt": "2026-11-24T18:41:11.599013",
+      "catalogValid": true
+    }
+  }
+}

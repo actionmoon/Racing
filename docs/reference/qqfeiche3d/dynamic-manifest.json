@@ -1,0 +1,1156 @@
+{
+  "maps": [
+    {
+      "id": "city",
+      "meshes": 1008,
+      "vertices": 611737,
+      "length": 2355.054593330713,
+      "samples": 1570
+    },
+    {
+      "id": "aegean",
+      "meshes": 731,
+      "vertices": 640727,
+      "length": 2498.508477666001,
+      "samples": 1666
+    },
+    {
+      "id": "egypt",
+      "meshes": 527,
+      "vertices": 502221,
+      "length": 2430.197213736323,
+      "samples": 1621
+    },
+    {
+      "id": "snow",
+      "meshes": 539,
+      "vertices": 921327,
+      "length": 2150.707215886448,
+      "samples": 1434
+    }
+  ],
+  "textures": [
+    {
+      "uuid": "a09456f5-4a76-4f88-b8f1-8843e18b6da0",
+      "firstMap": "city",
+      "slot": "map",
+      "width": 512,
+      "height": 512,
+      "wrapS": 1000,
+      "wrapT": 1000,
+      "repeat": [
+        145.45454545454547,
+        145.45454545454547
+      ],
+      "file": "textures/texture-001.png",
+      "sha256": "9383b4137854dfbfd0bebc4b64f6b7567f738926a0f90e5ca377849e7ef6eb49",
+      "bytes": 556747
+    },
+    {
+      "uuid": "f57e2e50-9a5f-4263-b4f7-aa907f4d6f02",
+      "firstMap": "city",
+      "slot": "map",
+      "width": 512,
+      "height": 1024,
+      "wrapS": 1000,
+      "wrapT": 1000,
+      "repeat": [
+        1,
+        1
+      ],
+      "file": "textures/texture-002.png",
+      "sha256": "adb3b72ff2d6e2a51217bbcbfa60635e0e20823071adc1577f6ee8d1ddca3e43",
+      "bytes": 814823
+    },
+    {
+      "uuid": "24cf17a0-687e-4b4d-8254-c13a04bcd0c1",
+      "firstMap": "city",
+      "slot": "map",
+      "width": 1024,
+      "height": 128,
+      "wrapS": 1000,
+      "wrapT": 1000,
+      "repeat": [
+        1,
+        1
+      ],
+      "file": "textures/texture-003.png",
+      "sha256": "ec39355647236771e6efd1f085fe4db2cbb045cc5775d444c56c9d714dfe4499",
+      "bytes": 24568
+    },
+    {
+      "uuid": "2e8355e0-0b09-4138-b906-9df0aeec9752",
+      "firstMap": "city",
+      "slot": "map",
+      "width": 64,
+      "height": 256,
+      "wrapS": 1000,
+      "wrapT": 1000,
+      "repeat": [
+        1,
+        1
+      ],
+      "file": "textures/texture-004.png",
+      "sha256": "482a001ba4ca5ccd30e6fa907817fb2d893bf337c451f65f9dc6979d43ed24bc",
+      "bytes": 926
+    },
+    {
+      "uuid": "6de28524-31a6-4155-b271-5e665c2cc747",
+      "firstMap": "city",
+      "slot": "map",
+      "width": 512,
+      "height": 64,
+      "wrapS": 1000,
+      "wrapT": 1000,
+      "repeat": [
+        1,
+        1
+      ],
+      "file": "textures/texture-005.png",
+      "sha256": "39a4ec04c37dad9a944401749ffa47145b61f4ceb307605695c15465aeff601f",
+      "bytes": 1062
+    },
+    {
+      "uuid": "66cdb89b-a74d-47f9-bc8a-39182176e37a",
+      "firstMap": "city",
+      "slot": "map",
+      "width": 256,
+      "height": 512,
+      "wrapS": 1001,
+      "wrapT": 1001,
+      "repeat": [
+        1,
+        1
+      ],
+      "file": "textures/texture-006.png",
+      "sha256": "b91ef02d0cecf33069d6d37ee69fa046750bb90d5a1b0e1158d4ecc9a025fad7",
+      "bytes": 125908
+    },
+    {
+      "uuid": "c08c5c35-2a07-434e-96d4-01f9f50745f4",
+      "firstMap": "city",
+      "slot": "map",
+      "width": 512,
+      "height": 512,
+      "wrapS": 1000,
+      "wrapT": 1000,
+      "repeat": [
+        1,
+        1
+      ],
+      "file": "textures/texture-007.png",
+      "sha256": "24110bd21cb19d22c641e557969245c3ab34df3e1e2d502e0bd9f8a9e7e7b650",
+      "bytes": 10393
+    },
+    {
+      "uuid": "b8ae6b38-5c99-4f2d-a65f-74139c388096",
+      "firstMap": "city",
+      "slot": "map",
+      "width": 256,
+      "height": 128,
+      "wrapS": 1001,
+      "wrapT": 1001,
+      "repeat": [
+        1,
+        1
+      ],
+      "file": "textures/texture-008.png",
+      "sha256": "f0579bd15409c35dd1b5f583a4ea47330d5064810ef82bedb56d082aad3c6c3d",
+      "bytes": 24973
+    },
+    {
+      "uuid": "8c07ed15-6e41-40bb-bfff-f76a71fe1208",
+      "firstMap": "city",
+      "slot": "map",
+      "width": 512,
+      "height": 256,
+      "wrapS": 1001,
+      "wrapT": 1001,
+      "repeat": [
+        1,
+        1
+      ],
+      "file": "textures/texture-009.png",
+      "sha256": "32a6b770ea4662a554457fe48efcca51ce52e3f100f794efc724ea3b3f018964",
+      "bytes": 139851
+    },
+    {
+      "uuid": "6477f242-6326-47fa-906d-eefbf75da6cf",
+      "firstMap": "city",
+      "slot": "map",
+      "width": 512,
+      "height": 256,
+      "wrapS": 1001,
+      "wrapT": 1001,
+      "repeat": [
+        1,
+        1
+      ],
+      "file": "textures/texture-010.png",
+      "sha256": "d25221154b884816f1a937ae524321c995e87b6fbe15c4e70022edbf9e8a9021",
+      "bytes": 145543
+    },
+    {
+      "uuid": "431c8d54-e387-46ee-b2f7-b2bbd92f9083",
+      "firstMap": "city",
+      "slot": "map",
+      "width": 512,
+      "height": 256,
+      "wrapS": 1001,
+      "wrapT": 1001,
+      "repeat": [
+        1,
+        1
+      ],
+      "file": "textures/texture-011.png",
+      "sha256": "27a8db372688e4032249de4f6d8cd1e1a81e0415d9616c36704dd5d4b6c92d79",
+      "bytes": 137258
+    },
+    {
+      "uuid": "48b5e196-6c79-4e35-a677-4c8a64e5c8a6",
+      "firstMap": "city",
+      "slot": "map",
+      "width": 512,
+      "height": 256,
+      "wrapS": 1001,
+      "wrapT": 1001,
+      "repeat": [
+        1,
+        1
+      ],
+      "file": "textures/texture-012.png",
+      "sha256": "3e1beb650ec83f50d48b274810617de36c87062ca5c49705709b4987115aff3f",
+      "bytes": 87019
+    },
+    {
+      "uuid": "71d4bdb2-8f45-4396-916a-409a296b992b",
+      "firstMap": "city",
+      "slot": "map",
+      "width": 512,
+      "height": 256,
+      "wrapS": 1000,
+      "wrapT": 1001,
+      "repeat": [
+        1.6666666666666667,
+        1
+      ],
+      "file": "textures/texture-013.png",
+      "sha256": "87bc6ec7782bf7d038efdaa281f75f3bc900005b065eb73c4dc9edd4a7f88689",
+      "bytes": 77441
+    },
+    {
+      "uuid": "b49ac63a-1c9e-4af4-b314-c24de8fb436e",
+      "firstMap": "city",
+      "slot": "map",
+      "width": 512,
+      "height": 96,
+      "wrapS": 1001,
+      "wrapT": 1001,
+      "repeat": [
+        1,
+        1
+      ],
+      "file": "textures/texture-014.png",
+      "sha256": "28fc442c1c3353fe03341fd0a2523a64f8e69464d586db0f2c7d19a149a42c03",
+      "bytes": 10626
+    },
+    {
+      "uuid": "108ec3a0-3e20-4a22-a89e-307a8f911538",
+      "firstMap": "city",
+      "slot": "map",
+      "width": 512,
+      "height": 128,
+      "wrapS": 1001,
+      "wrapT": 1001,
+      "repeat": [
+        1,
+        1
+      ],
+      "file": "textures/texture-015.png",
+      "sha256": "e2cfc682398108b256fac28d1740ed687ac93d91e110369485d95d2d5bc33cee",
+      "bytes": 17353
+    },
+    {
+      "uuid": "e93a9abe-0ed3-45f4-89df-14a0756b1b24",
+      "firstMap": "city",
+      "slot": "map",
+      "width": 64,
+      "height": 512,
+      "wrapS": 1001,
+      "wrapT": 1001,
+      "repeat": [
+        1,
+        1
+      ],
+      "file": "textures/texture-016.png",
+      "sha256": "251374c02163ef3f6a66549cd87ea041258db30d176e71a808d10bee053c242f",
+      "bytes": 1681
+    },
+    {
+      "uuid": "236399a5-f990-41f8-a9cc-a6f025aec07b",
+      "firstMap": "city",
+      "slot": "map",
+      "width": 1024,
+      "height": 128,
+      "wrapS": 1001,
+      "wrapT": 1001,
+      "repeat": [
+        1,
+        1
+      ],
+      "file": "textures/texture-017.png",
+      "sha256": "116ac2e8935815ae473b3780b7bd37ebb6908480b5a000ee4c3ac14a2b6095a4",
+      "bytes": 17311
+    },
+    {
+      "uuid": "f8ed4f80-ee56-47a1-8f8a-c524890b62f9",
+      "firstMap": "city",
+      "slot": "map",
+      "width": 256,
+      "height": 512,
+      "wrapS": 1000,
+      "wrapT": 1000,
+      "repeat": [
+        1,
+        1
+      ],
+      "file": "textures/texture-018.png",
+      "sha256": "69f6620f9cb8d68c286f780e314d7b5e26bcdccfb7c3382b4e5a9ab4bf42de6c",
+      "bytes": 6288
+    },
+    {
+      "uuid": "89f543b0-f1fe-4882-9443-eb0ea4d62b15",
+      "firstMap": "city",
+      "slot": "map",
+      "width": 256,
+      "height": 512,
+      "wrapS": 1000,
+      "wrapT": 1000,
+      "repeat": [
+        1,
+        1
+      ],
+      "file": "textures/texture-019.png",
+      "sha256": "e55e4ee5c831ac7f46bfeaad1092c49f2f329efc7410694022af525488bbcf20",
+      "bytes": 130594
+    },
+    {
+      "uuid": "1fbac5f9-7c17-4f06-842f-2cfded5c8c3f",
+      "firstMap": "city",
+      "slot": "map",
+      "width": 256,
+      "height": 512,
+      "wrapS": 1000,
+      "wrapT": 1000,
+      "repeat": [
+        1,
+        1
+      ],
+      "file": "textures/texture-020.png",
+      "sha256": "ab0c8bef209073d7fe5fc317f807f4e5c37b3c4968528ad35b344b17e14b8394",
+      "bytes": 4889
+    },
+    {
+      "uuid": "7c44b0b6-2d24-4beb-9351-b4ee3ad9dfcf",
+      "firstMap": "city",
+      "slot": "map",
+      "width": 64,
+      "height": 64,
+      "wrapS": 1001,
+      "wrapT": 1001,
+      "repeat": [
+        1,
+        1
+      ],
+      "file": "textures/texture-021.png",
+      "sha256": "0bb18f5b55f093f7506db71b74ae7f882269883fc092df6ed7eb049e1f0bc4b0",
+      "bytes": 3897
+    },
+    {
+      "uuid": "91b600e6-c78b-432c-b8b6-ea7fa9137f6f",
+      "firstMap": "city",
+      "slot": "map",
+      "width": 512,
+      "height": 96,
+      "wrapS": 1001,
+      "wrapT": 1001,
+      "repeat": [
+        1,
+        1
+      ],
+      "file": "textures/texture-022.png",
+      "sha256": "5578a90c1c0840f0c8202b55350bcde520178706ab133c8b609292f637a5a3b3",
+      "bytes": 12934
+    },
+    {
+      "uuid": "bf1bc23b-0cca-4bb5-ad1a-ec19e9625571",
+      "firstMap": "city",
+      "slot": "map",
+      "width": 512,
+      "height": 96,
+      "wrapS": 1001,
+      "wrapT": 1001,
+      "repeat": [
+        1,
+        1
+      ],
+      "file": "textures/texture-023.png",
+      "sha256": "8e372cf591fc9e2859192ecd307e0b10981c41c1e89a640adaff8db407f185c0",
+      "bytes": 10920
+    },
+    {
+      "uuid": "a3840153-7a8e-4e3e-8cb3-9e1526193f15",
+      "firstMap": "city",
+      "slot": "map",
+      "width": 512,
+      "height": 96,
+      "wrapS": 1001,
+      "wrapT": 1001,
+      "repeat": [
+        1,
+        1
+      ],
+      "file": "textures/texture-024.png",
+      "sha256": "d85c187bfcf8682c3b9e4fd811aa51b77a0c4c3d37b85c87cf9e284bbf95b28a",
+      "bytes": 16329
+    },
+    {
+      "uuid": "d6ba6873-c53e-4f92-a789-7d9712503de2",
+      "firstMap": "city",
+      "slot": "map",
+      "width": 512,
+      "height": 96,
+      "wrapS": 1001,
+      "wrapT": 1001,
+      "repeat": [
+        1,
+        1
+      ],
+      "file": "textures/texture-025.png",
+      "sha256": "5e6061c746d971533f4aadbdf2efc96446f661742dd65953f4e4732a17781095",
+      "bytes": 9126
+    },
+    {
+      "uuid": "676e5250-be66-4218-8968-b123131a076b",
+      "firstMap": "city",
+      "slot": "map",
+      "width": 512,
+      "height": 96,
+      "wrapS": 1001,
+      "wrapT": 1001,
+      "repeat": [
+        1,
+        1
+      ],
+      "file": "textures/texture-026.png",
+      "sha256": "7cdee78b85819af51289aeb3912702cc0c30b23ca09794d65dca3832a87ef60e",
+      "bytes": 12594
+    },
+    {
+      "uuid": "a3619e2a-f0ac-4933-8275-a2de0877e202",
+      "firstMap": "city",
+      "slot": "map",
+      "width": 512,
+      "height": 96,
+      "wrapS": 1001,
+      "wrapT": 1001,
+      "repeat": [
+        1,
+        1
+      ],
+      "file": "textures/texture-027.png",
+      "sha256": "1ad56de4e7c250785c9880ccfe8e35342e10fe475be9ec0b9e3bee4d5348cf18",
+      "bytes": 12306
+    },
+    {
+      "uuid": "590f8845-a4f9-4547-8694-0aa64942f16f",
+      "firstMap": "aegean",
+      "slot": "map",
+      "width": 512,
+      "height": 512,
+      "wrapS": 1000,
+      "wrapT": 1000,
+      "repeat": [
+        145.45454545454547,
+        145.45454545454547
+      ],
+      "file": "textures/texture-028.png",
+      "sha256": "5305189f9a5b00af5fa04f074069dcf0a2675c4f28b05cacc58be345130bd4c6",
+      "bytes": 530031
+    },
+    {
+      "uuid": "e77d8b6c-bf78-4370-b57b-e3ef3cf27f1f",
+      "firstMap": "aegean",
+      "slot": "map",
+      "width": 512,
+      "height": 1024,
+      "wrapS": 1000,
+      "wrapT": 1000,
+      "repeat": [
+        1,
+        1
+      ],
+      "file": "textures/texture-029.png",
+      "sha256": "5cfb453aaa99073f0a7c940082baceaf5d4bbb6cace0a055a86bfd9be53557ca",
+      "bytes": 158486
+    },
+    {
+      "uuid": "8e47c012-7041-4ccf-a799-df8310435efd",
+      "firstMap": "aegean",
+      "slot": "map",
+      "width": 1024,
+      "height": 128,
+      "wrapS": 1000,
+      "wrapT": 1000,
+      "repeat": [
+        1,
+        1
+      ],
+      "file": "textures/texture-030.png",
+      "sha256": "0a5cfa4610502fb8e793e9127d3f48dca4a522bf09eb2fc444587cee3ff17ced",
+      "bytes": 56269
+    },
+    {
+      "uuid": "2aedb26c-f456-45dc-ba3e-be0a815658b1",
+      "firstMap": "aegean",
+      "slot": "map",
+      "width": 64,
+      "height": 256,
+      "wrapS": 1000,
+      "wrapT": 1000,
+      "repeat": [
+        1,
+        1
+      ],
+      "file": "textures/texture-031.png",
+      "sha256": "f3c7deb59ed112581a7032909ca66e3fcb3cc9b7e0e2d06fc4cf646a50278601",
+      "bytes": 924
+    },
+    {
+      "uuid": "60cadb19-78d1-42d6-aab8-fdea1ee0ffd1",
+      "firstMap": "aegean",
+      "slot": "map",
+      "width": 512,
+      "height": 64,
+      "wrapS": 1000,
+      "wrapT": 1000,
+      "repeat": [
+        1,
+        1
+      ],
+      "file": "textures/texture-032.png",
+      "sha256": "35036f111b5163cafef86066d122388db4f5b130b87ca1b8052330e680b20a1d",
+      "bytes": 1070
+    },
+    {
+      "uuid": "8da8197d-2c6e-46b9-a111-1c836e473bb1",
+      "firstMap": "aegean",
+      "slot": "map",
+      "width": 256,
+      "height": 512,
+      "wrapS": 1001,
+      "wrapT": 1001,
+      "repeat": [
+        1,
+        1
+      ],
+      "file": "textures/texture-033.png",
+      "sha256": "865c16ac2af8bd136f03653e33145eaa645a899cd36a610da7834d0793d25b74",
+      "bytes": 127353
+    },
+    {
+      "uuid": "4773e880-2c1c-441d-9a28-a8c03126d30c",
+      "firstMap": "aegean",
+      "slot": "map",
+      "width": 256,
+      "height": 256,
+      "wrapS": 1000,
+      "wrapT": 1000,
+      "repeat": [
+        1,
+        1
+      ],
+      "file": "textures/texture-034.png",
+      "sha256": "783cc6d20206546c9248ab1c7a390103e4e27cc8aa552d77297e0c8c2a1a27fa",
+      "bytes": 9163
+    },
+    {
+      "uuid": "ef98ab60-8356-43c8-b1f9-b1cf62fb38c5",
+      "firstMap": "aegean",
+      "slot": "map",
+      "width": 256,
+      "height": 512,
+      "wrapS": 1000,
+      "wrapT": 1000,
+      "repeat": [
+        1,
+        1
+      ],
+      "file": "textures/texture-035.png",
+      "sha256": "c73a5e69aacf6d68605a16370b1a61a894b1868e32fed950a286b2f5ea39617e",
+      "bytes": 43402
+    },
+    {
+      "uuid": "a5ee7fdf-4a45-4e31-8c6d-53bff2a56767",
+      "firstMap": "aegean",
+      "slot": "map",
+      "width": 512,
+      "height": 256,
+      "wrapS": 1001,
+      "wrapT": 1001,
+      "repeat": [
+        1,
+        1
+      ],
+      "file": "textures/texture-036.png",
+      "sha256": "00042aef3ed58057e1eba491784ed63bf1ded5bd4ffb0a264a427368b00819c3",
+      "bytes": 120552
+    },
+    {
+      "uuid": "5ab2c4cd-3abb-4b83-9277-fea689f81dc6",
+      "firstMap": "aegean",
+      "slot": "map",
+      "width": 512,
+      "height": 256,
+      "wrapS": 1001,
+      "wrapT": 1001,
+      "repeat": [
+        1,
+        1
+      ],
+      "file": "textures/texture-037.png",
+      "sha256": "e64c3cf8c6dcea05148adea3d991c9af47f3a6f068c0b64c2dbc3a66b1a131ea",
+      "bytes": 139395
+    },
+    {
+      "uuid": "c9e541c6-d888-4000-9181-d3545d91ae38",
+      "firstMap": "aegean",
+      "slot": "map",
+      "width": 256,
+      "height": 128,
+      "wrapS": 1001,
+      "wrapT": 1001,
+      "repeat": [
+        1,
+        1
+      ],
+      "file": "textures/texture-038.png",
+      "sha256": "93437db354d499c71bd235a47e3708f407d69355c9dec1b9834a92a1591681fc",
+      "bytes": 2770
+    },
+    {
+      "uuid": "c96f24d0-0549-412d-a960-e0357a5a748a",
+      "firstMap": "aegean",
+      "slot": "map",
+      "width": 1024,
+      "height": 128,
+      "wrapS": 1001,
+      "wrapT": 1001,
+      "repeat": [
+        1,
+        1
+      ],
+      "file": "textures/texture-039.png",
+      "sha256": "97c50545e9775b92bcbba07e8d0dccefd8e8384fc156a9c24ec2aa12738677fb",
+      "bytes": 17342
+    },
+    {
+      "uuid": "0bfb04d7-1f4f-4f59-9d0f-0b11682b8e07",
+      "firstMap": "aegean",
+      "slot": "map",
+      "width": 512,
+      "height": 96,
+      "wrapS": 1001,
+      "wrapT": 1001,
+      "repeat": [
+        1,
+        1
+      ],
+      "file": "textures/texture-040.png",
+      "sha256": "187ddeebaa7080999928dae4a826135a53e3a1b31ebe7537cd9982aabbe9eeea",
+      "bytes": 12403
+    },
+    {
+      "uuid": "dac69c5f-3c11-41d4-8b13-a4c2d2fba08c",
+      "firstMap": "aegean",
+      "slot": "map",
+      "width": 512,
+      "height": 96,
+      "wrapS": 1001,
+      "wrapT": 1001,
+      "repeat": [
+        1,
+        1
+      ],
+      "file": "textures/texture-041.png",
+      "sha256": "70cbae79f0afb44e2b8065ea61985b64e28b282b34eb6f588654dc93b7258352",
+      "bytes": 9521
+    },
+    {
+      "uuid": "f72f5d36-3da3-42c0-97ca-6a8f6710f751",
+      "firstMap": "egypt",
+      "slot": "map",
+      "width": 512,
+      "height": 512,
+      "wrapS": 1000,
+      "wrapT": 1000,
+      "repeat": [
+        145.45454545454547,
+        145.45454545454547
+      ],
+      "file": "textures/texture-042.png",
+      "sha256": "f3b58d1f312c6f190bddf3d5ab9795ebba629782fe6f102307954942860e81b0",
+      "bytes": 494742
+    },
+    {
+      "uuid": "963285cf-fbcf-41f6-aae4-0fb0d4c7e6bb",
+      "firstMap": "egypt",
+      "slot": "map",
+      "width": 512,
+      "height": 1024,
+      "wrapS": 1000,
+      "wrapT": 1000,
+      "repeat": [
+        1,
+        1
+      ],
+      "file": "textures/texture-043.png",
+      "sha256": "b614b4f4a43641b23c17083028da09ee98619056fdb408ae56892f9e66b6e650",
+      "bytes": 160929
+    },
+    {
+      "uuid": "8e04d4ed-349c-4820-8952-a2aa99bd8dac",
+      "firstMap": "egypt",
+      "slot": "map",
+      "width": 1024,
+      "height": 128,
+      "wrapS": 1000,
+      "wrapT": 1000,
+      "repeat": [
+        1,
+        1
+      ],
+      "file": "textures/texture-044.png",
+      "sha256": "357e803ba4fb6bd525347862a96c54f34034611c641bb099a22074f391db8e2e",
+      "bytes": 8984
+    },
+    {
+      "uuid": "60997c15-03e8-4506-ac7e-ab99efce6194",
+      "firstMap": "egypt",
+      "slot": "map",
+      "width": 64,
+      "height": 256,
+      "wrapS": 1000,
+      "wrapT": 1000,
+      "repeat": [
+        1,
+        1
+      ],
+      "file": "textures/texture-045.png",
+      "sha256": "77a937e690feededc3327ddc63a337539012d28940ed7738d5fc524f1d323ff8",
+      "bytes": 929
+    },
+    {
+      "uuid": "e8843d90-cdcc-48b9-9781-6bb4c74cf09e",
+      "firstMap": "egypt",
+      "slot": "map",
+      "width": 512,
+      "height": 64,
+      "wrapS": 1000,
+      "wrapT": 1000,
+      "repeat": [
+        1,
+        1
+      ],
+      "file": "textures/texture-046.png",
+      "sha256": "50912f0696fa907a32d146837eff4cd7c5d9fa9769caeaee36ed21966a06c30d",
+      "bytes": 1070
+    },
+    {
+      "uuid": "1f15cfcc-9662-4892-a29f-415696dbd77c",
+      "firstMap": "egypt",
+      "slot": "map",
+      "width": 256,
+      "height": 512,
+      "wrapS": 1001,
+      "wrapT": 1001,
+      "repeat": [
+        1,
+        1
+      ],
+      "file": "textures/texture-047.png",
+      "sha256": "d7c40c35d5c211060ed8fcd32bfe6f02c66782b211b36d3214e38ddf72745eab",
+      "bytes": 123475
+    },
+    {
+      "uuid": "85aa57dc-5d3e-4788-8273-76ef91a4f714",
+      "firstMap": "egypt",
+      "slot": "map",
+      "width": 512,
+      "height": 512,
+      "wrapS": 1000,
+      "wrapT": 1000,
+      "repeat": [
+        4,
+        4
+      ],
+      "file": "textures/texture-048.png",
+      "sha256": "c403bfbc3cacd2ba7d112b00c021fbee1fb32cc75da3d87d4fe2ae5b8415dcc0",
+      "bytes": 13024
+    },
+    {
+      "uuid": "906e49fd-da84-445a-9562-bfa53bb7cfd9",
+      "firstMap": "egypt",
+      "slot": "map",
+      "width": 512,
+      "height": 128,
+      "wrapS": 1001,
+      "wrapT": 1001,
+      "repeat": [
+        1,
+        1
+      ],
+      "file": "textures/texture-049.png",
+      "sha256": "ee92fe7dfe17cca0ba024e6340cd549444f9be745ca8d43cf2e5b490fdbce035",
+      "bytes": 11668
+    },
+    {
+      "uuid": "2be749d5-021d-435b-8e5f-b4ffcd434321",
+      "firstMap": "egypt",
+      "slot": "map",
+      "width": 512,
+      "height": 256,
+      "wrapS": 1001,
+      "wrapT": 1001,
+      "repeat": [
+        1,
+        1
+      ],
+      "file": "textures/texture-050.png",
+      "sha256": "69e59d73a1658ffd1ef707c3d54e09742436567dfe727236207ef265be348c0f",
+      "bytes": 137004
+    },
+    {
+      "uuid": "987e6d21-d5e4-4f10-acf0-b4a3ca2af241",
+      "firstMap": "egypt",
+      "slot": "map",
+      "width": 512,
+      "height": 256,
+      "wrapS": 1001,
+      "wrapT": 1001,
+      "repeat": [
+        1,
+        1
+      ],
+      "file": "textures/texture-051.png",
+      "sha256": "898d985fcceb7cd0756615dd654af84ee578f0025d7f24199b98fc4f8b4dbda9",
+      "bytes": 141471
+    },
+    {
+      "uuid": "b93f82d4-c1d5-4c46-880d-aa54ec3e7ded",
+      "firstMap": "egypt",
+      "slot": "map",
+      "width": 256,
+      "height": 128,
+      "wrapS": 1001,
+      "wrapT": 1001,
+      "repeat": [
+        1,
+        1
+      ],
+      "file": "textures/texture-052.png",
+      "sha256": "f4a7bdb7f6c74b113446d46c20f592ca26a01b024a8090acb978a3d5330cc0c9",
+      "bytes": 3058
+    },
+    {
+      "uuid": "61923e44-d3b9-4662-855e-9cee06ab1e76",
+      "firstMap": "egypt",
+      "slot": "map",
+      "width": 1024,
+      "height": 128,
+      "wrapS": 1001,
+      "wrapT": 1001,
+      "repeat": [
+        1,
+        1
+      ],
+      "file": "textures/texture-053.png",
+      "sha256": "fb8d7d98ad0be071313b899c7d4a2277f4f27c844a7ba218aaa3051b4c8cb520",
+      "bytes": 19069
+    },
+    {
+      "uuid": "9e11998b-50f3-4a1f-add8-f0445babbe7e",
+      "firstMap": "snow",
+      "slot": "map",
+      "width": 512,
+      "height": 512,
+      "wrapS": 1000,
+      "wrapT": 1000,
+      "repeat": [
+        106.66666666666667,
+        106.66666666666667
+      ],
+      "file": "textures/texture-054.png",
+      "sha256": "ecf269dc92060479bb7c37ad100f1d0292a941c9a3762ba0cc62b467f38e6169",
+      "bytes": 460035
+    },
+    {
+      "uuid": "1bce4303-37eb-4654-b3dd-785c3bc00324",
+      "firstMap": "snow",
+      "slot": "map",
+      "width": 512,
+      "height": 1024,
+      "wrapS": 1000,
+      "wrapT": 1000,
+      "repeat": [
+        1,
+        1
+      ],
+      "file": "textures/texture-055.png",
+      "sha256": "b4ee6eeeb07db83144a44db2630639704de7e867a57af4c48e2653e01c81a3fc",
+      "bytes": 216861
+    },
+    {
+      "uuid": "38ec8cc7-8fed-42d3-823d-47a7b7e7719b",
+      "firstMap": "snow",
+      "slot": "map",
+      "width": 1024,
+      "height": 128,
+      "wrapS": 1000,
+      "wrapT": 1000,
+      "repeat": [
+        1,
+        1
+      ],
+      "file": "textures/texture-056.png",
+      "sha256": "e80e3c8b4d67caf076d10ea68e921cebeca4ea857787fdf8abae82cbf98f8100",
+      "bytes": 24957
+    },
+    {
+      "uuid": "340dc96f-dd6c-4b88-b3fd-196ff9b08d5d",
+      "firstMap": "snow",
+      "slot": "map",
+      "width": 64,
+      "height": 256,
+      "wrapS": 1000,
+      "wrapT": 1000,
+      "repeat": [
+        1,
+        1
+      ],
+      "file": "textures/texture-057.png",
+      "sha256": "7e5045176aea60117e27e21f710cdf55b9ab844f85b2a27cc3663dad9155d338",
+      "bytes": 918
+    },
+    {
+      "uuid": "d2dc7126-f9e2-4a78-a274-56d92f3946d2",
+      "firstMap": "snow",
+      "slot": "map",
+      "width": 512,
+      "height": 64,
+      "wrapS": 1000,
+      "wrapT": 1000,
+      "repeat": [
+        1,
+        1
+      ],
+      "file": "textures/texture-058.png",
+      "sha256": "39a4ec04c37dad9a944401749ffa47145b61f4ceb307605695c15465aeff601f",
+      "bytes": 1062
+    },
+    {
+      "uuid": "18c68874-d8de-4539-93f3-ec27e274e351",
+      "firstMap": "snow",
+      "slot": "map",
+      "width": 256,
+      "height": 512,
+      "wrapS": 1001,
+      "wrapT": 1001,
+      "repeat": [
+        1,
+        1
+      ],
+      "file": "textures/texture-059.png",
+      "sha256": "9621a9d1cde998b147c585724fba02b3ee3e4af00122ce5cca25ee6b7ebe5328",
+      "bytes": 127381
+    },
+    {
+      "uuid": "c0da0edc-9e48-49bb-bdf5-df77af7fec6c",
+      "firstMap": "snow",
+      "slot": "map",
+      "width": 512,
+      "height": 256,
+      "wrapS": 1001,
+      "wrapT": 1001,
+      "repeat": [
+        1,
+        1
+      ],
+      "file": "textures/texture-060.png",
+      "sha256": "13aca705946386e40387d8986aa62fdb6ca7eabd0a5dc0757a2848e2df821c68",
+      "bytes": 140886
+    },
+    {
+      "uuid": "fdce6333-e4b8-4a3b-93d2-f486511740d6",
+      "firstMap": "snow",
+      "slot": "map",
+      "width": 512,
+      "height": 256,
+      "wrapS": 1001,
+      "wrapT": 1001,
+      "repeat": [
+        1,
+        1
+      ],
+      "file": "textures/texture-061.png",
+      "sha256": "e5c776cb8be1d7e9256920cbd586d891fc6e617557efe913f4387861e708239f",
+      "bytes": 139473
+    },
+    {
+      "uuid": "6e3a5f68-7587-4d66-9c98-273674826c88",
+      "firstMap": "snow",
+      "slot": "map",
+      "width": 256,
+      "height": 64,
+      "wrapS": 1001,
+      "wrapT": 1001,
+      "repeat": [
+        1,
+        1
+      ],
+      "file": "textures/texture-062.png",
+      "sha256": "07f09e70dfc89417d13eb2a95b2baa88b33a11fa532c6748e530fee91f9821ea",
+      "bytes": 673
+    },
+    {
+      "uuid": "a22e77b6-e34b-4a17-97f1-dacce22dd3a7",
+      "firstMap": "snow",
+      "slot": "map",
+      "width": 256,
+      "height": 64,
+      "wrapS": 1001,
+      "wrapT": 1001,
+      "repeat": [
+        1,
+        1
+      ],
+      "file": "textures/texture-063.png",
+      "sha256": "33fb44390692064fff7292176af6516cd481e5048ccc3a35f2df70cfd9fb7166",
+      "bytes": 668
+    },
+    {
+      "uuid": "6a3b1df1-586c-4a2e-9ef4-3bf3726a6e78",
+      "firstMap": "snow",
+      "slot": "map",
+      "width": 256,
+      "height": 64,
+      "wrapS": 1001,
+      "wrapT": 1001,
+      "repeat": [
+        1,
+        1
+      ],
+      "file": "textures/texture-064.png",
+      "sha256": "a78c2c5ebcb4332bc5f496345d8a3861d35a582146f2a83f165bc8216cf8a0f3",
+      "bytes": 690
+    },
+    {
+      "uuid": "94bf843c-324a-4afd-977f-77ebfbd6decb",
+      "firstMap": "snow",
+      "slot": "map",
+      "width": 256,
+      "height": 64,
+      "wrapS": 1001,
+      "wrapT": 1001,
+      "repeat": [
+        1,
+        1
+      ],
+      "file": "textures/texture-065.png",
+      "sha256": "5e95a9d575ff0f10413dea1e04d6ebed20b0c8b2d890ec935d05631090359eaf",
+      "bytes": 688
+    },
+    {
+      "uuid": "747d7e30-3429-42fc-92f6-4e1a2670e892",
+      "firstMap": "snow",
+      "slot": "map",
+      "width": 256,
+      "height": 64,
+      "wrapS": 1001,
+      "wrapT": 1001,
+      "repeat": [
+        1,
+        1
+      ],
+      "file": "textures/texture-066.png",
+      "sha256": "353f29608588630a6715b772bd09c1d373897e7475da7118a724e4729b8a8d7e",
+      "bytes": 670
+    },
+    {
+      "uuid": "42fbf980-22c4-423b-aed0-541a8e08f0f0",
+      "firstMap": "snow",
+      "slot": "map",
+      "width": 256,
+      "height": 64,
+      "wrapS": 1001,
+      "wrapT": 1001,
+      "repeat": [
+        1,
+        1
+      ],
+      "file": "textures/texture-067.png",
+      "sha256": "42b063d504b39511320b0dc7b570ff9759e63a1172c603e8dd9ec62576abad2e",
+      "bytes": 689
+    },
+    {
+      "uuid": "495bfaa6-269d-4029-a3ec-9c2fb2b412b9",
+      "firstMap": "snow",
+      "slot": "map",
+      "width": 256,
+      "height": 64,
+      "wrapS": 1001,
+      "wrapT": 1001,
+      "repeat": [
+        1,
+        1
+      ],
+      "file": "textures/texture-068.png",
+      "sha256": "07f09e70dfc89417d13eb2a95b2baa88b33a11fa532c6748e530fee91f9821ea",
+      "bytes": 673
+    },
+    {
+      "uuid": "373d8ad6-9137-4d54-b09e-c89a26644b2d",
+      "firstMap": "snow",
+      "slot": "map",
+      "width": 1024,
+      "height": 128,
+      "wrapS": 1001,
+      "wrapT": 1001,
+      "repeat": [
+        1,
+        1
+      ],
+      "file": "textures/texture-069.png",
+      "sha256": "f052b85cf73826d0674c10e7677f4005be73e671bbfb8c4b879ea12d4482f289",
+      "bytes": 17243
+    },
+    {
+      "uuid": "48f9487b-0c49-4935-b5ad-621d17bc8771",
+      "firstMap": "snow",
+      "slot": "map",
+      "width": 256,
+      "height": 512,
+      "wrapS": 1000,
+      "wrapT": 1000,
+      "repeat": [
+        1,
+        1
+      ],
+      "file": "textures/texture-070.png",
+      "sha256": "f4d6f5fca5edd3e28a9c603a0854d833d8a9c37edb76986bb4cea4951f935f83",
+      "bytes": 5790
+    }
+  ],
+  "vehicle_geometries": 29,
+  "note": "轨道数据、Canvas贴图与共享车辆模型来自浏览器运行时。完整环境几何与音频合成逻辑见 readable-script.js；本次未导出完整场景网格或录制音频。"
+}

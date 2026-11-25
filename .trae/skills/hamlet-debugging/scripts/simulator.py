@@ -459,8 +459,8 @@ def resolve_room(values, mode, send, dry_run=False):
 
 def make_instances(common, mode, names, log_dir, relation, windowless):
     names = [name.strip() or "Anonymous" for name in names]
-    if (mode == "single" and len(names) != 1) or (mode != "single" and len(names) < 2):
-        raise SimulatorError("单机需要一个玩家；SharedMode/DS 至少需要两个玩家")
+    if (mode == "single" and len(names) != 1) or (mode == "shared" and len(names) < 2) or not names:
+        raise SimulatorError("单机需要一个玩家；SharedMode 至少需要两个玩家；DS 至少需要一个玩家")
     if len(set(names)) != len(names):
         raise SimulatorError("玩家名称必须互不相同")
     players = [(False, name, f"client-{index + 1}") for index, name in enumerate(names)]

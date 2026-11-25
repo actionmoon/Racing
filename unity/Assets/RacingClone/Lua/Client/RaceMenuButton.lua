@@ -12,6 +12,7 @@ function Update()
     if not match or not button then return end
     button.interactable=action=="skin" or match.host==RaceRuntime.localId
     local selected=(action=="laps" and match.settings.laps==value) or
+        (action=="mode" and match.settings.mode==(value==1 and "item" or "race")) or
         (action=="diff" and match.settings.diff==value) or
         (action=="skin" and RaceRuntime.localEntry and RaceRuntime.localEntry.skin==value)
     image.color=selected and UnityEngine.Color(0.08,0.65,0.75,1) or UnityEngine.Color(0.05,0.32,0.48,1)

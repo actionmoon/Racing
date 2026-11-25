@@ -23,10 +23,16 @@ function AI:update(dt, enabled, time, rubber)
     local t, v = self.track, self.car
     local maximum = 55*(0.8+0.2*self.skill)*rubber
     if v.nitroTime > 0 then maximum = maximum+17; v.nitroTime = v.nitroTime-dt end
+    if v.magnet>0 then maximum=maximum+10; v.magnet=v.magnet-dt end
+    if v.slowTime>0 then maximum=maximum*0.55; v.slowTime=v.slowTime-dt end
+    if v.shield>0 then v.shield=v.shield-dt end
+    local spinning=v.spin>0
+    if spinning then v.spin=v.spin-dt end
     local near = t:curvAhead(self.dist,8)
     local ahead = t:curvAhead(self.dist,18+v.s*1.25)
     local target = math.min(maximum,math.sqrt((16+30*self.skill)/math.max(math.abs(ahead),0.0001))+(v.nitroTime>0 and 6 or 0))
     if not enabled or time < self.startDelay then target = 0 end
+    if spinning then target=5 end
     if v.s < target then
         v.s = v.s+(v.nitroTime>0 and 34 or 20+4*self.skill)*(1-(v.s/math.max(target,1))^2*0.7)*dt
     else v.s = v.s-math.min(v.s-target,30*dt) end

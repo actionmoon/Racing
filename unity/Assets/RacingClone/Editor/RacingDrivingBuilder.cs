@@ -40,7 +40,7 @@ public static class RacingDrivingBuilder
         label.raycastTarget = false;
         return label;
     }
-    static void Button(Transform parent, string name, string action, Vector2 anchor, Vector2 pos, Vector2 size)
+    public static void Button(Transform parent, string name, string action, Vector2 anchor, Vector2 pos, Vector2 size)
     {
         var go = new GameObject(name, typeof(RectTransform), typeof(Image), typeof(Button));
         go.transform.SetParent(parent, false);

@@ -1,5 +1,5 @@
 local Protocol = {}
-local allowed = {"up","down","left","right","shift","upPressed","wPressed","nitroPressed","resetPressed"}
+local allowed = {"up","down","left","right","shift","upPressed","wPressed","nitroPressed","swapPressed","resetPressed"}
 function Protocol.input(value)
     local out = {}
     for _, k in ipairs(allowed) do out[k] = value[k] == true end
@@ -19,7 +19,7 @@ function Protocol.step(car, command, clock)
         clock.startTried = true
         if clock.time < 0.28 then car:applyStartBoost() end
     end
-    car:update(RaceConfig.dt, command, true, false)
+    car:update(RaceConfig.dt, command, true, clock.mode=="item")
     clock.time = clock.time + RaceConfig.dt
 end
 return Protocol

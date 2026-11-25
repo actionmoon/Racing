@@ -39,12 +39,13 @@ function Frame()
         shift = active and (Input.GetKey(Key.LeftShift) or Input.GetKey(Key.RightShift) or touch.shift == true),
         w = active and (Input.GetKey(Key.W) or touch.small == true),
         nitro = active and (Input.GetKey(Key.LeftControl) or Input.GetKey(Key.RightControl) or Input.GetKey(Key.Space) or touch.nitro == true),
+        swap = active and (Input.GetKey(Key.LeftAlt) or Input.GetKey(Key.RightAlt) or touch.swap == true),
         reset = active and (Input.GetKey(Key.R) or touch.reset == true),
         camera = active and (Input.GetKey(Key.C) or touch.camera == true),
         pause = active and Input.GetKey(Key.Escape),
         start = active and Input.GetKey(Key.Return)
     }
-    for _, action in ipairs({"up","w","nitro","reset","camera","pause","start"}) do
+    for _, action in ipairs({"up","w","nitro","swap","reset","camera","pause","start"}) do
         if held[action] and not previous[action] then edges[action .. "Pressed"] = true end
     end
     previous = held

@@ -16,7 +16,7 @@ local function receive(player,...)
     local args={...}
     if type(args[1])~="string" or #args[1]>50000 then return end
     local packet=RaceJson.decode(args[1])
-    if type(packet)~="table" or packet.version~=2 then return end
+    if type(packet)~="table" or packet.version~=3 then return end
     local id=tostring(player.playerID)
     if not session:find(id) then roster() end
     if type(packet.controls)=="table" then

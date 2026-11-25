@@ -98,8 +98,8 @@ public static class RacingMatchBuilder
         var lobbyInfo=B.Label(lobby.transform,"Room Settings","等待房间状态",new Vector2(.5f,.5f),new Vector2(-250,0),new Vector2(490,570),24);
         lobbyInfo.alignment=TextAnchor.MiddleLeft;
         B.Label(lobby.transform,"Track Heading","地图与模式",new Vector2(.5f,.5f),new Vector2(245,245),new Vector2(450,45),26);
-        Button(lobby.transform,"11城 · 竞速","",0,new Vector2(150,190),new Vector2(190,45),false);
-        Button(lobby.transform,"道具 · 即将开放","",0,new Vector2(360,190),new Vector2(190,45),false);
+        Button(lobby.transform,"11城 · 竞速","mode",0,new Vector2(150,190),new Vector2(190,45));
+        Button(lobby.transform,"11城 · 道具","mode",1,new Vector2(360,190),new Vector2(190,45));
         Button(lobby.transform,"其他地图 · 即将开放","",0,new Vector2(255,132),new Vector2(400,45),false);
         B.Label(lobby.transform,"Lap Heading","比赛圈数",new Vector2(.5f,.5f),new Vector2(245,80),new Vector2(450,40),22);
         int[] laps={1,2,3,5};
@@ -135,9 +135,10 @@ public static class RacingMatchBuilder
         hud.ParaLuaBindingData=hud.ParaLuaBindingData.Concat(new DouyinLuaDataVar[]{
             B.Ref("minimap",minimap,"GameObject"),B.Ref("gaugeFill",fill,"UnityEngine.UI.Image")}).ToArray();
         EditorUtility.SetDirty(hud);
+        RacingItemBuilder.Build(driving,hud);
         modal.SetActive(false);
         EditorSceneManager.MarkSceneDirty(UnityEngine.SceneManagement.SceneManager.GetActiveScene());
         EditorSceneManager.SaveOpenScenes(); AssetDatabase.SaveAssets();
-        Debug.Log("[RacingClone] Step5 six seats, eight skins, lobby, race HUD and modal saved.");
+        Debug.Log("[RacingClone] Match and item mode interface saved.");
     }
 }

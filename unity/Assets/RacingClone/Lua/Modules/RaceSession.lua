@@ -4,6 +4,7 @@ local Vehicle = require "VehicleSimulation"
 local AI = require "RaceAI"
 local Protocol = require "RaceProtocol"
 local Collision = require "RaceCollision"
+local Items = require "RaceItems"
 local Session = {}
 Session.__index = Session
 local difficulty = {
@@ -15,7 +16,7 @@ local names = {"追风少年","极速流星","弯道高手","疾风车手","城�
 function Session.new(track)
     local self=setmetatable({track=track,entries={},host="",phase="menu",epoch=0,tick=0,
         time=0,countdown=3,firstFinish=-1,settings={laps=2,diff=1,map="city",mode="race"},
-        controlAcks={},controls={}},Session)
+        controlAcks={},controls={},items=Items.new(track)},Session)
     self:resetGrid()
     return self
 end
@@ -31,10 +32,12 @@ function Session:resetEntry(entry)
     entry.lapsDone,entry.owed,entry.half,entry.lastD=-1,true,false,entry.car.d
     entry.progress=d; entry.finished=false; entry.finishTime=0; entry.lapStart=0; entry.lapTimes={}
     entry.stats={drift=0,small=0,perfect=0,double=0,nitro=0,crash=0,land=0,top=0}
-    entry.clock={time=0,phase=self.phase,countdown=3,startTried=false,startReady=false}
+    entry.items,entry.itemTimer,entry.magnetTarget={},2+(entry.slot*37%101)/100*3,0
+    entry.clock={time=0,phase=self.phase,countdown=3,startTried=false,startReady=false,mode=self.settings.mode}
     entry.queue,entry.ack,entry.credit={},0,12
 end
 function Session:resetGrid()
+    self.items:reset(20261+self.epoch*7919)
     for slot=1,6 do
         local entry=self.entries[slot]
         if not entry then
@@ -102,6 +105,8 @@ function Session:control(id, request)
     if id~=self.host then return false end
     if action=="laps" and self.phase=="menu" then
         for _,n in ipairs({1,2,3,5}) do if request.value==n then self.settings.laps=n; return true end end
+    elseif action=="mode" and self.phase=="menu" and (request.value==0 or request.value==1) then
+        self.settings.mode=request.value==1 and "item" or "race"; self:resetGrid(); return true
     elseif action=="diff" and self.phase=="menu" and (request.value==0 or request.value==1 or request.value==2) then
         self.settings.diff=request.value; self:resetGrid(); return true
     elseif (action=="start" and self.phase=="menu") or (action=="restart" and (self.phase=="pause" or self.phase=="result")) then
@@ -192,6 +197,10 @@ function Session:update()
                     while entry.queue[entry.ack+1] and entry.credit>=1 and steps<2 and not entry.finished do
                         local command=entry.queue[entry.ack+1]; entry.queue[entry.ack+1]=nil
                         entry.ack,entry.credit,steps=entry.ack+1,entry.credit-1,steps+1
+                        if self.phase=="race" and self.settings.mode=="item" then
+                            if command.nitroPressed then self.items:use(entry,self.entries) end
+                            if command.swapPressed then self.items:swap(entry) end
+                        end
                         Protocol.step(entry.car,command,entry.clock)
                         if self.phase=="race" then self:progress(entry) end
                         for _,event in ipairs(entry.car.events) do
@@ -207,6 +216,13 @@ function Session:update()
         end
         if self.phase=="race" then Collision.resolve(self.entries,self.track) end
         self:rank()
+        if self.phase=="race" and self.settings.mode=="item" then
+            self.items:update(dt,self.entries)
+            for _,entry in ipairs(self.entries) do
+                if entry.isAI and not entry.finished then self.items:think(entry,dt,self.entries) end
+                if entry.car.magnet<=0 then entry.magnetTarget=0 end
+            end
+        end
         if self.phase=="race" and self.firstFinish>=0 then
             local all=true
             for _,entry in ipairs(self.entries) do if not entry.finished then all=false end end
@@ -220,9 +236,10 @@ function Session:snapshot()
         cars[#cars+1]={id=entry.id,name=entry.name,slot=entry.slot,isAI=entry.isAI,skin=entry.skin,
             ack=entry.ack,state=entry.car:snapshot(),clock=entry.clock,rank=entry.rank,
             lapsDone=entry.lapsDone,progress=entry.progress,finished=entry.finished,
-            finishTime=entry.finishTime,lapTimes=entry.lapTimes,stats=entry.stats}
+            finishTime=entry.finishTime,lapTimes=entry.lapTimes,stats=entry.stats,
+            items=entry.items,magnetTarget=entry.magnetTarget}
     end
-    return {version=2,tick=self.tick,epoch=self.epoch,cars=cars,
+    return {version=3,tick=self.tick,epoch=self.epoch,cars=cars,items=self.items:snapshot(),
         match={phase=self.phase,host=self.host,time=self.time,countdown=self.countdown,
             settings=self.settings,firstFinish=self.firstFinish,controlAcks=self.controlAcks}}
 end

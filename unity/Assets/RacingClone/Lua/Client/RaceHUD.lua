@@ -7,8 +7,14 @@
 ---@var resumeButton:GameObject
 ---@var minimap:GameObject
 ---@var gaugeFill:UnityEngine.UI.Image
+---@var itemSlots:UnityEngine.UI.Text
+---@var itemNotice:UnityEngine.UI.Text
+---@var useLabel:UnityEngine.UI.Text
+---@var swapButton:GameObject
 ---@end
 local minX,maxX,minZ,maxZ,scale,markers
+local epoch,lastEvent,noticeUntil=-1,0,0
+local itemNames={nitro="氮气",shield="天使护盾",magnet="磁铁",banana="香蕉",missile="导弹"}
 function Start()
     if DouyinApplication.isServer then return end
     minX,maxX,minZ,maxZ=math.huge,-math.huge,math.huge,-math.huge
@@ -33,6 +39,29 @@ function Update()
     modal:SetActive(phase=="pause" or phase=="result")
     resumeButton:SetActive(phase=="pause")
     local settings=match.settings
+    local itemMode=settings.mode=="item"
+    swapButton:SetActive(itemMode and (phase=="race" or phase=="countdown"))
+    useLabel.text=itemMode and "使用道具" or "氮气"
+    itemSlots.text=itemMode and entry and string.format("① %s     ② %s\n空格 / Ctrl 使用 · Alt 换位",itemNames[entry.items[1]] or "空槽",itemNames[entry.items[2]] or "空槽") or ""
+    if epoch~=RaceRuntime.epoch then
+        epoch=RaceRuntime.epoch
+        if phase=="menu" or phase=="countdown" then lastEvent=0 end
+        itemNotice.text=""
+    end
+    for _,event in ipairs(RaceRuntime.items and RaceRuntime.items.events or {}) do
+        if event.id>lastEvent then
+            lastEvent=event.id
+            print("[RacingClone][Client] ITEM "..RaceJson.encode(event))
+            if entry and event.slot==entry.slot then
+                local label=itemNames[event.item] or ""
+                local text=event.type=="get" and "获得 "..label or event.type=="use" and "使用 "..label
+                    or event.type=="swap" and "已换位" or event.type=="lock" and "导弹锁定！"
+                    or event.type=="block" and "天使护体！" or event.type=="hit" and (event.item=="missile" and "被导弹击中！" or "踩到香蕉皮！")
+                if text then itemNotice.text=text; noticeUntil=UnityEngine.Time.unscaledTime+1.5 end
+            end
+        end
+    end
+    if UnityEngine.Time.unscaledTime>noticeUntil then itemNotice.text="" end
     minimap:SetActive(phase=="race" or phase=="countdown")
     if markers then
         for _,car in ipairs(RaceRuntime.cars) do
@@ -41,6 +70,7 @@ function Update()
             markers[car.slot]:GetComponent(typeof(UnityEngine.UI.Image)).color=car.id==RaceRuntime.localId and UnityEngine.Color.yellow or UnityEngine.Color.white
         end
     end
+    gaugeFill.gameObject.transform.parent.gameObject:SetActive(not itemMode)
     gaugeFill.fillAmount=RaceRuntime.localCar and RaceRuntime.localCar.gauge or 0
     if phase=="menu" then
         local hostName=""
@@ -49,8 +79,8 @@ function Update()
             if car.id==match.host then hostName=car.name end
             lines[#lines+1]=car.slot..". "..car.name..(car.isAI and "  AI" or "  玩家")
         end
-        lobbyInfo.text="飞车 3D · 11城竞速\n\n圈数 "..settings.laps.."   难度 "..({"新手","熟练","车神"})[settings.diff+1]..
-            "\n房主 "..hostName.." · 房主选择比赛设置\n\n"..table.concat(lines,"\n").."\n\n方向键驾驶 · Shift 漂移 · 空格氮气 · ↑/W 小喷"
+        lobbyInfo.text="飞车 3D · 11城"..(itemMode and "道具" or "竞速").."\n\n圈数 "..settings.laps.."   难度 "..({"新手","熟练","车神"})[settings.diff+1]..
+            "\n房主 "..hostName.." · 房主选择比赛设置\n\n"..table.concat(lines,"\n").."\n\n方向键驾驶 · Shift 漂移 · 空格"..(itemMode and "道具 · Alt 换位" or "氮气").." · ↑/W 小喷"
     end
     raceInfo.text=""
     countdownLabel.text=""

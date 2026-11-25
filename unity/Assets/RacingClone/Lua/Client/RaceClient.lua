@@ -35,11 +35,13 @@ end
 local function applySnapshot(payload)
     if DouyinApplication.isServer or type(payload) ~= "string" or payload == "" then return end
     local packet = json.decode(payload)
-    if type(packet) ~= "table" or packet.version ~= 2 or type(packet.tick) ~= "number" or packet.tick <= lastTick then return end
+    if type(packet) ~= "table" or packet.version ~= 3 or type(packet.tick) ~= "number" or packet.tick <= lastTick then return end
     lastTick = packet.tick
     local changed=epoch~=packet.epoch
     epoch,match=packet.epoch,packet.match
     RaceRuntime.match,RaceRuntime.cars,RaceRuntime.localId=match,packet.cars,localId
+    RaceRuntime.items,RaceRuntime.epoch=packet.items,epoch
+    RaceRuntime.snapshot=packet
     local controlAck=match.controlAcks[localId] or 0
     controlSeq=math.max(controlSeq,controlAck)
     for i in pairs(controlPending) do if i<=controlAck then controlPending[i]=nil end end
@@ -67,7 +69,7 @@ local function applySnapshot(payload)
             ack = entry.ack
             car:restore(entry.state)
             clock = {time=entry.clock.time,startTried=entry.clock.startTried,startReady=entry.clock.startReady,
-                phase=match.phase,countdown=match.countdown}
+                phase=match.phase,countdown=match.countdown,mode=match.settings.mode}
             for i = ack + 1, seq do
                 if pending[i] then RaceProtocol.step(car,pending[i].input,clock) end
             end
@@ -147,7 +149,7 @@ function Update()
         while accumulator >= RaceConfig.dt and seq - ack < 240 do
             accumulator = accumulator - RaceConfig.dt
             local command = RaceProtocol.input(input)
-            if not first then command.upPressed,command.wPressed,command.nitroPressed,command.resetPressed = false,false,false,false end
+            if not first then command.upPressed,command.wPressed,command.nitroPressed,command.swapPressed,command.resetPressed = false,false,false,false,false end
             seq = seq + 1
             pending[seq] = {seq=seq,input=command}
             RaceProtocol.step(car,command,clock)
@@ -158,9 +160,9 @@ function Update()
         showEvents()
         if eventLabel and eventUntil and UnityEngine.Time.unscaledTime > eventUntil then eventLabel.text = "" end
         if telemetry then
-            telemetry.text = string.format("%03d km/h    集气 %02d%%    氮气 %d/2\n%s    小喷窗口 %.2fs",
-                math.floor(math.abs(car.s)*3.6),math.floor(car.gauge*100),car.nitroCount,
-                car.drifting and "漂移中" or car.airborne and "腾空" or "驾驶",math.max(0,car.smallWindow))
+            local inventory=match.settings.mode=="item" and "道具模式" or string.format("集气 %02d%%    氮气 %d/2",math.floor(car.gauge*100),car.nitroCount)
+            telemetry.text = string.format("%03d km/h    %s\n%s    小喷窗口 %.2fs",
+                math.floor(math.abs(car.s)*3.6),inventory,car.spin>0 and "打滑中" or car.drifting and "漂移中" or car.airborne and "腾空" or "驾驶",math.max(0,car.smallWindow))
         end
     end
     sendTime,logTime = sendTime + dt,logTime + dt
@@ -170,7 +172,7 @@ function Update()
         for i = ack+1,seq do if pending[i] then commands[#commands+1] = pending[i] end end
         local requests={}
         for i=1,controlSeq do if controlPending[i] then requests[#requests+1]=controlPending[i] end end
-        channel:FireServer(json.encode({version=2,epoch=epoch,commands=commands,controls=requests}))
+        channel:FireServer(json.encode({version=3,epoch=epoch,commands=commands,controls=requests}))
     end
     if logTime >= 5 then
         logTime = 0
@@ -204,7 +206,8 @@ function LateUpdate()
             local p = track:sample(v.d)
             local pitch = v.airborne and RaceTrackMath.clamp(-v.vy*0.012,-0.3,0.3) or -math.atan(track.slope[v.hint]*math.cos(v.h-p.hd))
             local roll = -track.bank[v.hint]*math.cos(v.h-p.hd)
-            local rotation = UnityEngine.Quaternion.Euler(-pitch*180/math.pi,180-v.h*180/math.pi,roll*180/math.pi)
+            local spinYaw=entry and entry.isAI and v.spin>0 and match and match.time*9*180/math.pi or 0
+            local rotation = UnityEngine.Quaternion.Euler(-pitch*180/math.pi,180-v.h*180/math.pi+spinYaw,roll*180/math.pi)
             if slot == RaceRuntime.localSlot then visual.transform:SetPositionAndRotation(position,rotation)
             else
                 visual.transform.position = UnityEngine.Vector3.Lerp(visual.transform.position,position,1-math.exp(-20*dt))

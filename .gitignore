@@ -5,3 +5,6 @@ unity/UserSettings
 *.csproj
 *.sln
 unity/Temp
+unity/AddressableAssetsData/
+unity/Assets/AddressableAssetsData
+unity/Assets/AddressableAssetsData.meta
